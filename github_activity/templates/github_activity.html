@@ -1,0 +1,89 @@
+{% extends "base.html" %} {% load staticfiles %}
+{% block extrahead %}
+<link href="{% static 'css/data.css' %}" rel="stylesheet"/>
+{% endblock %}
+{% load bootstrap_tags %} {% block content %}
+{% block row_header %}
+<div class="row header">
+    <div class="row">
+        <div class="col-xs-0 col-sm-0 col-md-4 col-lg-2 text-right">
+
+            <img src="{% static 'img/tableau-logo.png' %}" class="img responsive tableau">
+        </div>
+
+        <div class="col-xs-12 col-sm-12 col-md-8 col-lg-10">
+            <div class="row summary">
+                <h5>GITHUB ACTIVITY A.D. 2018</h5>
+                <p>2018 was very busy year so far. Over 900 contributions and still three months to go... I did some
+                    data mining on my own Selenium-scraped repository<br> to find out
+                    which days are the best to schedule some social activities. I also found out great use for this
+                    beautiful Radial Bar Chart vizualization. </p>
+                <p>Data Source: <a target="_blank" href="https://lukaszmalucha.github.io/portfolio/"> Github</a></p>
+            </div>
+
+        </div>
+    </div>
+</div>
+<div class="row" style="height: 20px;">
+    {% if messages %} {% for message in messages %} {% if message.tags == "success" %}
+    <div class="alert alert-success">
+        <div class="messages text-center">
+            {{ message }}
+        </div>
+    </div>
+    {% else %}
+    <div class="alert alert-danger">
+        <div class="messages text-center">
+            {{ message }}
+        </div>
+    </div>
+    {% endif %} {% endfor %}
+    {% else %}
+
+    {% endif %}
+</div>
+{% endblock %}
+<div class="dashboard-cards">
+    <div class="row row-cards">
+        <div class="card tableau_card">
+            <div class='tableauPlaceholder' id='viz1539202274124' style='position: relative'>
+                <noscript>
+                    <a href='#'><img alt='Git Activity '
+                                     src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;gi&#47;git_activity&#47;GitActivity&#47;1_rss.png'
+                                     style='border: none'/></a>
+                </noscript>
+                <object class='tableauViz' style='display:none;'>
+                    <param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F'/>
+                    <param name='embed_code_version' value='3'/>
+                    <param name='site_root' value=''/>
+                    <param name='name' value='git_activity&#47;GitActivity'/>
+                    <param name='tabs' value='no'/>
+                    <param name='toolbar' value='yes'/>
+                    <param name='static_image'
+                           value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;gi&#47;git_activity&#47;GitActivity&#47;1.png'/>
+                    <param name='animate_transition' value='yes'/>
+                    <param name='display_static_image' value='yes'/>
+                    <param name='display_spinner' value='yes'/>
+                    <param name='display_overlay' value='yes'/>
+                    <param name='display_count' value='yes'/>
+                </object>
+            </div>
+            <script type='text/javascript'>
+                var divElement = document.getElementById('viz1539202274124');
+                var vizElement = divElement.getElementsByTagName('object')[0];
+                vizElement.style.width='1200px';vizElement.style.height='827px';
+                var scriptElement = document.createElement('script');
+                scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';
+                vizElement.parentNode.insertBefore(scriptElement, vizElement);
+
+            </script>
+        </div>
+    </div>
+</div>
+<div class="fixed-action-btn">
+    <a class="btn-floating btn-large" href="{% url 'dashboard:dashboard' %}">
+        <i class="large material-icons">exit_to_app</i>
+    </a>
+</div>
+
+{% endblock %}

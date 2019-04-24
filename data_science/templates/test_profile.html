@@ -1,0 +1,223 @@
+{% extends "base.html" %} {% load staticfiles %}{% load materializecss %}
+{% block extrahead %}
+<link href="{% static 'css/data.css' %}" rel="stylesheet"/>
+{% endblock %}
+{% load bootstrap_tags %} {% block content %}
+{% block row_header %}
+<div class="row header">
+    <div class="row">
+        <div class="col-xs-0 col-sm-0 col-md-4 col-lg-2 text-right">
+
+            <img src="{% static 'img/tableau-logo.png' %}" class="img responsive tableau">
+        </div>
+
+        <div class="col-xs-12 col-sm-12 col-md-8 col-lg-10">
+            <div class="row summary">
+                <div class="box">
+                    <h5>IS MY SKILLSET DATA SCIENCE READY?</h5>
+                    <a href="{% url 'data_science:test_profile' %}" class="btn-algorithm">Test My Profile</a>
+                </div>
+                <p>Let's compare skills that you currently list on LinkedIn profile to the skillset that is most
+                    commonly found on Data Scientists profiles in 5 biggest IT Companies - Amazon, Apple, Facebook,
+                    Google and Microsoft. Let's find out what should be
+                    kept and what you may consider adding. </p>
+
+            </div>
+
+        </div>
+    </div>
+</div>
+<div class="row" style="height: 20px;">
+    {% if messages %} {% for message in messages %} {% if message.tags == "success" %}
+    <div class="alert alert-success">
+        <div class="messages text-center">
+            {{ message }}
+        </div>
+    </div>
+    {% else %}
+    <div class="alert alert-danger">
+        <div class="messages text-center">
+            {{ message }}
+        </div>
+    </div>
+    {% endif %} {% endfor %}
+    {% else %}
+
+    {% endif %}
+</div>
+{% endblock %}
+<div class="dashboard-cards">
+    <div class="row row-cards">
+        {% if results_dictionary == None %}
+        <form method="POST" action="{% url 'data_science:test_profile' %}">
+            <div class="card horizontal viz-card">
+                <div class="card-stacked">
+                    <div class="card-content skillset-content">
+                        <h5>
+                            Your Skillset
+                        </h5>
+                        <p>Add your profile skills separated by comma:</p>
+                        {% csrf_token %}
+                        {{ form |materializecss }}
+                    </div>
+
+                    <div class="card-action">
+                        <button type="submit" class="btn-enter"><span>Results
+                            <i class="far fa-arrow-alt-circle-right"></i></span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </form>
+        {% else %}
+        <div class="col-md-6 col-lg-6 text-center chart-column">
+            <div class="card chart">
+                <canvas id="SkillChart"></canvas>
+            </div>
+        </div>
+        <div class="col-md-6 col-lg-6 text-center chart-column">
+            <div class="card chart dataskills_chart">
+                <canvas id="MissingChart"></canvas>
+            </div>
+        </div>
+        {% endif %}
+    </div>
+</div>
+<div class="fixed-action-btn">
+    <a class="btn-floating btn-large" href="{% url 'dashboard:dashboard' %}">
+        <i class="large material-icons">exit_to_app</i>
+    </a>
+</div>
+
+
+<script>
+var ctx = document.getElementById("SkillChart").getContext('2d');
+var myChart = new Chart(ctx, {
+    type: 'horizontalBar',
+    data: {
+        labels: [{% for key, value in results_dictionary.items %}
+                    "{{key}}",
+                {% endfor %}],
+        datasets: [{
+            label: '% of Profiles',
+            data: [{% for key, value in results_dictionary.items %}
+                    "{{value}}",
+                   {% endfor %}],
+               backgroundColor: [
+                '#146c36', '#257740','#34844a', '#40914f', '#4f9e53', '#5aa355','#5aa355', '#67a956', '#76af56','#84b457','#93b958','#a3bd5a','#b2c25b','#c3c55d','#d3c95f','#e3cd62','#f4d166'
+            ],
+        }]
+    },
+    options: {
+        responsive: true,
+        maintainAspectRatio: false,
+        legend: { display: false },
+        title: {
+        fontSize: 14,
+        fontColor: 'black',
+        display: true,
+        text: 'Found on % of Data Scientists Linkedin Profiles',
+        },
+
+        scales: {
+            xAxes: [{
+
+                gridLines: {
+                    color: "rgba(0, 0, 0, 0)",
+                },
+                ticks: {
+                 callback: function (value) {
+                  return value  + '%'; // convert it to percentage
+                },
+                fontSize: 10,
+                suggestedMin: 0,    // minimum will be 0, unless there is a lower value.
+                // OR //
+                beginAtZero: true   // minimum value will be 0.
+                }
+            }],
+
+            yAxes: [{
+            display: true,
+            gridLines: {
+                    color: "rgba(0, 0, 0, 0)",
+                },
+            ticks: {
+
+                suggestedMin: 0,    // minimum will be 0, unless there is a lower value.
+                // OR //
+                beginAtZero: true   // minimum value will be 0.
+            }
+        }]
+        }
+    }
+});
+
+</script>
+
+<script>
+var mtx = document.getElementById("MissingChart").getContext('2d');
+var myChart = new Chart(mtx, {
+    type: 'horizontalBar',
+    data: {
+        labels: [{% for key, value in missing_dictionary.items %}
+                    "{{key}}",
+                {% endfor %}],
+        datasets: [{
+            label: '% of Profiles',
+            data: [{% for key, value in missing_dictionary.items %}
+                    "{{value}}",
+                   {% endfor %}],
+               backgroundColor: [
+                '#9e3a26', '#a83e24','#b24223', '#bc4623', '#c64a22', '#cf4f22','#d75521', '#de5d1f', '#e4641e','#eb6c1c',
+                '#f0751e','#f28026','#f38b2f','#f49538','#f69e41','#f7a84a','#f8b252','#f8bc5b','#f6c760','#f4d166'
+            ],
+        }]
+    },
+    options: {
+        responsive: true,
+        maintainAspectRatio: false,
+        legend: { display: false },
+        title: {
+        fontSize: 14,
+        fontColor: 'black',
+        display: true,
+        text: '% of Data Scientists also listed:',
+        },
+
+        scales: {
+            xAxes: [{
+                gridLines: {
+                    color: "rgba(0, 0, 0, 0)",
+                },
+                ticks: {
+                callback: function (value) {
+                  return value  + '%'; // convert it to percentage
+                },
+                fontSize: 10,
+                suggestedMin: 0,    // minimum will be 0, unless there is a lower value.
+                // OR //
+                beginAtZero: true   // minimum value will be 0.
+                }
+            }],
+
+            yAxes: [{
+
+            display: true,
+            gridLines: {
+                    color: "rgba(0, 0, 0, 0)",
+                },
+            ticks: {
+                scaleLabel: "%",
+                suggestedMin: 0,    // minimum will be 0, unless there is a lower value.
+                // OR //
+                beginAtZero: true   // minimum value will be 0.
+            }
+        }]
+        }
+    }
+});
+
+</script>
+
+
+{% endblock %}

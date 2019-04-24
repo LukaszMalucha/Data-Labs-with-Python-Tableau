@@ -1,0 +1,7 @@
+static/* linguist-vendored
+templates/* linguist-vendored
+daft_analytics/templates/* linguist-vendored
+dashboard/templates/* linguist-vendored
+data_science/templates/* linguist-vendored
+life_expectancy/templates/* linguist-vendored
+user/templates/* linguist-vendored

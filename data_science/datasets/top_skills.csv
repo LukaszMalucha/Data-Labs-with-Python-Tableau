@@ -1,0 +1,751 @@
+Company,Area,Skill,Count,% of Profiles
+Amazon,top skills,A/B Testing,1,1%
+Amazon,top skills,Access,1,1%
+Amazon,top skills,Accounting,1,1%
+Amazon,top skills,Agile Methodologies,1,1%
+Amazon,top skills,Algorithms,4,2%
+Amazon,top skills,Analysis,5,3%
+Amazon,top skills,Analytics,16,9%
+Amazon,top skills,Apache Spark,2,1%
+Amazon,top skills,Artificial Intelligence,1,1%
+Amazon,top skills,Bash,1,1%
+Amazon,top skills,Biostatistics,1,1%
+Amazon,top skills,Business Analysis,4,2%
+Amazon,top skills,Business Analytics,3,2%
+Amazon,top skills,Business Intelligence,6,3%
+Amazon,top skills,Business Strategy,2,1%
+Amazon,top skills,C,5,3%
+Amazon,top skills,C++,15,9%
+Amazon,top skills,Civil Engineering,1,1%
+Amazon,top skills,Community Outreach,1,1%
+Amazon,top skills,Computer Architecture,1,1%
+Amazon,top skills,D3.js,1,1%
+Amazon,top skills,Data Analysis,42,24%
+Amazon,top skills,Data Analytics,1,1%
+Amazon,top skills,Data Mining,12,7%
+Amazon,top skills,Data Science,6,3%
+Amazon,top skills,Data Warehousing,2,1%
+Amazon,top skills,Database Marketing,1,1%
+Amazon,top skills,Databases,3,2%
+Amazon,top skills,Deep Learning,4,2%
+Amazon,top skills,Earth Science,1,1%
+Amazon,top skills,Econometrics,2,1%
+Amazon,top skills,Economics,1,1%
+Amazon,top skills,Equities,1,1%
+Amazon,top skills,ERP,1,1%
+Amazon,top skills,Financial Analysis,1,1%
+Amazon,top skills,Financial Modeling,5,3%
+Amazon,top skills,Foreign Languages,1,1%
+Amazon,top skills,Go,1,1%
+Amazon,top skills,Google Maps,1,1%
+Amazon,top skills,Hadoop,2,1%
+Amazon,top skills,Hive,2,1%
+Amazon,top skills,Human Factors,1,1%
+Amazon,top skills,Java,10,6%
+Amazon,top skills,Keras,1,1%
+Amazon,top skills,LaTeX,1,1%
+Amazon,top skills,Leadership,3,2%
+Amazon,top skills,Linux,2,1%
+Amazon,top skills,Logistic Regression,1,1%
+Amazon,top skills,Logistics,1,1%
+Amazon,top skills,Machine Learning,37,21%
+Amazon,top skills,Management,2,1%
+Amazon,top skills,Management Consulting,1,1%
+Amazon,top skills,Mandarin,1,1%
+Amazon,top skills,Market Analysis,1,1%
+Amazon,top skills,Market Research,1,1%
+Amazon,top skills,Marketing Strategy,1,1%
+Amazon,top skills,Mathematical Modeling,4,2%
+Amazon,top skills,Mathematics,1,1%
+Amazon,top skills,Matlab,10,6%
+Amazon,top skills,Microsoft Excel,9,5%
+Amazon,top skills,Microsoft Office,3,2%
+Amazon,top skills,Microsoft SQL Server,2,1%
+Amazon,top skills,Minitab,1,1%
+Amazon,top skills,Modeling,1,1%
+Amazon,top skills,MySQL,1,1%
+Amazon,top skills,Natural Language Processing,1,1%
+Amazon,top skills,Neuroscience,1,1%
+Amazon,top skills,Nonlinear Dynamics,1,1%
+Amazon,top skills,Oil/Gas,1,1%
+Amazon,top skills,Operations Research,1,1%
+Amazon,top skills,Optimization,1,1%
+Amazon,top skills,Petroleum Engineering,1,1%
+Amazon,top skills,Physics,1,1%
+Amazon,top skills,PL/SQL,1,1%
+Amazon,top skills,Politics,1,1%
+Amazon,top skills,Predictive Analytics,4,2%
+Amazon,top skills,Predictive Modeling,4,2%
+Amazon,top skills,Prescriptive Analytics,1,1%
+Amazon,top skills,Product Management,2,1%
+Amazon,top skills,Programming,5,3%
+Amazon,top skills,Project Management,1,1%
+Amazon,top skills,Public Speaking,2,1%
+Amazon,top skills,Python,46,26%
+Amazon,top skills,Qualitative Research,1,1%
+Amazon,top skills,R,45,26%
+Amazon,top skills,R/Shiny Programming,1,1%
+Amazon,top skills,Report Writing,1,1%
+Amazon,top skills,Research,5,3%
+Amazon,top skills,Reservoir Engineering,1,1%
+Amazon,top skills,Retail,1,1%
+Amazon,top skills,SAS,13,7%
+Amazon,top skills,SAS Base,1,1%
+Amazon,top skills,SAS Implementation,1,1%
+Amazon,top skills,SAS programming,1,1%
+Amazon,top skills,SAS Programming,2,1%
+Amazon,top skills,Scala,1,1%
+Amazon,top skills,Science,1,1%
+Amazon,top skills,Scientific Computing,1,1%
+Amazon,top skills,Scikit-Learn,1,1%
+Amazon,top skills,Segmentation,1,1%
+Amazon,top skills,Signal Processing,1,1%
+Amazon,top skills,Simulations,2,1%
+Amazon,top skills,Six Sigma,1,1%
+Amazon,top skills,SOA,1,1%
+Amazon,top skills,Sociology,1,1%
+Amazon,top skills,Software Development,1,1%
+Amazon,top skills,Software Engineering,1,1%
+Amazon,top skills,SPSS,3,2%
+Amazon,top skills,SQL,24,14%
+Amazon,top skills,Stata,2,1%
+Amazon,top skills,Statistical Analysis,1,1%
+Amazon,top skills,Statistical Data Analysis,2,1%
+Amazon,top skills,Statistical Modeling,9,5%
+Amazon,top skills,Statistics,26,15%
+Amazon,top skills,Structural Engineering,1,1%
+Amazon,top skills,Supply Chain,1,1%
+Amazon,top skills,Supply Chain Management,2,1%
+Amazon,top skills,Tableau,1,1%
+Amazon,top skills,Teaching,1,1%
+Amazon,top skills,Teamwork,1,1%
+Amazon,top skills,Theoretical Physics,1,1%
+Amazon,top skills,Unix,1,1%
+Amazon,top skills,Urban Planning,1,1%
+Amazon,top skills,User-centered Design,1,1%
+Amazon,top skills,VBA,5,3%
+Apple,top skills,Account Management,1,1%
+Apple,top skills,Actuarial Science,1,1%
+Apple,top skills,Agile Methodologies,1,1%
+Apple,top skills,Algorithms,12,6%
+Apple,top skills,Analysis,2,1%
+Apple,top skills,Analytics,10,5%
+Apple,top skills,Apache Spark,2,1%
+Apple,top skills,Artificial Intelligence,1,1%
+Apple,top skills,Astrophysics,1,1%
+Apple,top skills,Banking,1,1%
+Apple,top skills,Big Data,4,2%
+Apple,top skills,Big Data Analytics,1,1%
+Apple,top skills,Bioinformatics,1,1%
+Apple,top skills,Biostatistics,1,1%
+Apple,top skills,Business Analysis,5,3%
+Apple,top skills,Business Analytics,1,1%
+Apple,top skills,Business Intelligence,2,1%
+Apple,top skills,Business Strategy,1,1%
+Apple,top skills,C,4,2%
+Apple,top skills,C#,1,1%
+Apple,top skills,C++,7,4%
+Apple,top skills,Clinical Research,1,1%
+Apple,top skills,Clinical Trials,1,1%
+Apple,top skills,Computer Science,1,1%
+Apple,top skills,CPLEX,1,1%
+Apple,top skills,CRM,1,1%
+Apple,top skills,Cross-functional Team Leadership,2,1%
+Apple,top skills,Customer Service,1,1%
+Apple,top skills,Data Analysis,48,24%
+Apple,top skills,Data Architecture,1,1%
+Apple,top skills,Data Cleaning,1,1%
+Apple,top skills,Data Mining,20,10%
+Apple,top skills,Data Science,7,4%
+Apple,top skills,Data Visualization,2,1%
+Apple,top skills,Data Warehousing,1,1%
+Apple,top skills,Databases,3,2%
+Apple,top skills,Deep Learning,2,1%
+Apple,top skills,Digital Marketing,1,1%
+Apple,top skills,Digital Signal Processors,1,1%
+Apple,top skills,Digital Strategy,1,1%
+Apple,top skills,Distributed Systems,3,2%
+Apple,top skills,Dynamics,1,1%
+Apple,top skills,Econometrics,2,1%
+Apple,top skills,Economics,5,3%
+Apple,top skills,Electronics,1,1%
+Apple,top skills,Engineering,1,1%
+Apple,top skills,Enterprise Software,1,1%
+Apple,top skills,Epidemiology,1,1%
+Apple,top skills,Experiment Design/Test,1,1%
+Apple,top skills,Experimental Design,1,1%
+Apple,top skills,Financial Modeling,1,1%
+Apple,top skills,Formation Evaluation,1,1%
+Apple,top skills,Fraud Detection,1,1%
+Apple,top skills,Genetics,1,1%
+Apple,top skills,Hadoop,8,4%
+Apple,top skills,Hive,1,1%
+Apple,top skills,Human Computer Interaction,2,1%
+Apple,top skills,Human Resources,1,1%
+Apple,top skills,Informatica,1,1%
+Apple,top skills,Information Retrieval,1,1%
+Apple,top skills,Insurance,1,1%
+Apple,top skills,Japanese,1,1%
+Apple,top skills,Java,11,6%
+Apple,top skills,Keras,1,1%
+Apple,top skills,Language Teaching,1,1%
+Apple,top skills,LaTeX,7,4%
+Apple,top skills,Leadership,1,1%
+Apple,top skills,LiDAR,1,1%
+Apple,top skills,Linux,1,1%
+Apple,top skills,Linux Clustering,1,1%
+Apple,top skills,Machine Learning,46,23%
+Apple,top skills,Manufacturing,1,1%
+Apple,top skills,MapReduce,1,1%
+Apple,top skills,Market Analysis,1,1%
+Apple,top skills,Market Research,1,1%
+Apple,top skills,Materials Science,1,1%
+Apple,top skills,Mathematical Modeling,6,3%
+Apple,top skills,Mathematics,2,1%
+Apple,top skills,Matlab,17,9%
+Apple,top skills,Microsoft Excel,3,2%
+Apple,top skills,Microsoft Office,2,1%
+Apple,top skills,Modeling,1,1%
+Apple,top skills,Molecular Biology,1,1%
+Apple,top skills,MPI,1,1%
+Apple,top skills,Natural Language Processing,1,1%
+Apple,top skills,Oilfield,1,1%
+Apple,top skills,Operations Research,1,1%
+Apple,top skills,Optimization,3,2%
+Apple,top skills,OS X,1,1%
+Apple,top skills,Pandas,1,1%
+Apple,top skills,PCR,1,1%
+Apple,top skills,Performance Management,1,1%
+Apple,top skills,Petroleum Engineering,1,1%
+Apple,top skills,Physics,6,3%
+Apple,top skills,Predictive Analytics,4,2%
+Apple,top skills,Predictive Modeling,1,1%
+Apple,top skills,Probability,1,1%
+Apple,top skills,Probability Theory,1,1%
+Apple,top skills,Programming,6,3%
+Apple,top skills,Project Management,1,1%
+Apple,top skills,Project Planning,1,1%
+Apple,top skills,Public Speaking,1,1%
+Apple,top skills,Python,54,28%
+Apple,top skills,Qualitative Research,1,1%
+Apple,top skills,Quantitative Finance,1,1%
+Apple,top skills,R,49,25%
+Apple,top skills,Research,8,4%
+Apple,top skills,Risk Management,1,1%
+Apple,top skills,Sales,1,1%
+Apple,top skills,SAS,9,5%
+Apple,top skills,Science,2,1%
+Apple,top skills,SciPy,1,1%
+Apple,top skills,Search Engine Ranking,1,1%
+Apple,top skills,Semantic Web,2,1%
+Apple,top skills,Signal Processing,1,1%
+Apple,top skills,Simulations,3,2%
+Apple,top skills,Software Development,4,2%
+Apple,top skills,Software Engineering,3,2%
+Apple,top skills,Spark,1,1%
+Apple,top skills,SQL,17,9%
+Apple,top skills,Stata,2,1%
+Apple,top skills,Statistical Data Analysis,1,1%
+Apple,top skills,Statistical Inference,1,1%
+Apple,top skills,Statistical Modeling,10,5%
+Apple,top skills,Statistics,35,18%
+Apple,top skills,Strategy,1,1%
+Apple,top skills,Supply Chain Optimization,1,1%
+Apple,top skills,Sustainability,1,1%
+Apple,top skills,Tableau,2,1%
+Apple,top skills,Talent Management,1,1%
+Apple,top skills,Teaching,1,1%
+Apple,top skills,Teamwork,1,1%
+Apple,top skills,Tensorflow,1,1%
+Apple,top skills,Teradata,2,1%
+Apple,top skills,Text Mining,1,1%
+Apple,top skills,Time Series Analysis,1,1%
+Apple,top skills,Wireless,1,1%
+Google,top skills,Agile Methodologies,2,1%
+Google,top skills,Algorithms,6,4%
+Google,top skills,Analysis,7,5%
+Google,top skills,Analytics,11,8%
+Google,top skills,Applied Math,1,1%
+Google,top skills,Bayesian statistics,1,1%
+Google,top skills,Big data,1,1%
+Google,top skills,Biostatistics,4,3%
+Google,top skills,Business Analysis,3,2%
+Google,top skills,Business Analytics,1,1%
+Google,top skills,Business Intelligence,3,2%
+Google,top skills,Business Strategy,2,1%
+Google,top skills,C,2,1%
+Google,top skills,C++,5,4%
+Google,top skills,Cloud Computing,2,1%
+Google,top skills,Consulting,1,1%
+Google,top skills,Data Analysis,34,24%
+Google,top skills,Data Mining,17,12%
+Google,top skills,Data Science,7,5%
+Google,top skills,Data Visualization,1,1%
+Google,top skills,Data Warehousing,1,1%
+Google,top skills,Databases,1,1%
+Google,top skills,Digital Marketing,2,1%
+Google,top skills,Digital Strategy,1,1%
+Google,top skills,Distributed Systems,1,1%
+Google,top skills,Electronic Trading,1,1%
+Google,top skills,Enterprise Software,1,1%
+Google,top skills,Entrepreneurship,1,1%
+Google,top skills,Financial Accounting,1,1%
+Google,top skills,Financial Analysis,1,1%
+Google,top skills,Financial Markets,1,1%
+Google,top skills,Financial Modeling,2,1%
+Google,top skills,Google Adwords,2,1%
+Google,top skills,Google Analytics,2,1%
+Google,top skills,HVAC,1,1%
+Google,top skills,Information Retrieval,1,1%
+Google,top skills,Intelligence artificielle,1,1%
+Google,top skills,IP,1,1%
+Google,top skills,Japanese,1,1%
+Google,top skills,Java,5,4%
+Google,top skills,JavaScript,1,1%
+Google,top skills,LaTeX,3,2%
+Google,top skills,Lead Generation,1,1%
+Google,top skills,Leadership,2,1%
+Google,top skills,LEED,1,1%
+Google,top skills,Linux,2,1%
+Google,top skills,Machine Learning,32,23%
+Google,top skills,Management,1,1%
+Google,top skills,Marketing,1,1%
+Google,top skills,Marketing Strategy,2,1%
+Google,top skills,Mathematica,1,1%
+Google,top skills,Mathematical Logic,1,1%
+Google,top skills,Mathematical Modeling,4,3%
+Google,top skills,Mathematics,1,1%
+Google,top skills,Matlab,17,12%
+Google,top skills,Microsoft Excel,3,2%
+Google,top skills,Microsoft Office,1,1%
+Google,top skills,Mobile Applications,1,1%
+Google,top skills,Network Design,1,1%
+Google,top skills,Numerical Analysis,1,1%
+Google,top skills,Online Advertising,2,1%
+Google,top skills,Operations Research,3,2%
+Google,top skills,Options,1,1%
+Google,top skills,Physics,3,2%
+Google,top skills,PowerPoint,1,1%
+Google,top skills,Predictive Analytics,1,1%
+Google,top skills,Predictive Modeling,1,1%
+Google,top skills,Product Management,1,1%
+Google,top skills,Product Marketing,1,1%
+Google,top skills,Programming,1,1%
+Google,top skills,Project Management,1,1%
+Google,top skills,Public Speaking,2,1%
+Google,top skills,Python,22,16%
+Google,top skills,Qualitative Research,1,1%
+Google,top skills,Quantitative Analytics,1,1%
+Google,top skills,R,43,30%
+Google,top skills,R&D,1,1%
+Google,top skills,Research,7,5%
+Google,top skills,Research Design,1,1%
+Google,top skills,SaaS,1,1%
+Google,top skills,SAP BI,1,1%
+Google,top skills,SAS,4,3%
+Google,top skills,Science,1,1%
+Google,top skills,Segmentation,1,1%
+Google,top skills,SEO,2,1%
+Google,top skills,Signal Processing,3,2%
+Google,top skills,Simulations,3,2%
+Google,top skills,Social Media,2,1%
+Google,top skills,Software Design,1,1%
+Google,top skills,Software Development,1,1%
+Google,top skills,Software Documentation,1,1%
+Google,top skills,SQL,6,4%
+Google,top skills,Start-ups,1,1%
+Google,top skills,Statistical Modeling,12,9%
+Google,top skills,Statistics,30,21%
+Google,top skills,Strategy,5,4%
+Google,top skills,Supply Chain Management,1,1%
+Google,top skills,Supply Chain Optimization,1,1%
+Google,top skills,Teaching,1,1%
+Google,top skills,Trading,1,1%
+Google,top skills,Trading Strategies,1,1%
+Google,top skills,University Teaching,1,1%
+Google,top skills,VBA,1,1%
+Google,top skills,Web Analytics,1,1%
+Google,top skills,Web Services,1,1%
+Google,top skills,Wireless,1,1%
+Microsoft,top skills,.NET,2,1%
+Microsoft,top skills,Agile Methodologies,2,1%
+Microsoft,top skills,Agile Project Management,1,0%
+Microsoft,top skills,Algorithms,28,8%
+Microsoft,top skills,Analysis,3,1%
+Microsoft,top skills,Analysis Services,1,0%
+Microsoft,top skills,Analytical Skills,1,0%
+Microsoft,top skills,Analytics,20,6%
+Microsoft,top skills,Anglais,1,0%
+Microsoft,top skills,Apache Spark,3,1%
+Microsoft,top skills,Applied Mathematics,1,0%
+Microsoft,top skills,Artificial intelligence,1,0%
+Microsoft,top skills,Artificial Intelligence,3,1%
+Microsoft,top skills,Artificial Neural Networks,1,0%
+Microsoft,top skills,Bayesian inference,1,0%
+Microsoft,top skills,Big data,1,0%
+Microsoft,top skills,Big Data,12,4%
+Microsoft,top skills,Big Data Analytics,1,0%
+Microsoft,top skills,Bioinformatics,5,2%
+Microsoft,top skills,Biomechanics,1,0%
+Microsoft,top skills,Biophysics,1,0%
+Microsoft,top skills,Biostatistics,2,1%
+Microsoft,top skills,Biotechnology,1,0%
+Microsoft,top skills,Business Analysis,4,1%
+Microsoft,top skills,Business Intelligence,17,5%
+Microsoft,top skills,C,16,5%
+Microsoft,top skills,C#,13,4%
+Microsoft,top skills,C++,26,8%
+Microsoft,top skills,Calculus,1,0%
+Microsoft,top skills,Chemistry,1,0%
+Microsoft,top skills,Cloud Computing,3,1%
+Microsoft,top skills,Competitive Analysis,3,1%
+Microsoft,top skills,Computational Linguistics,1,0%
+Microsoft,top skills,Computer Security,2,1%
+Microsoft,top skills,Computer Vision,4,1%
+Microsoft,top skills,CRM,1,0%
+Microsoft,top skills,Customer Service,2,1%
+Microsoft,top skills,Data Analysis,53,16%
+Microsoft,top skills,Data Analytics,1,0%
+Microsoft,top skills,Data Engineering,1,0%
+Microsoft,top skills,Data mining,1,0%
+Microsoft,top skills,Data Mining,48,14%
+Microsoft,top skills,Data Modeling,1,0%
+Microsoft,top skills,Data Science,18,5%
+Microsoft,top skills,Data Structures,4,1%
+Microsoft,top skills,Data Warehousing,2,1%
+Microsoft,top skills,Databases,3,1%
+Microsoft,top skills,Deep Learning,6,2%
+Microsoft,top skills,Derivatives,1,0%
+Microsoft,top skills,Distributed Systems,3,1%
+Microsoft,top skills,Ecology,1,0%
+Microsoft,top skills,Econometrics,3,1%
+Microsoft,top skills,Economics,1,0%
+Microsoft,top skills,Electrical Engineering,1,0%
+Microsoft,top skills,Enterprise Architecture,3,1%
+Microsoft,top skills,Enterprise Search,1,0%
+Microsoft,top skills,Enterprise Software,2,1%
+Microsoft,top skills,Entrepreneurship,2,1%
+Microsoft,top skills,Environmental Consulting,1,0%
+Microsoft,top skills,Environmental Science,1,0%
+Microsoft,top skills,ETL,1,0%
+Microsoft,top skills,Experimental Design,1,0%
+Microsoft,top skills,Financial Analysis,1,0%
+Microsoft,top skills,Financial Markets,1,0%
+Microsoft,top skills,Fluorescence Microscopy,1,0%
+Microsoft,top skills,French,1,0%
+Microsoft,top skills,FX Options,1,0%
+Microsoft,top skills,Genomics,2,1%
+Microsoft,top skills,Gestion de projet,1,0%
+Microsoft,top skills,Hadoop,5,2%
+Microsoft,top skills,Hive,1,0%
+Microsoft,top skills,HTML,1,0%
+Microsoft,top skills,Image Processing,3,1%
+Microsoft,top skills,Information Extraction,1,0%
+Microsoft,top skills,Information Retrieval,3,1%
+Microsoft,top skills,Information Security,1,0%
+Microsoft,top skills,Integration,1,0%
+Microsoft,top skills,Intercultural Skills,1,0%
+Microsoft,top skills,IT Management,1,0%
+Microsoft,top skills,IT Service Management,1,0%
+Microsoft,top skills,IT Strategy,1,0%
+Microsoft,top skills,ITIL,1,0%
+Microsoft,top skills,Java,19,6%
+Microsoft,top skills,JavaScript,1,0%
+Microsoft,top skills,Knowledge Graph,1,0%
+Microsoft,top skills,Knowledge Management,1,0%
+Microsoft,top skills,Large-scale Data Analysis,1,0%
+Microsoft,top skills,LaTeX,3,1%
+Microsoft,top skills,Leadership,6,2%
+Microsoft,top skills,Linux,1,0%
+Microsoft,top skills,LINUX,1,0%
+Microsoft,top skills,Location Based Services,1,0%
+Microsoft,top skills,machine learning,1,0%
+Microsoft,top skills,Machine learning,1,0%
+Microsoft,top skills,Machine Learning,83,25%
+Microsoft,top skills,Management,1,0%
+Microsoft,top skills,Management Consulting,1,0%
+Microsoft,top skills,MapReduce,1,0%
+Microsoft,top skills,Market Research,2,1%
+Microsoft,top skills,Mathematica,1,0%
+Microsoft,top skills,Mathematical Modeling,4,1%
+Microsoft,top skills,Mathematics,2,1%
+Microsoft,top skills,Matlab,28,8%
+Microsoft,top skills,Microsoft Azure,1,0%
+Microsoft,top skills,Microsoft Excel,6,2%
+Microsoft,top skills,Microsoft Office,7,2%
+Microsoft,top skills,Microsoft SQL Server,5,2%
+Microsoft,top skills,Microsoft Word,1,0%
+Microsoft,top skills,Molecular Biology,1,0%
+Microsoft,top skills,Natural Language Processing,12,4%
+Microsoft,top skills,Neuroscience,1,0%
+Microsoft,top skills,NLTK,1,0%
+Microsoft,top skills,NoSQL,1,0%
+Microsoft,top skills,Numerical Analysis,2,1%
+Microsoft,top skills,NumPy,1,0%
+Microsoft,top skills,Object Oriented Design,2,1%
+Microsoft,top skills,Online Advertising,1,0%
+Microsoft,top skills,Online Services,1,0%
+Microsoft,top skills,OOP,1,0%
+Microsoft,top skills,Operations Research,1,0%
+Microsoft,top skills,Optimization,2,1%
+Microsoft,top skills,Oracle,1,0%
+Microsoft,top skills,Patents,1,0%
+Microsoft,top skills,Pattern Recognition,2,1%
+Microsoft,top skills,Performance Auditing,1,0%
+Microsoft,top skills,Performance Evaluation,1,0%
+Microsoft,top skills,Physics,8,2%
+Microsoft,top skills,Policy Analysis,1,0%
+Microsoft,top skills,PowerPoint,1,0%
+Microsoft,top skills,Predictive Analytics,4,1%
+Microsoft,top skills,Predictive Modeling,4,1%
+Microsoft,top skills,Probability,1,0%
+Microsoft,top skills,Process Improvement,1,0%
+Microsoft,top skills,Product Management,5,2%
+Microsoft,top skills,Product Marketing,1,0%
+Microsoft,top skills,Program Management,1,0%
+Microsoft,top skills,Programming,7,2%
+Microsoft,top skills,Project Management,3,1%
+Microsoft,top skills,Project Planning,1,0%
+Microsoft,top skills,Project Scope Development,1,0%
+Microsoft,top skills,Public Speaking,4,1%
+Microsoft,top skills,Python,55,17%
+Microsoft,top skills,R,49,15%
+Microsoft,top skills,R Programming,1,0%
+Microsoft,top skills,R&D,1,0%
+Microsoft,top skills,Recherche,1,0%
+Microsoft,top skills,Requirements Analysis,2,1%
+Microsoft,top skills,Research,16,5%
+Microsoft,top skills,Risk Assessment,1,0%
+Microsoft,top skills,Sales,1,0%
+Microsoft,top skills,Sales Operations,1,0%
+Microsoft,top skills,SAS,15,5%
+Microsoft,top skills,Science,2,1%
+Microsoft,top skills,SciPy,1,0%
+Microsoft,top skills,SDLC,2,1%
+Microsoft,top skills,Search Analysis,1,0%
+Microsoft,top skills,Segmentation,1,0%
+Microsoft,top skills,Semantic Web,1,0%
+Microsoft,top skills,SEO,1,0%
+Microsoft,top skills,Sequence Analysis,1,0%
+Microsoft,top skills,SharePoint,2,1%
+Microsoft,top skills,Signal Processing,2,1%
+Microsoft,top skills,Simulations,3,1%
+Microsoft,top skills,SIP,1,0%
+Microsoft,top skills,SOA,1,0%
+Microsoft,top skills,Social Media,2,1%
+Microsoft,top skills,Software Design,2,1%
+Microsoft,top skills,Software Development,17,5%
+Microsoft,top skills,Software Engineering,8,2%
+Microsoft,top skills,Software Project Management,4,1%
+Microsoft,top skills,Software Quality Assurance,1,0%
+Microsoft,top skills,Solution Architecture,3,1%
+Microsoft,top skills,SPSS,1,0%
+Microsoft,top skills,SQL,17,5%
+Microsoft,top skills,SSIS,1,0%
+Microsoft,top skills,Stata,3,1%
+Microsoft,top skills,Statistical Data Analysis,3,1%
+Microsoft,top skills,Statistical Modeling,8,2%
+Microsoft,top skills,Statistics,36,11%
+Microsoft,top skills,Strategy,1,0%
+Microsoft,top skills,Stream Reasoning,1,0%
+Microsoft,top skills,Supervised and Unsupervised Model Building,1,0%
+Microsoft,top skills,Supply Chain,1,0%
+Microsoft,top skills,Supply Chain Optimization,1,0%
+Microsoft,top skills,Survey Methodology,1,0%
+Microsoft,top skills,Systems Engineering,1,0%
+Microsoft,top skills,Tableau,1,0%
+Microsoft,top skills,Teamwork,4,1%
+Microsoft,top skills,Telecommunications,1,0%
+Microsoft,top skills,Telemetry,1,0%
+Microsoft,top skills,Test Automation,5,2%
+Microsoft,top skills,Test Planning,1,0%
+Microsoft,top skills,Testing,1,0%
+Microsoft,top skills,T-SQL,1,0%
+Microsoft,top skills,Urban Computing,1,0%
+Microsoft,top skills,Usability Testing,1,0%
+Microsoft,top skills,User Experience,1,0%
+Microsoft,top skills,VBA,1,0%
+Microsoft,top skills,Verilog,1,0%
+Microsoft,top skills,Web Analytics,2,1%
+Microsoft,top skills,Web Applications,1,0%
+Microsoft,top skills,Web Development,1,0%
+Microsoft,top skills,Web Services,1,0%
+Facebook,top skills,Biostatistics,1,0%
+Facebook,top skills,ETL,1,0%
+Facebook,top skills,A/B Testing,3,1%
+Facebook,top skills,Algorithms,8,2%
+Facebook,top skills,Analysis,51,15%
+Facebook,top skills,Apache Spark,1,0%
+Facebook,top skills,Applied Mathematics,1,0%
+Facebook,top skills,Applied Research,1,0%
+Facebook,top skills,APT,1,0%
+Facebook,top skills,Artificial Intelligence,3,1%
+Facebook,top skills,Attribution Modeling,1,0%
+Facebook,top skills,Big Data,2,1%
+Facebook,top skills,Business Analysis,6,2%
+Facebook,top skills,Business Intelligence,11,3%
+Facebook,top skills,Business Strategy,3,1%
+Facebook,top skills,C,4,1%
+Facebook,top skills,C#,2,1%
+Facebook,top skills,C++,6,2%
+Facebook,top skills,Cell Culture,1,0%
+Facebook,top skills,Chemical Engineering,1,0%
+Facebook,top skills,Cloud Computing,1,0%
+Facebook,top skills,Commodity,1,0%
+Facebook,top skills,Communications,1,0%
+Facebook,top skills,Community Outreach,1,0%
+Facebook,top skills,Competitive Analysis,2,1%
+Facebook,top skills,Computer Science,2,1%
+Facebook,top skills,Computer Vision,1,0%
+Facebook,top skills,Confocal Microscopy,1,0%
+Facebook,top skills,Consulting,1,0%
+Facebook,top skills,Corporate Finance,1,0%
+Facebook,top skills,Creative Writing,1,0%
+Facebook,top skills,Credit Cards,1,0%
+Facebook,top skills,Credit Risk,1,0%
+Facebook,top skills,CRM,1,0%
+Facebook,top skills,CSS,1,0%
+Facebook,top skills,Customer Analysis,1,0%
+Facebook,top skills,Customer Insight,1,0%
+Facebook,top skills,Data Analysis,122,35%
+Facebook,top skills,Data Mining,28,8%
+Facebook,top skills,Data Munging,1,0%
+Facebook,top skills,Data Science,15,4%
+Facebook,top skills,Data Visualization,2,1%
+Facebook,top skills,Data Warehousing,3,1%
+Facebook,top skills,Databases,8,2%
+Facebook,top skills,Deep Learning,1,0%
+Facebook,top skills,Digital Marketing,1,0%
+Facebook,top skills,Digital Photography,1,0%
+Facebook,top skills,Digital Strategy,1,0%
+Facebook,top skills,Econometrics,5,1%
+Facebook,top skills,Economic Modeling,2,1%
+Facebook,top skills,Economics,8,2%
+Facebook,top skills,Editing,2,1%
+Facebook,top skills,EJB,1,0%
+Facebook,top skills,English,1,0%
+Facebook,top skills,Ensemble,1,0%
+Facebook,top skills,Entrepreneurship,1,0%
+Facebook,top skills,Environmental Awareness,1,0%
+Facebook,top skills,Experimental Design,1,0%
+Facebook,top skills,Finance,3,1%
+Facebook,top skills,Financial Accounting,1,0%
+Facebook,top skills,Financial Analysis,3,1%
+Facebook,top skills,Financial Modeling,4,1%
+Facebook,top skills,fMRI,1,0%
+Facebook,top skills,Git,1,0%
+Facebook,top skills,Google Analytics,3,1%
+Facebook,top skills,Graphic Design,1,0%
+Facebook,top skills,Hadoop,2,1%
+Facebook,top skills,HTML,5,1%
+Facebook,top skills,Identity Verification,1,0%
+Facebook,top skills,Image Processing,2,1%
+Facebook,top skills,Instructional Design,1,0%
+Facebook,top skills,International Relations,1,0%
+Facebook,top skills,Internet,1,0%
+Facebook,top skills,Interviews,1,0%
+Facebook,top skills,Investment Banking,1,0%
+Facebook,top skills,Japanese,1,0%
+Facebook,top skills,Java,16,5%
+Facebook,top skills,Java Enterprise Edition,1,0%
+Facebook,top skills,JavaScript,2,1%
+Facebook,top skills,Labor Economics,1,0%
+Facebook,top skills,LaTeX,4,1%
+Facebook,top skills,Lead Generation,1,0%
+Facebook,top skills,Leadership,8,2%
+Facebook,top skills,Linux,1,0%
+Facebook,top skills,Logistic Regression,1,0%
+Facebook,top skills,Machine Learning,49,14%
+Facebook,top skills,Management Consulting,1,0%
+Facebook,top skills,Market Design,1,0%
+Facebook,top skills,Marketing,2,1%
+Facebook,top skills,Marketing Analytics,1,0%
+Facebook,top skills,Mathematical Modeling,6,2%
+Facebook,top skills,Mathematical Programming,1,0%
+Facebook,top skills,Mathematics,3,1%
+Facebook,top skills,Matlab,28,8%
+Facebook,top skills,Microsoft Excel,15,4%
+Facebook,top skills,Microsoft Office,12,3%
+Facebook,top skills,Microsoft SQL Server,1,0%
+Facebook,top skills,Microsoft Word,1,0%
+Facebook,top skills,Mobile Devices,1,0%
+Facebook,top skills,MongoDB,1,0%
+Facebook,top skills,MySQL,6,2%
+Facebook,top skills,Natural Language Processing,4,1%
+Facebook,top skills,Networking,1,0%
+Facebook,top skills,Neuroscience,1,0%
+Facebook,top skills,Numerical Analysis,2,1%
+Facebook,top skills,Online Advertising,2,1%
+Facebook,top skills,Operations Research,5,1%
+Facebook,top skills,Optics,1,0%
+Facebook,top skills,Optimization,1,0%
+Facebook,top skills,Oracle,1,0%
+Facebook,top skills,Physics,2,1%
+Facebook,top skills,PL/SQL,1,0%
+Facebook,top skills,PostgreSQL,1,0%
+Facebook,top skills,PowerPoint,2,1%
+Facebook,top skills,Predictive Analytics,1,0%
+Facebook,top skills,Predictive Modeling,7,2%
+Facebook,top skills,Pricing Strategy,1,0%
+Facebook,top skills,Product Development,1,0%
+Facebook,top skills,Product Management,6,2%
+Facebook,top skills,Programming,2,1%
+Facebook,top skills,Project Management,1,0%
+Facebook,top skills,Public Finance,1,0%
+Facebook,top skills,Public Speaking,3,1%
+Facebook,top skills,Python,81,23%
+Facebook,top skills,Quantitative Analytics,2,1%
+Facebook,top skills,Quantitative Marketing,1,0%
+Facebook,top skills,Quantitative Research,1,0%
+Facebook,top skills,R,80,23%
+Facebook,top skills,R programming,1,0%
+Facebook,top skills,Recommender Systems,1,0%
+Facebook,top skills,Recruiting,1,0%
+Facebook,top skills,Research,24,7%
+Facebook,top skills,Research Design,2,1%
+Facebook,top skills,Revenue Analysis,1,0%
+Facebook,top skills,Rock Climbing,1,0%
+Facebook,top skills,Ruby on Rails,1,0%
+Facebook,top skills,Sales,1,0%
+Facebook,top skills,SAS,16,5%
+Facebook,top skills,Science,3,1%
+Facebook,top skills,Scientific Computing,3,1%
+Facebook,top skills,Segmentation,1,0%
+Facebook,top skills,Semiconductor Industry,1,0%
+Facebook,top skills,Semiconductors,1,0%
+Facebook,top skills,SEO,1,0%
+Facebook,top skills,Simulations,2,1%
+Facebook,top skills,Six Sigma,1,0%
+Facebook,top skills,Social Media,2,1%
+Facebook,top skills,Social Network Analysis,1,0%
+Facebook,top skills,Social Sciences,1,0%
+Facebook,top skills,Software Development,2,1%
+Facebook,top skills,Software Engineering,3,1%
+Facebook,top skills,Sourcing,1,0%
+Facebook,top skills,Spark,1,0%
+Facebook,top skills,Spectroscopy,1,0%
+Facebook,top skills,Spring,1,0%
+Facebook,top skills,SPSS,2,1%
+Facebook,top skills,SQL,51,15%
+Facebook,top skills,SSIS,1,0%
+Facebook,top skills,Start-ups,4,1%
+Facebook,top skills,Stata,8,2%
+Facebook,top skills,Statistical Data Analysis,4,1%
+Facebook,top skills,Statistical Modeling,14,4%
+Facebook,top skills,Statistics,66,19%
+Facebook,top skills,Strategic Planning,1,0%
+Facebook,top skills,Strategy,6,2%
+Facebook,top skills,Structural Econometrics,1,0%
+Facebook,top skills,Tableau,4,1%
+Facebook,top skills,Teaching,2,1%
+Facebook,top skills,Teamwork,4,1%
+Facebook,top skills,Teradata,1,0%
+Facebook,top skills,Theatre,1,0%
+Facebook,top skills,Time Series Analysis,1,0%
+Facebook,top skills,top_skills,2,1%
+Facebook,top skills,User Experience,1,0%
+Facebook,top skills,Valuation,1,0%
+Facebook,top skills,VBA,1,0%
+Facebook,top skills,Web Analytics,2,1%
+Facebook,top skills,Web Development,1,0%
+Facebook,top skills,Weka,1,0%
