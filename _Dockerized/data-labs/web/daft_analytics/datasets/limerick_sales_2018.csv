@@ -1,0 +1,438 @@
+,area,type of property,bedrooms,bathrooms,price
+0,Limerick City,1,2,2,115000
+1,Limerick City,1,2,1,85000
+2,Limerick City,1,4,4,290000
+3,Dooradoyle,1,4,3,239000
+4,Raheen,1,4,3,285000
+5,Limerick City,0,2,2,149000
+6,Ennis Road,1,4,3,275000
+7,Castletroy,1,3,1,199000
+8,Caherdavin,0,3,2,65000
+9,Limerick City,1,5,4,295000
+10,Dooradoyle,0,2,2,149000
+11,Caherdavin,0,3,2,65000
+12,Ballysimon,1,3,3,150000
+13,Corbally,1,5,3,300000
+14,North Circular Road,1,5,3,455000
+15,Raheen,1,7,4,525000
+16,Corbally,1,4,3,395000
+17,Castletroy,1,4,3,650000
+18,Castletroy,1,6,4,700000
+19,Caherdavin,0,3,2,70000
+20,Ennis Road,1,5,3,360000
+21,Limerick City,1,3,3,225000
+22,Limerick City,1,2,1,160000
+23,Limerick City,0,2,2,125000
+24,Limerick City,1,4,1,190000
+25,Dooradoyle,1,3,2,199500
+26,Limerick City,0,2,1,80000
+27,Limerick City,0,1,1,90000
+28,Ennis Road,1,3,1,250000
+29,Monaleen,1,4,2,350000
+30,Castletroy,1,4,4,290000
+31,North Circular Road,1,5,4,250000
+32,Limerick City,0,2,1,90000
+33,Clareview,1,4,3,335000
+34,Limerick City,1,2,1,140000
+35,Dooradoyle,0,3,3,175000
+36,Castletroy,1,4,3,440000
+37,Castletroy,1,3,1,190000
+38,Limerick City,0,2,1,129000
+39,Limerick City,1,4,2,300000
+40,Annacotty,1,2,1,230000
+41,Limerick City,1,3,2,205000
+42,Corbally,1,4,3,350000
+43,Corbally,1,3,2,178000
+44,Dooradoyle,0,2,2,145000
+45,Annacotty,1,2,2,199000
+46,North Circular Road,1,4,2,625000
+47,Ballysimon,1,3,1,120000
+48,Corbally,1,6,4,367500
+49,Dooradoyle,1,3,2,189000
+50,Castletroy,1,4,3,350000
+51,North Circular Road,1,4,3,239000
+52,Castletroy,0,2,2,75000
+53,Janesboro,1,2,1,105000
+54,Thomondgate,0,3,3,100000
+55,Ennis Road,0,1,1,190000
+56,Thomondgate,1,2,1,120000
+57,North Circular Road,1,4,4,795000
+58,Limerick City,1,3,2,155000
+59,Castletroy,1,5,3,595000
+60,Ballysimon,1,4,2,295000
+61,South Circular Road,1,4,1,320000
+62,South Circular Road,1,6,4,495000
+63,Limerick City,0,2,1,105000
+64,Caherdavin,1,4,2,135000
+65,North Circular Road,0,2,2,290000
+66,North Circular Road,0,1,1,250000
+67,Castletroy,1,4,3,500000
+68,South Circular Road,0,3,2,255000
+69,Limerick City,1,3,3,227500
+70,Limerick City,1,4,1,175000
+71,Limerick City,1,3,3,225000
+72,Limerick City,1,2,2,200000
+73,North Circular Road,1,4,1,345000
+74,Annacotty,1,4,3,215000
+75,South Circular Road,1,4,1,195000
+76,Rhebogue,1,4,3,195000
+77,Dooradoyle,0,3,3,198000
+78,Limerick City,0,2,2,95000
+79,Limerick City,0,2,2,100000
+80,Limerick City,1,4,3,257500
+81,Moyross,1,3,1,80000
+82,Castletroy,1,5,3,430000
+83,Corbally,1,4,2,265000
+84,Annacotty,1,3,3,290000
+85,Singland,1,3,1,195000
+86,Corbally,1,5,3,550000
+87,Castletroy,0,3,2,190000
+88,Ballysimon,1,3,2,135000
+89,Castletroy,1,4,1,215000
+90,Ennis Road,1,4,3,500000
+91,Monaleen,1,3,1,235000
+92,Annacotty,1,4,3,345000
+93,Limerick City,0,1,1,63000
+94,Annacotty,1,4,3,315000
+95,Limerick City,1,3,1,115000
+96,Limerick City,1,3,1,175000
+97,Castletroy,0,2,2,110000
+98,Limerick City,1,2,1,140000
+99,Monaleen,1,3,2,235000
+100,South Circular Road,1,3,1,225000
+101,Limerick City,0,2,2,105000
+102,Castletroy,1,3,3,120000
+103,Rhebogue,1,3,3,195000
+104,Limerick City,1,4,2,190000
+105,Limerick City,1,4,1,168000
+106,Annacotty,1,3,3,280000
+107,Limerick City,1,3,3,159000
+108,Castletroy,1,4,3,245000
+109,Dooradoyle,1,4,4,265000
+110,Dooradoyle,1,3,2,189000
+111,Raheen,1,4,2,285000
+112,South Circular Road,1,4,2,235000
+113,Corbally,1,3,1,225000
+114,Dooradoyle,1,5,3,335000
+115,South Circular Road,1,3,2,255000
+116,Dooradoyle,1,3,3,240000
+117,Castletroy,1,4,3,395000
+118,Castletroy,1,4,3,399000
+119,Raheen,1,4,3,229000
+120,Limerick City,1,3,1,1000000
+121,Monaleen,1,4,3,420000
+122,Raheen,1,3,3,275000
+123,Raheen,1,3,3,270000
+124,Limerick City,1,4,2,140000
+125,Castletroy,1,4,3,425000
+126,Annacotty,1,4,3,425000
+127,Limerick City,1,3,3,215000
+128,Ennis Road,1,3,1,260000
+129,Castletroy,0,2,1,165000
+130,South Circular Road,1,5,2,295000
+131,Ballynanty,1,3,2,98000
+132,Corbally,0,3,3,165000
+133,Castletroy,1,4,2,420000
+134,Corbally,1,3,2,145000
+135,Limerick City,1,3,1,120000
+136,Ennis Road,1,4,2,310000
+137,South Circular Road,0,2,2,160000
+138,Limerick City,1,1,1,85000
+139,Castletroy,1,4,3,395000
+140,North Circular Road,0,2,1,145000
+141,Monaleen,1,5,4,550000
+142,Annacotty,1,4,3,320000
+143,Limerick City,0,3,1,95000
+144,Castletroy,1,4,3,415000
+145,Raheen,1,3,2,230000
+146,Castleconnell,1,3,3,269000
+147,Limerick City,0,12,12,780000
+148,Raheen,1,4,3,295000
+149,Limerick City,0,2,2,124000
+150,Limerick City,1,3,3,232500
+151,Castletroy,1,3,2,260000
+152,Raheen,1,3,3,270000
+153,Limerick City,1,4,3,255000
+154,Ennis Road,1,3,1,240000
+155,Raheen,0,2,2,145000
+156,Caherdavin,1,3,1,160000
+157,Dooradoyle,1,4,3,255000
+158,Limerick City,1,4,2,420000
+159,Raheen,0,2,2,128000
+160,Ballinacurra,1,3,2,210000
+161,Limerick City,0,2,2,115000
+162,Castletroy,0,4,4,185000
+163,Castletroy,1,3,2,236000
+164,Dooradoyle,1,3,2,215000
+165,Raheen,1,4,4,260000
+166,Limerick City,0,2,2,105000
+167,Limerick City,1,3,1,125000
+168,Dooradoyle,1,4,3,225000
+169,Castletroy,0,3,2,170000
+170,Ennis Road,0,2,2,220000
+171,Ennis Road,0,2,2,240000
+172,Limerick City,0,2,1,75000
+173,Dooradoyle,1,3,3,210000
+174,Clareview,1,3,2,230000
+175,Ennis Road,0,2,2,230000
+176,Monaleen,1,4,3,255000
+177,Raheen,1,5,3,389000
+178,Annacotty,0,2,2,185000
+179,Dooradoyle,1,3,3,255000
+180,Dooradoyle,0,2,2,159000
+181,Corbally,1,4,3,290000
+182,Limerick City,1,3,2,195000
+183,Dooradoyle,0,3,3,182500
+184,Limerick City,1,2,1,165000
+185,Corbally,1,4,2,230000
+186,Castletroy,0,2,2,70000
+187,Limerick City,1,3,3,225000
+188,Castletroy,1,5,1,192500
+189,Ennis Road,1,4,1,240000
+190,Raheen,1,3,2,185000
+191,Limerick City,0,2,2,120000
+192,Limerick City,1,2,1,100000
+193,Limerick City,0,2,1,80000
+194,Limerick City,0,2,1,50000
+195,Dooradoyle,1,4,4,250000
+196,Limerick City,1,3,3,225000
+197,Dooradoyle,0,3,3,175000
+198,Annacotty,1,4,1,180000
+199,Limerick City,0,2,1,90000
+200,Annacotty,0,2,2,209000
+201,Limerick City,0,2,1,75000
+202,Caherdavin,1,3,2,210000
+203,Dooradoyle,1,3,2,215000
+204,Garryowen,1,3,1,105000
+205,Dooradoyle,0,2,2,169000
+206,Corbally,1,3,1,165000
+207,Castletroy,1,5,2,200000
+208,Caherdavin,1,3,1,165000
+209,Limerick City,1,7,3,480000
+210,Ennis Road,1,3,2,275000
+211,Castletroy,1,2,2,250000
+212,Limerick City,0,2,1,105000
+213,Castletroy,0,2,2,55000
+214,Limerick City,0,2,2,50000
+215,Caherdavin,1,3,1,170000
+216,Raheen,1,3,2,260000
+217,Castletroy,1,3,2,246000
+218,Limerick City,1,2,1,81000
+219,Limerick City,1,3,3,158000
+220,Castletroy,1,4,3,217500
+221,Limerick City,0,2,1,330000
+222,Limerick City,1,3,1,190000
+223,Limerick City,1,3,3,211000
+224,Limerick City,0,3,2,257500
+225,Limerick City,1,3,1,240000
+226,Dooradoyle,0,2,3,162000
+227,Limerick City,0,2,2,232000
+228,Limerick City,1,3,2,205000
+229,Castletroy,1,4,2,185000
+230,Limerick City,1,3,1,63600
+231,Limerick City,0,3,2,90000
+232,Limerick City,1,2,2,120000
+233,Limerick City,1,3,1,95000
+234,Limerick City,1,2,1,168000
+235,Limerick City,0,3,2,90000
+236,Castletroy,0,2,2,175925
+237,Limerick City,1,4,3,265000
+238,Dooradoyle,1,3,3,280000
+239,Limerick City,1,2,1,80000
+240,Limerick City,1,3,1,240000
+241,Limerick City,1,3,1,212000
+242,Limerick City,1,3,1,177000
+243,Caherdavin,1,3,2,185000
+244,Raheen,1,3,2,205000
+245,Limerick City,1,4,1,75000
+246,Clareview,1,4,3,298000
+247,Limerick City,1,3,1,111000
+248,Dooradoyle,1,4,3,248000
+249,Limerick City,1,3,1,122000
+250,Limerick City,1,3,1,225000
+251,Limerick City,0,2,1,120000
+252,Limerick City,1,4,2,181000
+253,Limerick City,1,3,2,175000
+254,Castletroy,1,3,2,248000
+255,Annacotty,1,4,2,250000
+256,Limerick City,0,4,2,158750
+257,Dooradoyle,1,3,3,222000
+258,Corbally,1,5,3,274000
+259,Raheen,1,2,3,188000
+260,Castletroy,1,4,3,205000
+261,Limerick City,1,3,2,250000
+262,Limerick City,1,4,3,380000
+263,Limerick City,0,1,1,100000
+264,Castletroy,1,3,3,225000
+265,Limerick City,0,3,2,65000
+266,Limerick City,1,3,2,265000
+267,Annacotty,1,5,4,407500
+268,Castletroy,1,3,3,242500
+269,Limerick City,1,2,1,146000
+270,Limerick City,0,2,1,87500
+271,Limerick City,0,2,2,166000
+272,Limerick City,0,2,2,160000
+273,Limerick City,1,3,1,55000
+274,Raheen,1,4,3,271000
+275,Dooradoyle,1,3,2,245000
+276,Limerick City,1,3,1,52000
+277,Limerick City,1,5,2,180000
+278,Castletroy,0,2,2,165000
+279,Limerick City,0,3,2,120000
+280,Limerick City,1,3,3,250000
+281,Monaleen,1,4,2,287101
+282,Limerick City,1,2,1,91000
+283,Limerick City,1,2,1,75000
+284,Limerick City,0,2,1,80000
+285,Limerick City,1,2,1,142000
+286,Annacotty,1,5,4,350000
+287,Limerick City,0,2,2,180000
+288,Limerick City,0,2,2,175000
+289,Castletroy,1,4,3,260000
+290,Limerick City,0,2,2,100000
+291,Castletroy,1,4,4,140000
+292,Limerick City,1,3,1,150800
+293,Limerick City,1,3,1,175000
+294,Annacotty,1,5,3,262000
+295,Corbally,1,4,3,307500
+296,Limerick City,1,7,3,930000
+297,Limerick City,1,3,2,175000
+298,Limerick City,1,5,2,148000
+299,Dooradoyle,1,3,3,226500
+300,Limerick City,1,4,3,210000
+301,Limerick City,1,3,2,265000
+302,Limerick City,1,3,1,165000
+303,Limerick City,1,3,1,103000
+304,Limerick City,1,5,1,110000
+305,Limerick City,1,4,1,215000
+306,Limerick City,1,2,1,100000
+307,Limerick City,1,3,1,155000
+308,Castletroy,0,3,2,168000
+309,Limerick City,1,4,1,198000
+310,Castletroy,1,4,2,290000
+311,Castletroy,1,6,3,235000
+312,Limerick City,1,3,1,72000
+313,Limerick City,0,2,1,95000
+314,Limerick City,1,3,1,166000
+315,Limerick City,1,4,3,125000
+316,Limerick City,1,3,2,85000
+317,Limerick City,0,2,1,75000
+318,Limerick City,1,5,1,102000
+319,Limerick City,0,2,1,72000
+320,Limerick City,0,2,2,60000
+321,Limerick City,0,2,1,60000
+322,Limerick City,1,3,2,199000
+323,Castletroy,1,3,1,180000
+324,Annacotty,1,3,4,200000
+325,Castletroy,1,4,1,262000
+326,Limerick City,0,3,2,97500
+327,Limerick City,1,3,1,150000
+328,Limerick City,1,3,1,159000
+329,Castletroy,0,2,1,105000
+330,Limerick City,1,2,1,63000
+331,Limerick City,1,4,1,265000
+332,Annacotty,1,5,2,276000
+333,Limerick City,1,3,1,50000
+334,Limerick City,0,2,2,87000
+335,Castletroy,1,3,3,232000
+336,Castletroy,1,7,5,261000
+337,Dooradoyle,0,2,2,180000
+338,Limerick City,1,5,3,355000
+339,Raheen,1,3,2,245500
+340,Raheen,1,3,2,195000
+341,Castletroy,1,3,3,195000
+342,Limerick City,0,3,2,90000
+343,Limerick City,0,2,1,262000
+344,Limerick City,0,3,2,38000
+345,Limerick City,0,1,1,80000
+346,Limerick City,1,2,1,95000
+347,Limerick City,1,3,1,83500
+348,Corbally,1,3,1,310500
+349,Dooradoyle,1,4,3,266000
+350,Castletroy,1,3,3,252000
+351,Limerick City,0,2,1,70000
+352,Annacotty,1,4,4,230000
+353,Raheen,1,3,2,160000
+354,Annacotty,1,4,4,217000
+355,Limerick City,1,3,1,105000
+356,Limerick City,1,2,1,93000
+357,Limerick City,1,1,1,53333
+358,Limerick City,0,2,1,28635
+359,Annacotty,1,4,3,253000
+360,Limerick City,0,2,1,60000
+361,Limerick City,1,3,1,168000
+362,Corbally,1,3,2,208000
+363,Dooradoyle,0,2,2,130000
+364,Castletroy,1,3,1,150000
+365,Limerick City,0,3,1,93000
+366,Limerick City,0,2,2,95000
+367,Limerick City,0,2,1,240000
+368,Limerick City,1,3,1,146000
+369,Limerick City,1,2,1,101000
+370,Limerick City,0,3,2,35000
+371,Limerick City,1,2,2,125000
+372,Castletroy,1,4,3,410000
+373,Dooradoyle,1,3,3,260000
+374,Dooradoyle,1,3,3,216000
+375,Limerick City,0,4,2,150000
+376,Dooradoyle,1,4,3,232500
+377,Limerick City,1,6,2,240000
+378,Limerick City,0,1,1,186000
+379,Castletroy,1,4,3,245000
+380,Castletroy,1,4,4,140000
+381,Limerick City,0,2,2,110000
+382,Limerick City,1,2,1,85000
+383,Limerick City,0,2,1,112500
+384,Dooradoyle,1,3,3,258000
+385,Limerick City,0,1,1,60000
+386,Limerick City,0,2,1,188000
+387,Castletroy,1,5,3,355000
+388,Limerick City,1,3,1,97000
+389,Monaleen,1,3,3,227000
+390,Limerick City,1,3,3,199500
+391,Limerick City,1,3,1,155000
+392,Limerick City,0,2,1,85000
+393,Castletroy,1,3,3,212000
+394,Castletroy,1,4,1,193000
+395,Limerick City,0,2,2,95000
+396,Limerick City,1,3,1,121000
+397,Limerick City,0,4,2,135000
+398,Limerick City,0,2,1,83000
+399,Limerick City,1,3,2,160000
+400,Limerick City,1,3,1,198000
+401,Limerick City,1,3,3,400000
+402,Limerick City,0,2,1,108000
+403,Dooradoyle,1,3,3,240000
+404,Limerick City,1,2,2,177000
+405,Limerick City,0,2,1,156000
+406,Limerick City,1,3,2,185000
+407,Limerick City,0,2,1,70000
+408,Limerick City,1,4,1,152000
+409,Limerick City,1,4,2,234000
+410,Annacotty,1,4,3,185000
+411,Limerick City,1,3,1,380000
+412,Limerick City,0,2,2,146000
+413,Limerick City,0,2,2,97000
+414,Annacotty,0,3,3,195500
+415,Limerick City,0,3,2,190000
+416,Limerick City,0,2,1,92000
+417,Castletroy,1,5,3,455000
+418,Limerick City,0,3,2,200000
+419,Dooradoyle,1,3,3,215000
+420,Limerick City,1,3,1,295000
+421,Castletroy,0,2,2,160000
+422,Limerick City,1,4,2,175000
+423,Limerick City,0,1,1,60000
+424,Limerick City,1,4,4,500000
+425,Limerick City,0,3,2,27000
+426,Corbally,0,2,1,105000
+427,Janesboro,1,3,1,125000
+428,Castletroy,1,3,3,219500
+429,Dooradoyle,1,4,4,229000
+430,Limerick City,0,3,2,475000
+431,Castletroy,0,2,2,62000
+432,Limerick City,0,2,2,94000
+433,Raheen,1,3,3,235000
+434,Limerick City,0,3,2,107000
+435,Limerick City,1,8,3,255000
+436,Annacotty,1,5,4,260000

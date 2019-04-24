@@ -1,0 +1,144 @@
+{% extends "base.html" %} {% load staticfiles %}
+{% block extrahead %}
+<link href="{% static 'css/data.css' %}" rel="stylesheet"/>
+{% endblock %}
+{% load bootstrap_tags %} {% block content %}
+{% block row_header %}
+<div class="row header">
+    <div class="row">
+        <div class="col-xs-0 col-sm-0 col-md-4 col-lg-2 text-right">
+
+            <img src="{% static 'img/tableau-logo.png' %}" class="img responsive tableau">
+        </div>
+
+        <div class="col-xs-12 col-sm-12 col-md-8 col-lg-10">
+            <div class="row summary">
+                <h5>Tableau Data Vizualizations with Python</h5>
+                <p>Tableau • Pandas • Keras • Tensorflow • Selenium • Scrapy • Chart.js</p>
+                <a target="_blank" href="https://public.tableau.com/profile/lukaszmaluchadataviz#!/">Visit Tableau
+                    Repository</a>
+            </div>
+
+        </div>
+    </div>
+</div>
+<div class="row" style="height: 20px;">
+    {% if messages %} {% for message in messages %} {% if message.tags == "success" %}
+    <div class="alert alert-success">
+        <div class="messages text-center">
+            {{ message }}
+        </div>
+    </div>
+    {% else %}
+    <div class="alert alert-danger">
+        <div class="messages text-center">
+            {{ message }}
+        </div>
+    </div>
+    {% endif %} {% endfor %}
+    {% else %}
+
+    {% endif %}
+</div>
+{% endblock %}
+<div class="dashboard-cards">
+    <div class="row row-cards">
+
+
+        <div class="card horizontal viz-card">
+            <div class="card-image">
+                <img src="{% static 'img/daft_analytics.jpg' %}" class="img responsive">
+            </div>
+            <div class="card-stacked">
+                <div class="card-content">
+                    <h5>
+                        Daft Analytics
+                    </h5>
+                    <p>Daft.ie property market in 4 major irish cities. August 2018</p>
+                    <div class="box">
+                        <img src="{% static 'img/logo/tableau-logo.png' %}" class="icon">
+                        <span>Tableau Viz</span>
+                    </div>
+                    <div class="box">
+                        <img src="{% static 'img/logo/python.png' %}" class="icon">
+                        <span>Property Price Estimator</span>
+                    </div>
+                </div>
+                <div class="card-action">
+                    <button onclick="window.location='{% url 'daft_analytics:daft_dashboard' %}'" type="submit"
+                            class="btn-enter"><span>Continue <i class="far fa-arrow-alt-circle-right"></i></span>
+                    </button>
+                </div>
+            </div>
+        </div>
+        <div class="card horizontal viz-card">
+            <div class="card-image">
+                <img src="{% static 'img/data_science.jpg' %}" class="img responsive">
+            </div>
+            <div class="card-stacked">
+                <div class="card-content">
+                    <h5>Data Scientists in Big 5</h5>
+                    <p>What is the ultimate toolbox for Data Science?</p>
+                    <div class="box">
+                        <img src="{% static 'img/logo/tableau-logo.png' %}" class="icon">
+                        <span>Tableau Viz</span>
+                    </div>
+                    <div class="box">
+                        <img src="{% static 'img/logo/python.png' %}" class="icon">
+                        <span>Test My Profile</span>
+                    </div>
+
+                </div>
+                <div class="card-action">
+                    <button onclick="window.location='{% url 'data_science:ds_dashboard' %}'" type="submit"
+                            class="btn-enter"><span>Continue <i class="far fa-arrow-alt-circle-right"></i></span>
+                    </button>
+                </div>
+            </div>
+        </div>
+        <div class="card horizontal viz-card">
+            <div class="card-image">
+                <img src="{% static 'img/github.png' %}" class="img responsive">
+            </div>
+            <div class="card-stacked">
+                <div class="card-content">
+                    <h5>Github Activity</h5>
+                    <p>My GitHub Activity meets Radial Bar Chart.</p>
+                    <div class="box">
+                        <img src="{% static 'img/logo/tableau-logo.png' %}" class="icon">
+                        <span>Tableau Viz</span>
+                    </div>
+                </div>
+                <div class="card-action">
+                    <button onclick="window.location='{% url 'github_activity:github_activity' %}'" type="submit"
+                            class="btn-enter"><span>Continue <i class="far fa-arrow-alt-circle-right"></i></span>
+                    </button>
+                </div>
+            </div>
+        </div>
+        <div class="card horizontal viz-card">
+            <div class="card-image">
+                <img src="{% static 'img/life_expectancy.jpg' %}" class="img responsive">
+            </div>
+            <div class="card-stacked">
+                <div class="card-content">
+                    <h5>World Life Expectancy</h5>
+                    <p>Visualizing increase in world life expectancy over recent 50 years with a boxplot graph.</p>
+                    <div class="box">
+                        <img src="{% static 'img/logo/tableau-logo.png' %}" class="icon">
+                        <span>Tableau Viz</span>
+                    </div>
+
+                </div>
+                <div class="card-action">
+                    <button onclick="window.location='{% url 'life_expectancy:life_expectancy' %}'" type="submit"
+                            class="btn-enter"><span>Continue <i class="far fa-arrow-alt-circle-right"></i></span>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+{% endblock %}

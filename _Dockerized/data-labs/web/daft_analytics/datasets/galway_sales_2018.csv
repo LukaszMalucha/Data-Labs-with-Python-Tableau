@@ -1,0 +1,502 @@
+,area,type of property,bedrooms,bathrooms,price
+0,Woodquay,1,1,1,165000
+1,Salthill,1,5,4,350000
+2,Headford Road,1,3,2,290000
+3,Rahoon,1,4,2,375000
+4,Galway City,0,3,2,350000
+5,Galway City,1,4,2,450000
+6,Knocknacarra,0,3,2,215000
+7,Ballybrit,1,3,1,220000
+8,Rahoon,1,4,2,225000
+9,Galway City,1,8,4,385000
+10,Headford Road,1,3,2,225000
+11,Taylor's Hill,1,5,3,1500000
+12,Boleybeg,1,5,3,750000
+13,Barna,1,5,6,695000
+14,Barna,1,5,6,850000
+15,Roscam,1,4,3,345000
+16,Doughiska,1,4,3,235000
+17,Ballybane,1,3,1,145000
+18,Galway City,0,2,2,510000
+19,Knocknacarra,1,4,3,295000
+20,Barna,1,5,5,720000
+21,Mervue,0,3,1,200000
+22,Barna,1,3,2,420000
+23,Galway City,1,5,4,750000
+24,Doughiska,1,3,3,195000
+25,Rahoon,0,2,2,220000
+26,Bushy Park,1,5,4,750000
+27,Barna,1,4,5,695000
+28,Galway City,0,3,2,155000
+29,Knocknacarra,0,2,2,210000
+30,Barna,1,5,4,1200000
+31,Roscam,1,3,3,275000
+32,Headford Road,1,5,3,280000
+33,Headford Road,1,5,3,280000
+34,Renmore,1,4,3,330000
+35,Galway City,0,2,2,495000
+36,Bushy Park,1,7,5,850000
+37,Knocknacarra,1,3,2,225000
+38,Ballybane,1,3,1,175000
+39,Headford Road,0,2,2,240000
+40,Salthill,0,2,1,240000
+41,Knocknacarra,0,2,2,210000
+42,Barna,1,5,7,695000
+43,Rahoon,0,2,1,180000
+44,Bushy Park,1,5,2,695000
+45,Bushy Park,1,4,4,675000
+46,Taylor's Hill,0,3,2,260000
+47,Taylor's Hill,1,5,5,1400000
+48,Ballybane,0,3,2,160000
+49,Taylor's Hill,1,4,5,1300000
+50,Barna,1,4,4,750000
+51,Ballybane,1,3,1,165000
+52,Renmore,1,4,3,260000
+53,Salthill,0,2,2,435000
+54,Galway City,1,5,3,340000
+55,Salthill,0,3,2,325000
+56,Headford Road,0,2,2,220000
+57,Roscam,0,2,2,195000
+58,Roscam,0,2,2,225000
+59,Galway City,0,3,4,450000
+60,Newcastle,1,4,3,380000
+61,Roscam,1,4,3,398500
+62,Taylor's Hill,1,2,1,280000
+63,Galway City,0,4,3,425000
+64,Doughiska,1,3,2,255000
+65,Ballybane,1,3,1,198000
+66,Knocknacarra,1,4,3,195000
+67,Knocknacarra,1,3,3,250000
+68,Galway City,1,3,3,340000
+69,Headford Road,0,3,2,260000
+70,Galway City,0,5,3,375000
+71,Knocknacarra,1,2,2,240000
+72,Knocknacarra,1,5,3,340000
+73,Renmore,1,3,1,335000
+74,Barna,1,5,4,785000
+75,Merlin Park,1,4,3,450000
+76,Knocknacarra,1,4,3,275000
+77,Ballybane,0,3,2,165000
+78,Galway City,0,2,1,250000
+79,Ballybane,1,3,1,185000
+80,Doughiska,0,2,1,159000
+81,Ballybane,0,3,2,160000
+82,Knocknacarra,1,4,3,425000
+83,Kingston,1,5,2,525000
+84,Merlin Park,1,4,3,450000
+85,Bushy Park,1,4,3,485000
+86,Knocknacarra,1,4,3,500000
+87,Galway City,0,5,2,285000
+88,Knocknacarra,0,3,2,225000
+89,Tuam Road,1,4,2,269000
+90,Ballybrit,1,4,1,285000
+91,Rahoon,1,4,1,220000
+92,Knocknacarra,1,5,4,500000
+93,Renmore,0,3,1,175000
+94,Renmore,1,4,2,245000
+95,Barna,1,4,2,490000
+96,Newcastle,1,4,1,265000
+97,Doughiska,0,2,1,145000
+98,Salthill,1,4,2,560000
+99,Renmore,1,3,2,325000
+100,Galway City,1,5,3,350000
+101,Salthill,1,11,8,800000
+102,Roscam,1,3,3,269000
+103,Headford Road,1,5,3,290000
+104,Knocknacarra,1,5,7,550000
+105,Shantalla,1,4,1,280000
+106,Salthill,0,2,2,249000
+107,Doughiska,1,3,3,268000
+108,Ballybrit,0,2,2,135000
+109,Galway City,0,2,2,225000
+110,Galway City,1,4,1,950000
+111,Salthill,0,1,1,95000
+112,Ballybrit,0,2,2,135000
+113,Rahoon,1,4,2,210000
+114,Rahoon,0,2,1,167500
+115,Salthill,1,5,4,1100000
+116,Menlo,1,4,3,350000
+117,Roscam,0,4,3,255000
+118,Barna,1,4,3,595000
+119,Galway City,0,3,2,155000
+120,Barna,0,2,2,238000
+121,Galway City,1,5,2,800000
+122,Roscam,1,4,3,450000
+123,Kingston,1,5,5,1250000
+124,Taylor's Hill,1,2,2,320000
+125,Doughiska,0,2,1,165000
+126,Ballybane,1,3,2,155000
+127,Knocknacarra,1,3,1,285000
+128,Merlin,1,4,3,450000
+129,Knocknacarra,0,4,4,265000
+130,Newcastle,0,3,1,160000
+131,Mervue,1,3,1,215000
+132,Renmore,1,4,3,360000
+133,Headford Road,1,1,2,220000
+134,Barna,1,2,2,340000
+135,Galway City,0,2,2,290000
+136,Roscam,1,4,3,320000
+137,Headford Road,1,4,2,390000
+138,Galway City,0,2,2,280000
+139,Wellpark,0,4,1,395000
+140,Rahoon,1,4,2,185000
+141,Ballybane,1,3,1,240000
+142,Galway City,0,2,2,260000
+143,Renmore,0,2,1,155000
+144,Renmore,0,3,1,175000
+145,Renmore,1,4,1,245000
+146,Doughiska,1,4,3,265000
+147,Shantalla,1,3,1,340000
+148,Knocknacarra,1,3,2,250000
+149,Renmore,1,4,2,345000
+150,Doughiska,0,3,3,230000
+151,Renmore,1,4,3,270000
+152,Knocknacarra,1,4,3,315000
+153,Galway City,1,5,6,365000
+154,Salthill,0,2,1,225000
+155,Roscam,1,4,4,395000
+156,Newcastle,1,6,4,345000
+157,Roscam,1,3,2,265000
+158,Knocknacarra,1,3,2,259000
+159,Renmore,1,4,2,375000
+160,Rahoon,0,2,1,200000
+161,Barna,1,4,4,595000
+162,Salthill,0,2,2,300000
+163,Salthill,0,3,2,350000
+164,Headford Road,0,2,2,235000
+165,Renmore,0,3,1,175000
+166,Doughiska,0,1,2,120000
+167,Ballybane,1,6,3,230000
+168,Rahoon,0,2,1,200000
+169,Renmore,0,2,1,155000
+170,Dangan,1,3,1,285000
+171,Renmore,0,2,1,120000
+172,Salthill,0,2,2,280000
+173,Headford Road,1,4,3,250000
+174,Headford Road,1,3,2,249500
+175,Rahoon,1,4,4,275000
+176,Salthill,1,2,1,325000
+177,Salthill,0,2,1,230000
+178,Renmore,0,2,1,140000
+179,Woodquay,1,3,1,280000
+180,Knocknacarra,0,2,2,215000
+181,Salthill,1,5,2,550000
+182,Ballybane,1,3,1,150000
+183,Headford Road,1,3,2,250000
+184,Barna,1,4,3,398000
+185,Galway City,0,2,1,215000
+186,Tuam Road,1,4,3,285000
+187,Doughiska,1,3,3,240000
+188,Ballybane,1,3,2,167500
+189,Roscam,1,2,2,187500
+190,Doughiska,1,3,2,265000
+191,Renmore,0,2,1,150000
+192,Salthill,1,5,2,350000
+193,Renmore,0,2,1,150000
+194,Knocknacarra,1,4,5,285000
+195,Renmore,1,3,2,315000
+196,Salthill,1,4,2,565000
+197,Doughiska,0,2,2,135000
+198,Rahoon,1,3,2,210000
+199,Merlin Park,0,3,2,150000
+200,Salthill,0,2,2,240000
+201,Salthill,1,3,1,430000
+202,Knocknacarra,1,3,2,265000
+203,Galway City,1,2,1,210000
+204,Rahoon,1,4,1,199000
+205,Knocknacarra,0,2,3,195000
+206,Galway City,0,3,2,300000
+207,Galway City,1,4,4,240000
+208,Knocknacarra,1,4,3,325000
+209,Knocknacarra,1,3,3,285000
+210,Salthill,0,2,1,165000
+211,Galway City,0,3,2,300000
+212,Galway City,1,2,1,195000
+213,Castlegar,0,3,2,195000
+214,Barna,1,5,5,3500000
+215,Galway City,0,3,2,110000
+216,Rahoon,1,3,4,285000
+217,Galway City,1,3,1,200000
+218,Kingston,1,5,6,950000
+219,Headford Road,0,2,1,200000
+220,Dangan,1,3,2,280000
+221,Barna,1,5,3,550000
+222,Galway City,0,2,1,190000
+223,Salthill,1,4,2,575000
+224,Ballybane,1,5,4,360000
+225,Galway City,0,2,2,275000
+226,Salthill,1,4,3,450000
+227,Taylor's Hill,0,2,2,240000
+228,Newcastle,1,3,2,250000
+229,Knocknacarra,1,4,2,280000
+230,Taylor's Hill,1,5,4,790000
+231,Knocknacarra,1,4,2,440000
+232,Salthill,1,3,1,350000
+233,Newcastle,1,5,3,485000
+234,Newcastle,1,5,2,600000
+235,Salthill,1,3,3,425000
+236,Knocknacarra,1,4,3,400000
+237,Roscam,1,4,3,340000
+238,Rahoon,1,3,2,254250
+239,Galway City,1,3,1,110000
+240,Galway City,1,4,3,340000
+241,Newcastle,1,3,2,248000
+242,Knocknacarra,1,5,3,442000
+243,Salthill,0,1,1,176000
+244,Renmore,1,4,2,270000
+245,Salthill,1,5,5,290000
+246,Knocknacarra,1,4,2,360000
+247,Knocknacarra,1,3,2,262500
+248,Knocknacarra,1,3,3,309000
+249,Rahoon,1,3,3,285000
+250,Rahoon,1,4,2,335000
+251,Knocknacarra,1,4,2,415000
+252,Knocknacarra,1,5,5,275000
+253,Galway City,0,3,2,148000
+254,Mervue,1,6,4,406000
+255,Rahoon,1,3,4,233000
+256,Galway City,0,5,4,435000
+257,Roscam,1,4,3,317000
+258,Knocknacarra,0,2,2,160000
+259,Roscam,0,2,1,216000
+260,Barna,0,3,2,450000
+261,Galway City,0,2,1,105000
+262,Killeen,1,3,1,250000
+263,Renmore,1,3,2,240000
+264,Ballybrit,1,3,3,195000
+265,Salthill,1,5,4,520000
+266,Wellpark,1,4,1,334250
+267,Galway City,0,3,2,295000
+268,Salthill,1,7,10,359460
+269,Ballybrit,0,2,2,135000
+270,Salthill,0,1,1,243000
+271,Knocknacarra,1,4,3,280000
+272,Renmore,1,4,3,240000
+273,Renmore,1,3,2,325000
+274,Roscam,1,6,5,340000
+275,Salthill,0,2,2,183000
+276,Knocknacarra,0,2,1,174000
+277,Rahoon,1,3,1,250000
+278,Knocknacarra,1,4,4,278000
+279,Newcastle,1,3,1,180000
+280,Knocknacarra,1,4,3,555000
+281,Galway City,0,2,1,306000
+282,Salthill,1,5,1,210000
+283,Barna,0,2,2,325000
+284,Newcastle,1,3,2,262000
+285,Galway City,1,4,2,650000
+286,Ballybane,1,3,3,156000
+287,Galway City,1,5,1,1375000
+288,Knocknacarra,1,3,3,285000
+289,Roscam,1,2,2,210000
+290,Renmore,1,4,3,358000
+291,Galway City,0,2,2,220000
+292,Rahoon,1,3,2,230000
+293,Salthill,1,4,3,400000
+294,Knocknacarra,1,3,1,275000
+295,Galway City,1,2,1,189000
+296,Galway City,1,3,2,235000
+297,Renmore,1,5,3,288000
+298,Salthill,0,2,2,311000
+299,Roscam,0,3,2,250000
+300,Renmore,0,2,1,115000
+301,Roscam,1,4,3,340000
+302,Salthill,1,4,1,285000
+303,Salthill,1,3,2,270000
+304,Knocknacarra,1,4,3,287000
+305,Galway City,0,1,2,190000
+306,Roscam,1,3,3,262000
+307,Rahoon,1,3,3,262000
+308,Galway City,1,4,1,360000
+309,Galway City,1,4,3,250000
+310,Barna,1,4,6,850000
+311,Newcastle,1,4,2,260000
+312,Knocknacarra,1,4,4,545000
+313,Galway City,1,3,1,115000
+314,Renmore,1,3,1,295000
+315,Galway City,1,3,1,137000
+316,Renmore,1,4,2,300000
+317,Galway City,1,4,1,85000
+318,Rahoon,1,4,4,255000
+319,Knocknacarra,1,4,2,328000
+320,Wellpark,1,2,1,230000
+321,Newcastle,1,3,2,360000
+322,Knocknacarra,1,3,3,320000
+323,Newcastle,1,5,1,271000
+324,Knocknacarra,1,4,2,300000
+325,Galway City,0,2,2,196000
+326,Knocknacarra,1,4,3,282000
+327,Galway City,0,2,1,248500
+328,Roscam,1,4,2,339499
+329,Renmore,1,6,5,220000
+330,Newcastle,1,4,1,430000
+331,Galway City,0,3,3,310000
+332,Knocknacarra,1,4,3,325000
+333,Knocknacarra,1,3,1,270000
+334,Knocknacarra,1,4,2,338000
+335,Newcastle,0,3,2,192000
+336,Knocknacarra,1,3,2,205000
+337,Doughiska,0,1,1,72000
+338,Tirellan,1,4,3,210000
+339,Mervue,1,3,1,201000
+340,Salthill,0,2,2,280000
+341,Roscam,1,4,3,292000
+342,Galway City,1,4,4,28000
+343,Barna,1,5,4,785000
+344,Galway City,1,4,2,633000
+345,Galway City,0,2,2,190000
+346,Salthill,1,4,3,600000
+347,Rahoon,1,4,2,285000
+348,Rahoon,1,3,2,180000
+349,Galway City,0,3,1,280000
+350,Roscam,1,3,3,265000
+351,Shantalla,1,4,2,340000
+352,Knocknacarra,0,2,2,185000
+353,Mervue,1,3,1,205000
+354,Ballybane,1,3,3,157000
+355,Rahoon,1,4,3,282162
+356,Knocknacarra,1,3,3,295000
+357,Galway City,1,4,2,350000
+358,Salthill,0,2,2,200000
+359,Salthill,0,2,2,337500
+360,Roscam,0,3,1,240000
+361,Knocknacarra,0,2,2,190000
+362,Knocknacarra,1,3,3,295000
+363,Knocknacarra,1,3,3,270000
+364,Knocknacarra,1,4,3,465000
+365,Salthill,0,2,2,286000
+366,Galway City,0,2,2,225000
+367,Knocknacarra,1,3,3,260000
+368,Renmore,0,3,1,151000
+369,Galway City,1,3,2,180000
+370,Galway City,0,3,2,140000
+371,Salthill,1,4,2,475000
+372,Knocknacarra,1,4,2,302000
+373,Knocknacarra,1,4,2,385000
+374,Knocknacarra,1,4,3,290000
+375,Renmore,0,2,1,118000
+376,Galway City,0,1,1,50000
+377,Knocknacarra,1,3,1,250000
+378,Knocknacarra,1,4,2,182000
+379,Wellpark,1,4,3,260000
+380,Galway City,0,2,1,235000
+381,Renmore,1,4,2,225000
+382,Galway City,1,3,1,78000
+383,Rahoon,1,3,2,275000
+384,Salthill,1,6,4,605000
+385,Rahoon,1,4,5,261000
+386,Newcastle,1,3,2,271000
+387,Knocknacarra,1,4,4,365000
+388,Salthill,1,4,2,425000
+389,Rahoon,1,4,4,252000
+390,Galway City,1,2,2,287000
+391,Newcastle,1,4,1,241364
+392,Newcastle,1,4,2,440000
+393,Galway City,1,5,3,580000
+394,Roscam,0,3,2,200000
+395,Wellpark,1,4,1,288000
+396,Roscam,1,3,2,220000
+397,Tirellan,1,2,2,215000
+398,Rahoon,1,4,2,225150
+399,Newcastle,1,3,1,279000
+400,Galway City,0,1,1,165000
+401,Renmore,1,4,2,335000
+402,Shantalla,1,4,2,375000
+403,Renmore,1,3,1,295000
+404,Galway City,0,4,1,260000
+405,Galway City,1,2,1,170000
+406,Knocknacarra,1,3,1,450000
+407,Renmore,1,5,2,333000
+408,Galway City,0,2,1,105000
+409,Knocknacarra,1,4,3,342000
+410,Salthill,1,4,2,428000
+411,Galway City,0,2,1,193000
+412,Salthill,1,3,3,480000
+413,Knocknacarra,1,7,4,475000
+414,Galway City,1,9,4,222500
+415,Knocknacarra,1,3,2,212000
+416,Roscam,0,2,2,210000
+417,Roscam,1,4,3,280000
+418,Newcastle,1,4,4,380000
+419,Salthill,1,4,4,1000000
+420,Galway City,1,3,2,277000
+421,Rahoon,1,4,3,315000
+422,Galway City,1,5,3,250000
+423,Newcastle,1,3,2,234000
+424,Knocknacarra,1,3,1,247000
+425,Renmore,1,4,2,275000
+426,Galway City,1,2,1,242000
+427,Galway City,1,4,2,275000
+428,Newcastle,1,4,2,327000
+429,Roscam,1,3,3,282000
+430,Roscam,1,4,3,330000
+431,Headford Road,1,4,2,325000
+432,Knocknacarra,1,4,2,270000
+433,Knocknacarra,1,3,3,254000
+434,Knocknacarra,1,4,3,267000
+435,Salthill,0,2,2,268000
+436,Rahoon,1,3,3,280000
+437,Newcastle,1,6,2,450000
+438,Knocknacarra,1,3,2,367000
+439,Salthill,0,2,2,165000
+440,Salthill,0,2,2,390000
+441,Galway City,0,2,1,215000
+442,Salthill,1,4,1,519000
+443,Galway City,1,4,2,345000
+444,Knocknacarra,1,4,2,290000
+445,Rahoon,1,3,2,278300
+446,Renmore,1,2,2,320000
+447,Headford Road,0,2,2,225000
+448,Knocknacarra,1,4,4,342500
+449,Galway City,1,3,2,305000
+450,Rahoon,1,4,2,305000
+451,Wellpark,1,4,2,297000
+452,Knocknacarra,1,3,2,220000
+453,Renmore,1,3,2,260000
+454,Roscam,1,4,3,370000
+455,Tirellan,1,3,2,230000
+456,Roscam,1,3,2,260000
+457,Killeen,1,3,1,120000
+458,Renmore,1,3,3,212000
+459,Galway City,0,2,1,245000
+460,Roscam,0,3,2,248000
+461,Knocknacarra,1,4,2,285000
+462,Salthill,1,3,2,315000
+463,Renmore,1,4,3,340000
+464,Roscam,1,4,2,325000
+465,Roscam,1,4,3,275000
+466,Knocknacarra,1,4,2,300000
+467,Renmore,1,3,2,325000
+468,Galway City,0,2,1,185000
+469,Renmore,1,3,2,320000
+470,Wellpark,0,2,2,210000
+471,Galway City,1,3,2,245000
+472,Salthill,0,3,2,327550
+473,Doughiska,1,3,3,220000
+474,Newcastle,1,3,1,282000
+475,Knocknacarra,0,2,2,185000
+476,Galway City,0,2,1,90000
+477,Galway City,1,2,1,350000
+478,Newcastle,1,2,1,134000
+479,Galway City,0,2,1,150000
+480,Galway City,0,2,1,90000
+481,Galway City,0,2,2,228000
+482,Galway City,1,3,1,215000
+483,Galway City,1,4,2,65500
+484,Roscam,1,4,3,380000
+485,Newcastle,1,4,2,395000
+486,Knocknacarra,1,4,2,275000
+487,Rahoon,1,4,4,283000
+488,Knocknacarra,1,5,3,315000
+489,Knocknacarra,0,2,2,155000
+490,Roscam,1,2,3,210000
+491,Renmore,1,4,4,255000
+492,Newcastle,1,3,2,305000
+493,Galway City,1,3,2,335000
+494,Roscam,1,4,3,360000
+495,Headford Road,0,2,2,170500
+496,Salthill,0,3,2,126497
+497,Roscam,1,4,2,272000
+498,Renmore,0,2,1,92000
+499,Salthill,1,3,1,411000
+500,Tirellan,1,4,2,235000

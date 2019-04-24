@@ -1,0 +1,144 @@
+/*----------------------------------------------
+    COMMON  STYLES    
+------------------------------------------------*/
+
+body {
+    font-family: 'Source Sans Pro', sans-serif;
+    position: relative;
+    margin: 0;
+    padding-bottom: 0;
+    background-color: #f4f4f4;
+
+}
+
+html {
+    height: 100%;
+    box-sizing: border-box;
+}
+
+
+.tableau {
+    margin-top: 15%;
+}
+
+#page-index {
+    width: 100%;
+    display: block;
+    overflow: auto;
+    position: relative;
+    top: 55px;
+
+}
+
+#page-index a {
+    text-decoration: none;
+    outline: 0;
+}
+
+
+.text-center {
+    text-align: center;
+}
+
+
+
+.header {
+    max-height: 180px;
+    margin: 0px;
+    background: white;
+    padding: 0 16% 0 12%;
+
+}
+
+.summary {
+    padding: 2% 0% 3% 0%;
+    color: #333333 !important;
+}
+
+
+a {
+    color: #4267b2
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+.overflow_hidden {
+    overflow: hidden !important;
+}
+
+/*----------------------------------------------
+    MEDIA QUERIES
+------------------------------------------------*/
+
+
+@media(max-width:1500px) {
+
+    .header {
+        padding-left: 15%;
+    }
+
+    .tableau {
+
+        margin-top: 25%;
+    }
+
+    .summary {
+        padding: 3% 0% 3% 0%;
+    }
+
+    .summary p {
+        font-size: 13px;
+    }
+
+    .daft_info {
+        font-size: 11px;
+    }
+}
+
+@media(max-width:1300px) {
+   .daft_info {
+        font-size: 10px;
+    }
+}
+
+@media(max-width:859px) {
+    .tableau {
+        display:none;
+    }
+
+    .summary {
+        font-size: 12px;
+    }
+
+    .daft_info {
+        display: none;
+    }
+
+}
+
+
+
+
+@media(max-width:520px) {
+
+
+    .header {
+        padding: 0%;
+    }
+
+
+
+    .summary h5 {
+        font-size: 1rem;
+    }
+
+
+    .summary p {
+        font-size: 10px;
+    }
+}
+
+
+@media(max-width:480px) {}

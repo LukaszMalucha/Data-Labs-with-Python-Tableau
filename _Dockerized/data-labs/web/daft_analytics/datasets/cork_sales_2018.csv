@@ -1,0 +1,1109 @@
+,area,type of property,bedrooms,bathrooms,price
+0,Douglas,1,3,2,380000
+1,Douglas,1,5,2,360000
+2,Blackrock,1,5,4,1050000
+3,Blackrock,1,3,2,550000
+4,Glasheen,1,3,2,375000
+5,Douglas,1,3,1,385000
+6,Lehenaghmore,1,3,1,230000
+7,Cork City,1,3,1,270000
+8,Cork City,1,3,1,220000
+9,Cork City,1,6,4,260000
+10,Blarney,1,4,2,435000
+11,Frankfield,1,3,2,330000
+12,Cork City,1,3,1,210000
+13,Cork City,1,6,2,350000
+14,Douglas,1,4,3,349000
+15,Bishopstown,1,4,1,375000
+16,Ballinlough,1,3,3,395000
+17,Ballinlough,1,3,3,395000
+18,Douglas,1,3,2,310000
+19,Gurranabraher,1,3,3,175000
+20,Bishopstown,1,4,2,395000
+21,Douglas,1,4,2,395000
+22,Togher,1,2,2,190000
+23,Ovens,1,2,2,260000
+24,Rochestown,1,3,2,340000
+25,Glasheen,1,3,1,280000
+26,Mallow,1,3,3,295000
+27,Fota,1,3,2,230000
+28,Rochestown,1,4,3,530000
+29,Glasheen,1,2,1,225000
+30,Cork City,1,4,6,600000
+31,Cork City,1,4,6,600000
+32,Cork City,1,2,2,220000
+33,Glanmire,1,1,2,250000
+34,Glanmire,1,6,4,550000
+35,Glanmire,1,6,4,550000
+36,Glanmire,1,6,4,550000
+37,Douglas,1,4,3,450000
+38,Douglas,1,4,3,450000
+39,Rochestown,1,5,4,775000
+40,Mayfield,1,3,2,260000
+41,Ballinlough,1,3,2,380000
+42,Ballinlough,1,3,2,375000
+43,Glanmire,1,3,3,195000
+44,Cork City,1,4,2,595000
+45,Bishopstown,1,3,1,300000
+46,Bishopstown,1,3,1,300000
+47,Ballyphehane,1,3,1,175000
+48,Ballyphehane,1,3,1,175000
+49,Glanmire,1,3,3,245000
+50,Glanmire,1,3,3,225000
+51,Cork City,1,5,2,300000
+52,Douglas,1,3,2,275000
+53,Bishopstown,1,4,2,580000
+54,Cork City,1,5,3,350000
+55,St. Lukes,1,3,2,260000
+56,Ballyvolane,1,3,3,240000
+57,Blackrock,1,3,2,330000
+58,Cork City,1,3,1,155000
+59,Wilton,1,8,5,465000
+60,Ballyphehane,1,3,2,265000
+61,Rochestown,1,4,3,385000
+62,Douglas,1,2,1,220000
+63,Blarney,1,5,3,379950
+64,Frankfield,1,3,3,310000
+65,Glanmire,0,2,1,170000
+66,Cork City,1,8,4,275000
+67,Cork City,1,8,4,275000
+68,Western Road,1,5,2,295000
+69,Mahon,1,3,2,180000
+70,Ballyvolane,1,4,3,290000
+71,Cork City,0,3,2,185000
+72,Rochestown,1,5,3,648000
+73,Wilton,0,2,1,185000
+74,Douglas,1,4,3,395000
+75,Douglas,1,4,3,395000
+76,The Lough,1,4,1,360000
+77,The Lough,1,4,1,360000
+78,The Lough,1,4,1,360000
+79,Rochestown,1,4,4,410000
+80,Blackrock,1,4,2,395000
+81,Cork City,1,3,2,195000
+82,Glanmire,1,3,2,245000
+83,St. Lukes,1,2,1,190000
+84,Cork City,1,5,3,350000
+85,Mayfield,1,3,2,195000
+86,Mayfield,1,3,2,195000
+87,Mayfield,1,3,2,195000
+88,Model Farm Road,1,3,1,250000
+89,Cork City,1,3,1,170000
+90,Blackpool,1,3,2,230000
+91,Cork City,0,2,2,375000
+92,Douglas,1,4,2,485000
+93,Rochestown,1,3,3,295000
+94,Wilton,1,3,1,245000
+95,Blackrock,1,2,1,185000
+96,Cork City,0,2,1,185000
+97,Glanmire,1,5,4,565000
+98,Cork City,1,2,1,125000
+99,Cork City,1,2,1,125000
+100,The Lough,1,3,2,159000
+101,Douglas,1,2,1,125000
+102,Cork City,1,5,2,325000
+103,Blackrock,1,3,1,285000
+104,Ballinlough,1,3,1,235000
+105,Togher (Cork City),1,3,1,185000
+106,Ballintemple,1,3,2,360000
+107,Cork City,1,3,2,230000
+108,Turners Cross,1,3,2,320000
+109,Ovens,1,3,2,255000
+110,Douglas,1,4,3,360000
+111,Cork City,1,4,4,220000
+112,Glanmire,1,2,1,140000
+113,Douglas,1,3,3,290000
+114,Farranree,1,3,1,145000
+115,Ballinlough,1,3,2,260000
+116,Cork City,1,3,1,250000
+117,Cork City,1,2,1,180000
+118,Farranree,1,2,2,174950
+119,Douglas,0,2,2,240000
+120,Mayfield,1,3,2,179900
+121,Passage West,1,3,3,240000
+122,Rochestown,1,5,2,650000
+123,Cork City,1,3,1,250000
+124,Cork City,1,3,2,280000
+125,Rochestown,1,2,1,249000
+126,Rochestown,1,2,1,249000
+127,Cork City,1,3,1,230000
+128,Douglas,1,4,2,625000
+129,Ballinlough,1,4,3,690000
+130,Bishopstown,1,4,2,425000
+131,Bishopstown,1,4,2,425000
+132,Bishopstown,1,4,2,425000
+133,Cork City,1,3,2,185000
+134,Glanmire,1,4,3,290000
+135,Cork City,1,3,1,155000
+136,Douglas,1,3,3,320000
+137,Glanmire,1,3,2,275000
+138,St. Lukes,1,4,4,445000
+139,Dillons Cross,1,2,1,140000
+140,Bishopstown,1,4,1,395000
+141,Blarney,1,2,1,189000
+142,Ballyvolane,1,3,2,235000
+143,Cork City,1,3,3,395000
+144,Blackrock,1,4,3,325000
+145,Blackrock,1,4,3,375000
+146,Ballinlough,1,4,2,550000
+147,Glanmire,1,3,3,247500
+148,Glanmire,1,5,4,595000
+149,Rochestown,1,3,2,269000
+150,Douglas,1,3,2,380000
+151,Togher,1,3,1,279000
+152,Bishopstown,1,4,2,385000
+153,Fairhill,1,2,1,170000
+154,Grange,1,3,2,265000
+155,Silversprings,1,3,3,295000
+156,Tivoli,1,3,3,295000
+157,Ovens,1,3,1,240000
+158,Rochestown,1,4,2,270000
+159,Glanmire,1,3,1,245000
+160,Blackpool,0,2,2,185000
+161,Wilton,1,3,3,245000
+162,Togher,1,3,1,295000
+163,Cork City,1,3,2,230000
+164,Turners Cross,1,3,1,245000
+165,St. Lukes,1,3,1,240000
+166,Cork City,0,2,1,200000
+167,Douglas,1,3,1,290000
+168,Blackrock,1,3,1,360000
+169,Cork City,1,3,1,180000
+170,Douglas,0,2,1,195000
+171,Little Island,1,3,2,230000
+172,Ballyvolane,1,3,1,265000
+173,Cork City,1,4,3,385000
+174,Montenotte,1,4,2,450000
+175,Cork City,0,1,1,300000
+176,Blarney,1,3,3,259000
+177,Turners Cross,1,3,1,270000
+178,Glanmire,1,4,3,550000
+179,Rochestown,1,3,3,380000
+180,Rochestown,1,3,3,380000
+181,Rochestown,1,3,3,380000
+182,Ballyvolane,1,3,1,295000
+183,Curraheen,1,3,2,235000
+184,Curraheen,1,3,2,235000
+185,Fairhill,1,5,2,230000
+186,Cork City,1,2,1,175000
+187,Rochestown,1,3,3,240000
+188,Little Island,1,3,3,249950
+189,Little Island,1,3,3,249950
+190,Cork City,1,4,2,210000
+191,Glanmire,1,4,3,385000
+192,Cork City,1,4,4,220000
+193,Cork City,1,4,4,220000
+194,Douglas,1,4,1,475000
+195,Passage West,1,6,5,605000
+196,Ballintemple,1,2,1,235000
+197,Bishopstown,1,4,2,555000
+198,Douglas,1,3,2,280000
+199,Blackrock,1,3,1,310000
+200,Glanmire,1,4,3,285000
+201,Douglas,1,4,3,400000
+202,Cork City,1,5,2,380000
+203,Cork City,1,3,1,135000
+204,Cork City,1,3,2,330000
+205,Passage West,0,2,2,145000
+206,Douglas,1,4,4,580000
+207,Ovens,1,3,2,279000
+208,Ovens,1,3,2,279000
+209,Ovens,1,3,2,279000
+210,Sunday's Well,1,3,1,325000
+211,Sunday's Well,1,3,2,325000
+212,Wilton,0,3,1,225000
+213,Glasheen,1,3,1,259000
+214,Cork City,1,2,1,170000
+215,The Lough,1,3,2,350000
+216,Blackpool,0,2,2,225000
+217,Douglas,1,3,2,270000
+218,Douglas,1,3,2,270000
+219,Glanmire,1,4,3,299000
+220,Cork City,1,4,1,160000
+221,Ballyvolane,1,3,1,230000
+222,Cork City,1,2,1,225000
+223,Rochestown,1,4,2,430000
+224,Blackrock,1,3,2,380000
+225,Blackrock,1,3,2,380000
+226,Glanmire,1,4,3,475000
+227,Douglas,1,1,1,160000
+228,Glanmire,1,4,3,295000
+229,Cork City,1,5,1,185000
+230,Wilton,1,3,1,310000
+231,Douglas,0,3,3,260000
+232,Killeens,1,4,3,385000
+233,Blackrock,0,2,1,225000
+234,Cork City,0,1,1,149000
+235,Glanmire,1,6,6,795000
+236,Blackpool,1,3,1,170000
+237,Blackpool,1,3,1,170000
+238,Cork City,1,5,3,235000
+239,Lehenaghmore,1,4,4,445000
+240,Douglas,1,3,2,285000
+241,Douglas,1,3,2,285000
+242,Douglas,1,5,5,1400000
+243,St. Lukes,1,3,3,249500
+244,Montenotte,1,4,4,450000
+245,Douglas,1,2,2,255000
+246,Blarney,1,3,2,250000
+247,Ballyvolane,1,3,3,255000
+248,Douglas,1,4,2,485000
+249,Wilton,1,4,2,245000
+250,Bishopstown,1,5,2,359000
+251,Frankfield,1,3,2,290000
+252,Cork City,1,3,1,180000
+253,Glanmire,1,4,2,265000
+254,Ballyvolane,1,3,3,280000
+255,The Lough,1,3,1,330000
+256,Ballinlough,0,2,1,240000
+257,Rochestown,0,2,2,195000
+258,Douglas,1,3,1,285000
+259,Douglas,1,1,1,175000
+260,Cork City,1,2,1,180000
+261,Cork City,1,3,1,215000
+262,Glanmire,1,4,3,330000
+263,Glanmire,1,4,3,330000
+264,Glanmire,1,4,3,330000
+265,Turners Cross,1,3,3,290000
+266,Cork City,0,2,1,215000
+267,Bishopstown,1,4,2,375000
+268,Bishopstown,1,4,2,430000
+269,Cork City,1,2,1,95000
+270,Rochestown,1,3,1,295000
+271,Rochestown,1,3,1,295000
+272,Rochestown,1,3,1,295000
+273,Cork City,1,3,2,180000
+274,Cork City,1,2,1,180000
+275,Blackrock,1,2,1,170000
+276,Blackrock,1,2,1,170000
+277,Cork City,1,1,1,75000
+278,Cork City,1,1,1,75000
+279,Douglas,1,6,5,895000
+280,Cork City,1,2,1,165000
+281,Douglas,1,4,2,225000
+282,St. Lukes,1,3,1,230000
+283,Bishopstown,1,5,3,325000
+284,Bishopstown,1,5,3,325000
+285,Bishopstown,1,5,3,325000
+286,Cork City,0,2,2,165000
+287,Cork City,0,2,1,160000
+288,Little Island,1,4,2,240000
+289,Douglas,1,3,1,275000
+290,Rochestown,0,2,1,220000
+291,Turners Cross,1,3,1,160000
+292,Cork City,1,3,2,160000
+293,Fairhill,1,3,1,110000
+294,Fairhill,1,3,1,110000
+295,Blarney,1,4,3,395000
+296,Cork City,0,1,1,165000
+297,Cork City,1,3,1,160000
+298,Douglas,1,3,2,330000
+299,Blackrock,1,3,1,275000
+300,Cork City,1,2,1,150000
+301,Cork City,1,2,2,215000
+302,Cork City,1,5,4,285000
+303,Douglas,1,3,1,235000
+304,Douglas,1,4,3,345000
+305,Turners Cross,1,3,1,200000
+306,Douglas,1,2,1,230000
+307,Rochestown,1,2,2,255000
+308,Ballintemple,1,3,1,345000
+309,Bishopstown,1,4,2,425000
+310,Cork City,1,4,3,195000
+311,Bishopstown,1,3,1,280000
+312,Glanmire,1,4,3,325000
+313,Douglas,1,4,2,335000
+314,Douglas,1,4,3,340000
+315,Cork City,1,2,1,195000
+316,Mayfield,1,3,1,195000
+317,Blackpool,1,3,2,240000
+318,Douglas,1,4,3,320000
+319,Douglas,1,4,3,320000
+320,Cork City,0,2,1,175000
+321,Glanmire,1,4,2,285000
+322,Glanmire,1,4,2,285000
+323,Rochestown,0,2,2,189000
+324,Ballyvolane,1,3,1,225000
+325,Wilton,1,3,1,240000
+326,Blackrock,1,4,3,350000
+327,Wilton,1,2,1,350000
+328,Glanmire,0,3,2,215000
+329,Rochestown,0,2,2,260000
+330,Rochestown,0,2,2,260000
+331,Bishopstown,1,4,1,475000
+332,Cork City,1,5,3,395000
+333,Blackrock,1,3,2,565000
+334,Gurranabraher,1,2,1,175000
+335,Dublin Pike,1,6,4,725000
+336,Mayfield,1,4,1,220000
+337,Bishopstown,1,4,2,450000
+338,Cork City,1,2,2,195000
+339,Passage West,1,3,1,220000
+340,St. Lukes,1,3,2,295000
+341,Glanmire,1,4,3,325000
+342,Ballinlough,1,5,1,290000
+343,Passage West,1,3,2,250000
+344,Passage West,1,3,2,237500
+345,Blackrock,1,4,3,390000
+346,Blackrock,1,4,3,390000
+347,Glasheen,1,4,2,295000
+348,Cork City,1,4,1,310000
+349,Cork City,1,2,1,175000
+350,Cork City,1,3,3,250000
+351,Bishopstown,1,3,2,360000
+352,Glanmire,1,4,3,295000
+353,Glanmire,1,4,3,295000
+354,Glanmire,1,4,3,295000
+355,Douglas,1,4,3,385000
+356,Frankfield,1,4,3,385000
+357,Passage West,1,5,5,575000
+358,Lehenaghmore,1,4,3,360000
+359,Cork City,0,2,1,210000
+360,Blarney,1,4,2,350000
+361,Douglas,1,4,3,575000
+362,Blackrock,1,2,1,180000
+363,Cork City,1,3,4,300000
+364,Ballyvolane,1,5,2,280000
+365,Douglas,0,2,1,169000
+366,Ballyvolane,1,3,1,210000
+367,Ballyvolane,1,3,1,210000
+368,Killeens,1,3,2,190000
+369,Cork City,1,3,2,245000
+370,Togher (Cork City),0,8,4,395000
+371,Douglas,1,3,2,275000
+372,Wilton,1,2,1,160000
+373,Rochestown,1,2,3,260000
+374,Mahon,0,3,3,235000
+375,Blackrock,0,2,2,190000
+376,Cork City,1,2,1,165000
+377,Ballyphehane,1,3,1,250000
+378,Cork City,0,3,2,235000
+379,Cork City,0,3,2,235000
+380,Farran,1,5,3,480000
+381,The Lough,1,3,1,265000
+382,Ovens,0,2,2,195000
+383,Ovens,0,2,2,195000
+384,Cork City,0,2,1,165000
+385,Cork City,0,2,1,165000
+386,Cork City,0,3,1,220000
+387,Cork City,0,3,2,249900
+388,Douglas,0,2,1,169000
+389,Douglas,0,3,2,205000
+390,Cork City,0,2,2,125000
+391,Cork City,0,2,1,125000
+392,Douglas,0,2,2,250000
+393,Bishopstown,0,2,2,240000
+394,Donoughmore,1,5,3,320000
+395,Blackrock,1,6,3,1275000
+396,Waterfall,1,3,1,249000
+397,Ballinlough,1,3,1,380000
+398,Blarney,1,4,4,420000
+399,Waterfall,1,5,4,595000
+400,Blackrock,1,4,2,790000
+401,Ballyvolane,1,4,2,285000
+402,Glasheen,1,7,2,360000
+403,Turners Cross,1,4,2,275000
+404,Glanmire,1,4,4,495000
+405,Ballintemple,1,2,1,365000
+406,Dublin Pike,1,5,4,550000
+407,Carrigrohane,1,4,2,1600000
+408,The Lough,1,4,3,375000
+409,Ovens,1,4,3,450000
+410,Inniscarra,1,4,2,475000
+411,Bishopstown,1,4,4,749000
+412,Ovens,1,6,4,485000
+413,Rochestown,1,4,1,385000
+414,Douglas,1,6,4,1050000
+415,Glanmire,1,4,3,490000
+416,Glanmire,1,5,5,650000
+417,Blackrock,1,6,7,2150000
+418,Glanmire,1,4,2,475000
+419,Rathpeacon,1,4,3,320000
+420,Douglas,1,3,2,255000
+421,Bishopstown,1,3,3,360000
+422,Wilton,1,3,3,229950
+423,Little Island,1,4,4,450000
+424,Clogheen,1,4,3,545000
+425,Ballinlough,1,3,2,399000
+426,Bishopstown,1,4,1,325000
+427,Fairhill,1,3,1,110000
+428,Fairhill,1,3,1,110000
+429,Bishopstown,1,4,2,294950
+430,Waterfall,1,4,2,450000
+431,Bishopstown,1,5,2,275000
+432,Glanmire,1,4,3,375000
+433,Glanmire,1,3,3,365000
+434,Glanmire,1,5,3,495000
+435,Passage West,1,3,2,160000
+436,Douglas,1,4,3,400000
+437,Cork City,1,3,1,250000
+438,Blackrock,1,3,2,380000
+439,Blackrock,1,4,3,425000
+440,Blackrock,1,5,4,740000
+441,Blackrock,1,5,4,650000
+442,Glanmire,1,4,4,475000
+443,Douglas,1,5,6,1250000
+444,Douglas,1,5,6,1250000
+445,Douglas,1,5,6,1250000
+446,Turners Cross,1,5,1,700000
+447,Douglas,1,3,2,355000
+448,Rochestown,1,4,4,610000
+449,Blarney,1,3,1,265000
+450,Blarney,1,4,2,350000
+451,Glanmire,1,7,6,450000
+452,Ovens,1,4,2,380000
+453,Ovens,1,4,2,380000
+454,Turners Cross,1,3,1,265000
+455,Blarney,1,5,2,350000
+456,Montenotte,1,3,1,335000
+457,Model Farm Road,1,4,4,795000
+458,Bishopstown,1,3,2,375000
+459,Farranree,1,3,2,155000
+460,Farranree,1,3,2,155000
+461,Douglas,1,5,4,1350000
+462,Douglas,1,5,4,1350000
+463,Douglas,1,5,4,1350000
+464,Douglas,1,5,4,1350000
+465,Blackrock,1,4,3,395000
+466,Blackrock,1,4,3,395000
+467,Blackrock,1,4,3,395000
+468,Blackrock,1,4,3,395000
+469,Cork City,1,4,1,275000
+470,Cork City,1,4,1,275000
+471,Mayfield,1,5,1,345000
+472,The Lough,1,3,2,295000
+473,Tivoli,1,4,3,640000
+474,Douglas,0,2,2,230000
+475,Frankfield,1,6,3,395000
+476,Blarney,1,4,3,395000
+477,Rathpeacon,1,5,4,300000
+478,Rathpeacon,1,6,2,260000
+479,Model Farm Road,1,3,2,595000
+480,Model Farm Road,1,3,2,595000
+481,Glanmire,1,4,4,475000
+482,Blarney,1,3,1,319950
+483,Blarney,1,3,1,319950
+484,Curraheen,1,4,2,294950
+485,St. Lukes,1,6,3,650000
+486,Blarney,1,4,3,399999
+487,Douglas,1,4,3,349000
+488,Cork City,1,3,2,750000
+489,Glanmire,1,4,4,365000
+490,The Lough,1,3,3,360000
+491,The Lough,1,3,3,360000
+492,Glanmire,1,4,3,275000
+493,Douglas,1,2,2,230000
+494,Bishopstown,1,4,2,420000
+495,Bishopstown,1,4,2,420000
+496,Bishopstown,1,4,2,420000
+497,Waterfall,1,4,4,550000
+498,Douglas,1,4,3,425000
+499,Douglas,1,4,3,425000
+500,Rochestown,1,4,3,425000
+501,Blackrock,1,4,3,399000
+502,Blackrock,1,4,3,399000
+503,Ovens,1,4,4,695000
+504,Cloghroe,1,2,1,230000
+505,Blarney,1,4,2,1950000
+506,Ovens,1,5,2,595000
+507,Tivoli,1,4,3,795000
+508,Carrigrohane,1,6,5,1450000
+509,Ballintemple,1,3,1,385000
+510,Bishopstown,1,5,4,750000
+511,Cork City,0,2,1,185000
+512,Douglas,1,3,1,285000
+513,Ballyphehane,1,3,1,235000
+514,Rochestown,1,5,3,645000
+515,Tivoli,1,5,2,650000
+516,Togher,1,4,2,395000
+517,Fairhill,1,3,1,155000
+518,Carrigrohane,1,3,1,275000
+519,Douglas,1,3,3,465000
+520,Turners Cross,1,4,1,235000
+521,Wilton,1,4,2,475000
+522,St. Lukes,1,3,2,445000
+523,Ballintemple,1,2,2,300000
+524,Blackrock,1,3,2,295000
+525,Douglas,1,4,3,225000
+526,Bishopstown,1,4,4,560000
+527,Bishopstown,1,4,4,560000
+528,Bishopstown,1,4,4,560000
+529,Tivoli,1,2,2,270000
+530,Inniscarra,1,2,1,180000
+531,Blackrock,1,4,3,350000
+532,Blackrock,1,5,2,550000
+533,Rochestown,1,4,5,1150000
+534,Blarney,1,2,1,200000
+535,Carrigrohane,1,4,3,800000
+536,Carrigrohane,1,4,3,790000
+537,Carrigrohane,1,4,3,680000
+538,Carrigrohane,1,4,3,435000
+539,Wilton,1,5,3,650000
+540,Turners Cross,1,3,2,280000
+541,Model Farm Road,1,5,2,785000
+542,Rochestown,1,5,4,995000
+543,Glanmire,1,4,2,495000
+544,Inniscarra,1,5,3,515000
+545,Glasheen,1,3,1,295000
+546,Cloghroe,1,3,1,275000
+547,Togher (Cork City),1,4,4,320000
+548,Rochestown,0,2,2,345000
+549,Douglas,0,3,3,306000
+550,Montenotte,1,3,1,345000
+551,Douglas,0,2,2,220000
+552,Tivoli,1,2,1,237000
+553,Rochestown,1,5,3,410000
+554,Lehenaghmore,1,4,3,507500
+555,Blarney,1,4,4,400000
+556,Douglas,1,3,3,297000
+557,Fota,1,2,2,185000
+558,Douglas,1,3,1,243000
+559,Cork City,0,2,1,165000
+560,Blarney,1,4,3,350000
+561,Glanmire,1,3,3,325000
+562,Ballyphehane,1,2,1,210000
+563,Passage West,0,2,2,171000
+564,Glanmire,1,5,3,540000
+565,Victoria Cross,1,3,1,240000
+566,Bishopstown,1,3,1,288000
+567,Wilton,1,4,2,460000
+568,St. Lukes,1,5,2,501500
+569,Western Road,1,4,4,415000
+570,Rochestown,1,4,2,395000
+571,Passage West,1,3,2,268000
+572,Mahon,1,2,1,140500
+573,Western Road,1,7,7,415000
+574,Blackpool,1,2,1,87000
+575,Tivoli,0,2,2,205000
+576,Togher,1,3,2,301000
+577,Blarney,1,3,1,152000
+578,Ballyvolane,1,4,3,310000
+579,Bishopstown,1,4,2,382000
+580,Rochestown,1,4,3,397500
+581,Wilton,0,3,2,164000
+582,Glanmire,0,2,1,170000
+583,Glanmire,1,4,3,300000
+584,Glasheen,1,2,1,235500
+585,Blackrock,1,2,1,177500
+586,Ovens,1,3,1,290000
+587,Cork City,0,2,1,245000
+588,Bishopstown,1,3,1,270000
+589,St. Lukes,1,3,1,318000
+590,Passage West,0,3,2,195000
+591,Blarney,1,3,2,270000
+592,Wilton,1,4,1,198000
+593,Ballyvolane,1,3,2,250000
+594,Passage West,1,3,1,217000
+595,Douglas,1,3,2,265000
+596,Model Farm Road,0,3,2,163000
+597,Douglas,0,2,2,243000
+598,Douglas,1,4,3,480000
+599,Wilton,1,4,2,295000
+600,Blarney,1,4,2,267000
+601,Douglas,1,3,1,268000
+602,Cork City,1,4,1,347000
+603,Passage West,1,5,3,266000
+604,Blarney,1,3,3,265000
+605,Ballyvolane,1,3,2,295000
+606,Blarney,1,4,3,360000
+607,Rochestown,0,2,2,220000
+608,Passage West,1,3,2,235000
+609,Bishopstown,1,3,3,289000
+610,Douglas,1,3,1,250000
+611,Blackrock,1,4,3,706500
+612,Cork City,1,5,4,600000
+613,Cork City,1,3,1,170000
+614,Douglas,1,3,1,330000
+615,Fairhill,1,3,2,147000
+616,Little Island,1,3,3,271000
+617,Turners Cross,1,3,2,324685
+618,Douglas,1,4,2,765000
+619,Passage West,1,3,2,217000
+620,Blarney,1,3,3,295000
+621,Blackrock,1,2,1,260000
+622,Ovens,1,4,2,425000
+623,Rochestown,1,4,3,465000
+624,Ballintemple,1,3,3,355000
+625,Rochestown,1,4,3,450000
+626,Killeens,1,3,3,270000
+627,Rochestown,1,4,3,427500
+628,Ballyvolane,1,3,1,213000
+629,Ballinlough,1,3,2,360000
+630,Rochestown,1,3,3,325000
+631,Wilton,1,4,2,286000
+632,Gurranabraher,1,3,2,220000
+633,Ballintemple,1,5,2,605000
+634,Fairhill,1,2,2,90000
+635,Model Farm Road,1,4,3,340000
+636,Ovens,1,4,4,419000
+637,Douglas,1,5,4,382000
+638,Little Island,1,2,1,172000
+639,Glanmire,1,4,3,465000
+640,Douglas,1,3,3,280000
+641,Wilton,1,5,2,170000
+642,Passage West,1,3,1,100000
+643,Blackrock,1,4,2,865000
+644,Douglas,1,3,3,256162
+645,Rochestown,1,4,3,595000
+646,Glanmire,1,4,1,285000
+647,Douglas,0,3,3,275000
+648,Ballyvolane,1,5,3,299000
+649,Wilton,0,2,1,151000
+650,Shanakiel,1,4,3,320000
+651,Glanmire,1,3,2,215000
+652,Douglas,1,3,1,345000
+653,Passage West,1,3,2,246000
+654,Togher,1,3,1,180000
+655,Ovens,1,4,4,405000
+656,Blackrock,1,7,6,830000
+657,Ballinlough,0,2,2,250000
+658,Douglas,1,4,2,675000
+659,Cork City,1,3,1,325000
+660,Banduff,1,3,2,220000
+661,Bishopstown,1,4,2,275000
+662,Douglas,0,3,3,250000
+663,Douglas,1,3,2,235000
+664,Killeens,1,3,3,225000
+665,Cork City,1,2,1,220000
+666,Wilton,0,2,1,180000
+667,Western Road,0,3,3,640000
+668,Douglas,1,3,3,281000
+669,Douglas,1,3,4,365000
+670,Glanmire,1,6,4,380000
+671,Tivoli,0,1,1,140000
+672,Glasheen,0,2,1,130500
+673,Rochestown,1,3,2,320000
+674,Douglas,0,2,2,170000
+675,Hollyhill,1,3,1,170000
+676,Douglas,0,2,1,170000
+677,Glanmire,1,3,3,260000
+678,Blarney,1,5,3,165000
+679,Carrigrohane,1,5,3,457000
+680,Wilton,1,2,1,230000
+681,Ballyvolane,1,3,1,242000
+682,Glanmire,1,2,2,195000
+683,Bishopstown,1,4,1,312500
+684,Bishopstown,0,2,2,250000
+685,Bishopstown,0,2,2,242000
+686,Montenotte,1,4,3,422000
+687,Douglas,1,3,1,456000
+688,Rochestown,1,3,1,275000
+689,Ovens,1,4,3,440000
+690,Wilton,1,3,3,270000
+691,Douglas,0,2,3,275000
+692,Blackpool,1,2,1,129000
+693,Glanmire,1,3,2,277500
+694,Togher,1,3,1,300000
+695,Glanmire,1,4,1,570000
+696,Rochestown,1,3,3,332000
+697,Douglas,1,3,1,295000
+698,Ovens,1,3,3,271000
+699,Douglas,1,3,1,300000
+700,Rochestown,1,3,3,300000
+701,Ballyphehane,1,3,1,215000
+702,Glanmire,1,6,3,1220000
+703,Glanmire,1,4,3,315000
+704,Dillons Cross,1,3,1,140000
+705,Cork City,1,4,2,195000
+706,Togher,1,2,1,178000
+707,Cork City,1,2,2,195000
+708,Rochestown,1,2,3,275000
+709,Cork City,0,2,2,291000
+710,Hollyhill,1,3,3,110000
+711,Passage West,1,3,3,235000
+712,Glanmire,1,4,2,150000
+713,Douglas,1,1,1,167000
+714,Douglas,1,3,1,1400000
+715,Douglas,1,2,1,170000
+716,Rochestown,1,2,1,259000
+717,Rochestown,1,3,3,320000
+718,Douglas,1,3,2,380000
+719,St. Lukes,1,1,1,130000
+720,Douglas,1,3,1,260000
+721,Douglas,0,2,1,225000
+722,Passage West,1,3,2,266000
+723,Wilton,1,3,1,295000
+724,Douglas,1,3,3,290000
+725,Rochestown,1,4,3,635000
+726,Glanmire,1,4,3,305000
+727,Cork City,1,2,1,125000
+728,Douglas,1,4,3,415000
+729,Shanakiel,1,3,1,192000
+730,Cork City,1,2,2,160000
+731,Glanmire,1,5,4,350000
+732,Douglas,1,2,1,203000
+733,Bishopstown,1,4,2,419000
+734,Douglas,1,3,3,325500
+735,Douglas,1,3,1,317000
+736,Montenotte,1,2,1,195000
+737,Blarney,1,4,3,357500
+738,Blackrock,0,2,1,211000
+739,Ovens,1,3,3,230000
+740,Passage West,1,3,2,235000
+741,Mayfield,1,3,2,190000
+742,Cork City,1,3,2,253000
+743,Western Road,0,1,2,285000
+744,Douglas,0,2,2,303000
+745,Blarney,1,3,2,205000
+746,Douglas,1,3,2,350000
+747,Cork City,1,3,2,257000
+748,Bishopstown,1,3,1,300000
+749,Douglas,1,3,1,310000
+750,Glanmire,1,4,4,360000
+751,Douglas,1,2,1,156700
+752,Ovens,1,3,1,270000
+753,Douglas,1,3,1,265000
+754,Gurranabraher,1,3,1,242500
+755,Glasheen,0,2,1,215000
+756,Togher,1,3,1,140000
+757,Bishopstown,1,4,1,325000
+758,Silversprings,1,3,3,244500
+759,Blackrock,1,2,1,190000
+760,Douglas,1,3,2,290000
+761,Turners Cross,1,3,1,206000
+762,Glanmire,1,3,3,285000
+763,Blarney,1,3,2,225000
+764,Ovens,1,4,3,350000
+765,Wilton,1,4,1,247500
+766,Rochestown,0,2,1,240000
+767,Farranree,1,3,1,170000
+768,Rochestown,1,3,1,330000
+769,Glanmire,1,4,3,363602
+770,Rochestown,1,3,3,265000
+771,Blackrock,1,3,1,240000
+772,Blarney,1,3,3,187500
+773,Douglas,1,2,1,540000
+774,Turners Cross,1,3,2,180000
+775,Rochestown,1,3,1,239000
+776,Passage West,1,4,3,325000
+777,Cork City,1,9,2,335000
+778,Passage West,1,2,2,165000
+779,Ballinlough,1,3,2,370000
+780,Cork City,1,2,1,50000
+781,Douglas,1,3,1,245000
+782,Little Island,1,3,3,238000
+783,Glanmire,1,3,2,252000
+784,Douglas,1,3,3,317000
+785,Ballinlough,1,3,1,330000
+786,Douglas,1,3,1,260000
+787,Wilton,1,4,2,400000
+788,Blackrock,1,3,1,217000
+789,Blarney,1,3,2,225000
+790,Farranree,1,3,1,160000
+791,Waterfall,1,3,3,550000
+792,Hollyhill,1,3,3,120000
+793,Blackrock,1,3,1,270000
+794,Bishopstown,1,3,1,300000
+795,Blarney,1,4,3,270000
+796,Blarney,1,3,1,192000
+797,Mayfield,1,3,1,166000
+798,Ballyvolane,1,3,1,282500
+799,Rochestown,1,2,2,265000
+800,Blarney,1,5,7,680000
+801,Ballinlough,1,3,1,318100
+802,Ballinlough,1,3,2,350000
+803,Blackrock,1,3,1,385000
+804,Turners Cross,1,5,1,350000
+805,Douglas,1,3,1,252000
+806,Glanmire,1,4,3,295000
+807,Glanmire,1,3,1,207000
+808,Rochestown,0,2,2,215000
+809,Blackpool,1,2,1,60000
+810,Blackpool,1,2,1,125000
+811,Ovens,0,3,2,184245
+812,Ovens,1,4,3,405000
+813,Model Farm Road,1,2,3,237000
+814,Rochestown,1,4,4,692350
+815,Ballyvolane,1,3,2,255000
+816,Wilton,1,3,2,255000
+817,Glasheen,1,3,1,280000
+818,Little Island,1,4,2,237000
+819,Blarney,1,3,1,130000
+820,Passage West,1,3,3,248000
+821,Donnybrook,1,3,2,246000
+822,Glanmire,1,2,1,210000
+823,Passage West,1,4,3,290000
+824,Hollyhill,1,3,2,130000
+825,Wilton,1,5,3,330000
+826,Glanmire,1,4,3,255000
+827,Ballyphehane,1,3,2,200000
+828,Blackrock,1,4,3,665000
+829,Fota,1,3,3,215000
+830,Cork City,0,1,1,118943
+831,Blackpool,1,2,1,70500
+832,Douglas,1,3,2,310000
+833,Rochestown,0,1,1,180200
+834,Cork City,0,2,1,202000
+835,Passage West,1,5,3,325000
+836,Douglas,1,4,2,430000
+837,Douglas,1,3,3,223000
+838,Tivoli,1,3,3,247500
+839,Wilton,1,3,1,220000
+840,Douglas,1,4,2,115500
+841,Glanmire,1,3,3,255000
+842,Glasheen,1,3,2,280000
+843,Blackrock,1,3,2,287500
+844,Little Island,1,4,3,267000
+845,Blarney,1,3,2,230000
+846,Ballyvolane,1,3,1,179700
+847,Cork City,0,2,1,175000
+848,Blackpool,0,2,1,123000
+849,Douglas,1,3,1,470000
+850,Glasheen,1,3,1,234000
+851,Blackpool,1,4,2,107500
+852,Gurranabraher,1,3,1,175000
+853,Glanmire,1,4,3,270000
+854,Douglas,1,4,3,420000
+855,Douglas,1,3,1,380000
+856,Cork City,1,3,1,210000
+857,Ballyphehane,1,3,2,210000
+858,Rochestown,1,3,3,322000
+859,Glanmire,0,2,2,126000
+860,Glasheen,1,3,1,270000
+861,Victoria Cross,1,3,2,315000
+862,Victoria Cross,1,3,2,315000
+863,Rochestown,1,3,2,210000
+864,Blackrock,0,3,1,195000
+865,Dillons Cross,1,2,1,123000
+866,Fota,1,4,4,275000
+867,Douglas,1,4,3,605000
+868,Glanmire,1,3,2,295000
+869,Donnybrook,1,3,3,250000
+870,Passage West,1,5,3,330000
+871,Blackrock,1,3,1,285000
+872,Douglas,1,4,2,440000
+873,Rochestown,1,3,1,290000
+874,Glanmire,1,3,1,235000
+875,Bishopstown,1,4,2,450000
+876,Passage West,1,4,4,940000
+877,Douglas,1,3,3,263000
+878,Douglas,0,2,2,252500
+879,Rathpeacon,1,3,1,220000
+880,Douglas,1,3,2,240000
+881,Ballyvolane,1,4,2,285000
+882,Blackrock,1,3,2,400000
+883,Blackrock,0,2,1,230000
+884,Bishopstown,1,4,2,430000
+885,Ballyphehane,1,3,1,222000
+886,Bishopstown,1,4,2,300000
+887,Blarney,1,5,3,380000
+888,Wilton,1,3,1,285000
+889,Douglas,0,3,1,295000
+890,Douglas,0,3,3,271000
+891,Rochestown,1,2,3,280000
+892,Passage West,1,2,2,206250
+893,Rochestown,1,4,2,467500
+894,Glanmire,1,3,3,240000
+895,Ballinlough,1,3,2,295000
+896,Rochestown,1,3,3,340000
+897,Rochestown,1,4,2,410000
+898,Cork City,1,3,2,195000
+899,Rochestown,1,4,2,479000
+900,Model Farm Road,1,2,2,225000
+901,Blackrock,0,2,2,250000
+902,Ovens,0,2,2,192500
+903,Douglas,1,3,2,315500
+904,Ovens,1,4,2,405000
+905,Glanmire,1,4,3,260000
+906,Model Farm Road,1,3,1,222000
+907,Bishopstown,1,4,2,365000
+908,Cork City,1,3,2,216785
+909,Rochestown,1,3,2,34529
+910,Rochestown,1,3,2,275000
+911,Douglas,1,4,3,415000
+912,Ovens,1,4,3,650000
+913,Douglas,0,3,3,230000
+914,Killeens,1,4,3,212000
+915,Douglas,1,3,1,200000
+916,Douglas,1,3,2,265000
+917,Passage West,1,2,2,127500
+918,Ballyvolane,1,5,5,419950
+919,Douglas,1,3,3,180909
+920,Douglas,1,5,4,950000
+921,Togher,1,4,2,205000
+922,Rochestown,1,2,1,145000
+923,Douglas,1,4,2,310000
+924,Ovens,1,3,2,240000
+925,Mahon,1,3,1,173500
+926,Cork City,1,2,1,134000
+927,Ballinlough,1,3,3,270000
+928,Douglas,0,2,2,220000
+929,Blarney,0,2,1,215000
+930,Blackpool,0,3,2,90000
+931,Douglas,1,3,1,455000
+932,Passage West,0,2,2,160000
+933,Model Farm Road,0,3,3,225000
+934,Cloghroe,1,4,2,100000
+935,Blackrock,1,4,4,755000
+936,Douglas,1,4,2,418000
+937,Ovens,1,3,3,290000
+938,Rochestown,1,3,1,310000
+939,Killeens,1,5,4,520000
+940,Blackrock,1,3,3,393000
+941,Glanmire,1,4,2,310000
+942,Wilton,1,3,2,227000
+943,Glasheen,0,2,1,180000
+944,Cork City,1,2,1,118000
+945,Douglas,1,3,2,248000
+946,Ballinlough,1,4,1,370000
+947,Little Island,1,4,3,220000
+948,Togher,1,3,1,230000
+949,Douglas,1,3,2,290000
+950,Wilton,1,3,1,260000
+951,Glanmire,1,3,3,270000
+952,Blackrock,0,3,2,250000
+953,Bishopstown,1,3,1,269000
+954,Rochestown,1,3,1,194000
+955,Ballinlough,1,3,1,265000
+956,Wilton,1,3,1,201848
+957,Rochestown,0,2,1,185000
+958,Ovens,1,4,2,360000
+959,Blackrock,1,3,1,360000
+960,Ovens,1,3,1,227000
+961,Fairhill,1,3,1,160000
+962,Blackrock,1,3,1,380000
+963,Blarney,1,3,1,226000
+964,Ovens,1,4,2,275000
+965,Wilton,1,3,1,235000
+966,Banduff,1,4,3,210000
+967,Wilton,1,4,2,265000
+968,Grange,1,4,3,278000
+969,Ballinlough,1,3,2,325000
+970,Ballyvolane,1,3,3,270000
+971,Wilton,0,2,2,220000
+972,Cork City,1,2,1,155000
+973,Passage West,0,2,1,164500
+974,Glanmire,1,4,3,370000
+975,Douglas,1,4,1,350000
+976,Wilton,1,3,3,250000
+977,Glanmire,1,4,2,285000
+978,Douglas,1,2,1,251000
+979,Passage West,0,2,2,123000
+980,Douglas,1,3,3,306450
+981,Douglas,1,5,3,770000
+982,Glanmire,1,4,2,475000
+983,Douglas,1,3,3,310000
+984,Blackrock,1,2,2,295000
+985,Blackrock,1,4,3,1500000
+986,Donnybrook,1,3,2,190000
+987,Togher,1,3,1,215000
+988,Ovens,1,3,1,237500
+989,Wilton,0,3,1,185000
+990,Cork City,1,3,1,960000
+991,Rochestown,1,2,1,195000
+992,Hollyhill,1,3,2,180000
+993,Douglas,1,4,4,425380
+994,Ovens,1,3,2,225000
+995,Douglas,1,4,2,720000
+996,Mahon,1,2,1,112500
+997,Glanmire,1,5,2,490000
+998,Glanmire,1,2,1,166000
+999,Blackrock,1,3,1,347500
+1000,Wilton,0,2,2,195000
+1001,Ovens,1,3,3,236000
+1002,Cork City,1,2,1,165000
+1003,Gurranabraher,1,3,1,140000
+1004,Passage West,1,4,3,280000
+1005,Rochestown,1,3,3,302000
+1006,Passage West,1,4,3,275000
+1007,Blarney,1,4,2,275000
+1008,Douglas,1,3,2,319500
+1009,Turners Cross,1,3,2,190000
+1010,Rochestown,1,3,3,260000
+1011,Ballyvolane,1,3,2,267500
+1012,Banduff,1,3,3,243000
+1013,Cork City,1,3,2,180000
+1014,Donnybrook,1,3,3,280000
+1015,Ballinlough,1,3,1,320000
+1016,Glanmire,1,3,1,215000
+1017,Passage West,1,3,2,245000
+1018,Blackrock,1,4,3,1525000
+1019,Rochestown,1,5,5,595000
+1020,Ballyvolane,1,3,3,170000
+1021,Wilton,1,4,2,280000
+1022,Wilton,1,5,2,300000
+1023,Glanmire,1,4,3,294000
+1024,Ballinlough,1,3,2,333000
+1025,Waterfall,1,3,2,312500
+1026,Douglas,1,3,3,270000
+1027,Ovens,1,4,3,335000
+1028,Rochestown,1,3,2,350000
+1029,Ballintemple,1,2,2,197000
+1030,Cork City,1,5,2,150000
+1031,Blarney,1,2,2,207000
+1032,Douglas,1,3,2,270000
+1033,Rochestown,0,2,1,215000
+1034,Rochestown,1,3,3,335000
+1035,Wilton,0,2,1,219000
+1036,Douglas,0,2,2,250000
+1037,Glasheen,1,4,2,290000
+1038,Rochestown,1,3,3,319000
+1039,Passage West,1,2,1,100000
+1040,Wilton,0,2,2,215000
+1041,Tivoli,1,3,1,230000
+1042,Lehenaghmore,1,3,2,268000
+1043,Douglas,1,3,1,275000
+1044,Bishopstown,1,4,2,413000
+1045,Douglas,1,3,2,280000
+1046,Waterfall,1,4,3,390000
+1047,Ballyphehane,1,3,1,210000
+1048,Ballinlough,1,3,1,340000
+1049,Glanmire,1,3,3,227000
+1050,Rochestown,1,5,5,760000
+1051,Glasheen,1,3,1,176000
+1052,Glasheen,1,4,2,221000
+1053,Bishopstown,1,3,1,327500
+1054,Turners Cross,1,3,1,180000
+1055,Douglas,0,1,1,172000
+1056,Douglas,1,3,1,165000
+1057,Mahon,1,2,1,136000
+1058,Hollyhill,1,3,1,131000
+1059,Turners Cross,1,4,3,320000
+1060,Passage West,0,3,3,225000
+1061,Cork City,1,3,2,292500
+1062,Farranree,1,3,1,195000
+1063,Ovens,1,3,1,225000
+1064,Ballyphehane,1,4,1,180000
+1065,Ballinlough,1,2,1,220000
+1066,Montenotte,1,3,2,254779
+1067,Bishopstown,1,4,3,375000
+1068,Rochestown,0,2,1,220000
+1069,Passage West,0,3,3,206000
+1070,Douglas,1,3,2,296000
+1071,Rochestown,1,3,1,280000
+1072,Douglas,1,3,2,286000
+1073,Blackrock,1,3,2,250000
+1074,Mahon,1,4,1,180000
+1075,Hollyhill,1,3,2,100000
+1076,Douglas,1,3,3,280000
+1077,Ballinlough,1,3,3,345000
+1078,Ballinlough,1,2,2,349000
+1079,Tivoli,0,2,2,255000
+1080,Glanmire,0,3,2,401000
+1081,Cork City,1,3,2,269000
+1082,Ovens,1,2,2,180000
+1083,Cork City,1,3,2,170000
+1084,Ovens,1,3,3,230000
+1085,Mayfield,1,4,2,180000
+1086,Bishopstown,1,4,4,550000
+1087,Blackrock,1,3,1,252000
+1088,Douglas,1,3,3,260000
+1089,Turners Cross,1,3,2,212000
+1090,Douglas,1,3,2,443000
+1091,Rochestown,1,3,1,252000
+1092,Turners Cross,1,3,2,255000
+1093,Ballyvolane,1,3,2,253000
+1094,Passage West,1,2,3,224000
+1095,Ballyvolane,1,3,1,200000
+1096,Douglas,1,3,3,240000
+1097,Bishopstown,1,4,2,440000
+1098,Blackrock,1,3,2,247000
+1099,Blackrock,0,2,2,250000
+1100,Blarney,1,4,3,217500
+1101,Frankfield,1,3,3,306000
+1102,Rochestown,1,4,3,620000
+1103,Blarney,1,5,5,475000
+1104,Blackrock,0,3,2,265000
+1105,Little Island,1,3,1,186000
+1106,Ovens,1,3,1,310000
+1107,Rochestown,1,3,3,317000
