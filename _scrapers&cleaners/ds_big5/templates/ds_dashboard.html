@@ -1,0 +1,79 @@
+{% extends 'base.html' %} {% load staticfiles %} {% block content %}
+
+<div id="page-wrapper">
+    <div class="header">
+        <h1 class="page-header">
+            Data Science in Big 5
+        </h1>
+        <ol class="breadcrumb">
+            <li><a href="{% url 'dashboard' %}">Dashboard</a></li>
+            <li>Data Science in Big 5</li>
+            
+        </ol>
+
+    </div>
+    <div id="page-inner">
+        <div class="row"></div>
+        <div class="row"></div>
+        <div class="dashboard-cards">
+            <div class="row">
+                <div class="col-md-6 col-lg-6 text-center">
+                    <div class="card text-center" id="description_card">
+                        <div class="row">
+                            <h3>DATA SCIENCE IN BIG 5 - SEPTEMBER 2018</h3>
+                        </div>
+                        <div class="row text-left">
+                            <p>What is the ultimate toolbox for Data Science? Let's find out by analyzing LinkedIn profiles of Data Scientists in most prominent IT Companies - Amazon, Apple, Facebook, Google and Microsoft.</p>
+                        </div>
+                        <div class="row text-left">
+                            <p>Data Source: <a target="_blank" href="https://www.linkedin.com/"> LinkedIn</a></p>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-6 col-lg-6 text-center">
+                    <div class="card " id="tableau_card">
+                        <div class='tableauPlaceholder' id='viz1538649519596' style='position: relative'><noscript>
+                            <a href='#'><img alt='Data Science ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;ZS&#47;ZSFTBYHY3&#47;1_rss.png' style='border: none' /></a>
+                            </noscript><object class='tableauViz' style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> 
+                            <param name='embed_code_version' value='3' /> <param name='path' value='shared&#47;ZSFTBYHY3' /> <param name='toolbar' value='yes' />
+                            <param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;ZS&#47;ZSFTBYHY3&#47;1.png' /> 
+                            <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' />
+                            <param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' />
+                            <param name='display_count' value='yes' /></object>
+                        </div>
+                        <script type='text/javascript'>
+                            var divElement = document.getElementById('viz1538649519596');
+                            var vizElement = divElement.getElementsByTagName('object')[0];
+                            vizElement.style.width = '850px';
+                            vizElement.style.height = '1127px';
+                            var scriptElement = document.createElement('script');
+                            scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';
+                            vizElement.parentNode.insertBefore(scriptElement, vizElement);
+                        </script>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-6 col-lg-6 text-center">
+                    <div class="card text-center" id="description_card">
+                        <div class="row">
+                            <h3>IS MY SKILLSET DATA SCIENCE READY?</h3>
+                            <div class="row text-center">
+
+                                <div class=" col-md-4 text-left"></div>
+                                <div class="col-md-4 text-center">
+                                    <a href="{% url 'data_skillset' %}" class="waves-effect waves-light btn-large" id="btn-enter">Test My Profile</a>
+                                </div>
+                                <div class=" col-md-4 text-left"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}

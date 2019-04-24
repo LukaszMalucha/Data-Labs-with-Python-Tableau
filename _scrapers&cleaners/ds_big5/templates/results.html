@@ -1,0 +1,205 @@
+{% extends 'base.html' %} {% load staticfiles %} {% block content %} {% block extrahead %}
+
+{% endblock %}
+
+<div id="page-wrapper">
+    <div class="header">
+        <h1 class="page-header">
+            Data Science in Big 5
+        </h1>
+        <ol class="breadcrumb">
+            <li><a href="{% url 'dashboard' %}">Dashboard</a></li>
+            <li>Data Science in Big 5</li>
+            <li class="active">Results</li>
+        </ol>
+
+    </div>
+    <div id="page-inner">
+        <div class="row"></div>
+        <div class="row"></div>
+        <div class="dashboard-cards">
+            <div class="row">
+                <div class="col-md-4 col-lg-4 text-center">
+                    <div class="card text-center" id="description_card">
+                        <div class="row">
+                            <h3>SKILLS YOU ALREADY HAVE</h3>
+                        </div>
+                        <div class="row text-left">
+                            <p>Congratulations! These are the skills that significant percentage of Data Scientists list on their profiles:</p>
+                        </div>
+                        
+                    </div>
+                </div>
+                <div class="col-md-1 col-lg-1 text-center"></div>
+                <div class="col-md-4 col-lg-4 text-center">
+                    <div class="card text-center" id="description_card">
+                     <div class="row">
+                            <h3>SKILLS THAT YOU MISSING</h3>
+                        </div>
+                        <div class="row text-left">
+                            <p>Some of them you already have but probably you forgot to list. Acquiring other skills may be your next goal:</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-4 col-lg-4 text-center">
+                    <div class="card" id="pyplot">
+                        <canvas id="SkillChart"></canvas>
+                    </div>
+                </div>
+                <div class="col-md-1 col-lg-1 text-center"></div>
+                <div class="col-md-4 col-lg-4 text-center">
+                    <div class="card" id="pyplot">
+                        <canvas id="MissingChart"></canvas>
+                    </div>
+                </div>
+            </div>
+            <div class="row"></div>
+            <div class="row"></div>
+            <div class="row">
+                <div class="col-md-3 col-lg-3 text-center"></div>
+                <div class="col-md-3 col-lg-3 text-center">
+                <div class="card text-center" id="description_card">
+                        <div class="row">
+
+                                    <a href="{% url 'dashboard' %}" class="waves-effect waves-light btn-large" id="btn-enter">Back to Dashboard</a>
+
+                        </div>
+                        
+                    
+                </div>
+                <div class="col-md-3 col-lg-3 text-center"></div>
+            </div>    
+        </div>
+    </div>
+</div>
+
+
+<script>
+var ctx = document.getElementById("SkillChart").getContext('2d');
+var myChart = new Chart(ctx, {
+    type: 'horizontalBar',
+    data: {
+        labels: [{% for key, value in results_dictionary.items %}
+                    "{{key}}",
+                {% endfor %}],
+        datasets: [{
+            label: '% of Profiles',
+            data: [{% for key, value in results_dictionary.items %}
+                    "{{value}}",
+                   {% endfor %}],
+               backgroundColor: [
+                '#146c36', '#257740','#34844a', '#40914f', '#4f9e53', '#5aa355','#5aa355', '#67a956', '#76af56','#84b457','#93b958','#a3bd5a','#b2c25b','#c3c55d','#d3c95f','#e3cd62','#f4d166'
+            ],
+        }]
+    },
+    options: {
+        responsive: true,
+        maintainAspectRatio: false,
+        legend: { display: false },
+        title: {
+        fontSize: 16,
+        fontColor: 'black',
+        display: true,
+        text: '% of Profiles',
+        },
+        
+        scales: {
+            xAxes: [{
+                
+                gridLines: {
+                    color: "rgba(0, 0, 0, 0)",
+                },
+                ticks: {
+                 callback: function (value) {
+                  return value  + '%'; // convert it to percentage
+                },
+                fontSize: 10,
+                suggestedMin: 0,    // minimum will be 0, unless there is a lower value.
+                // OR //
+                beginAtZero: true   // minimum value will be 0.
+                }
+            }],  
+            
+            yAxes: [{
+            display: true,
+            gridLines: {
+                    color: "rgba(0, 0, 0, 0)",
+                },
+            ticks: {
+                
+                suggestedMin: 0,    // minimum will be 0, unless there is a lower value.
+                // OR //
+                beginAtZero: true   // minimum value will be 0.
+            }
+        }]
+        }
+    }
+});
+</script>
+<script>
+var mtx = document.getElementById("MissingChart").getContext('2d');
+var myChart = new Chart(mtx, {
+    type: 'horizontalBar',
+    data: {
+        labels: [{% for key, value in missing_dictionary.items %}
+                    "{{key}}",
+                {% endfor %}],
+        datasets: [{
+            label: '% of Profiles',
+            data: [{% for key, value in missing_dictionary.items %}
+                    "{{value}}",
+                   {% endfor %}],
+               backgroundColor: [
+                '#9e3a26', '#a83e24','#b24223', '#bc4623', '#c64a22', '#cf4f22','#d75521', '#de5d1f', '#e4641e','#eb6c1c',
+                '#f0751e','#f28026','#f38b2f','#f49538','#f69e41','#f7a84a','#f8b252','#f8bc5b','#f6c760','#f4d166'
+            ],
+        }]
+    },
+    options: {
+        responsive: true,
+        maintainAspectRatio: false,
+        legend: { display: false },
+        title: {
+        fontSize: 16,
+        fontColor: 'black',
+        display: true,
+        text: '% of Profiles',
+        },
+        
+        scales: {
+            xAxes: [{
+                gridLines: {
+                    color: "rgba(0, 0, 0, 0)",
+                },
+                ticks: {
+                callback: function (value) {
+                  return value  + '%'; // convert it to percentage
+                },
+                fontSize: 10,
+                suggestedMin: 0,    // minimum will be 0, unless there is a lower value.
+                // OR //
+                beginAtZero: true   // minimum value will be 0.
+                }
+            }],  
+            
+            yAxes: [{
+            
+            display: true,
+            gridLines: {
+                    color: "rgba(0, 0, 0, 0)",
+                },
+            ticks: {
+                scaleLabel: "%",    
+                suggestedMin: 0,    // minimum will be 0, unless there is a lower value.
+                // OR //
+                beginAtZero: true   // minimum value will be 0.
+            }
+        }]
+        }
+    }
+});
+</script>
+
+{% endblock %}

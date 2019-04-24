@@ -71,33 +71,22 @@
 <div class="dashboard-cards overflow_hidden">
     <div class="row row-cards">
         <div class="container">
-
-
-            <form class="form-signin" method="POST" action="">
+            <form class="form-signin" method="POST" action="{% url 'daft_analytics:price_estimator' %}">
                 {% csrf_token %}
                 <fieldset class="form-box">
                     <div class="row text-center">
-                        <h4>Choose City</h4>
+                        <h4>Property Details</h4>
                     </div>
+                     {% if estimators == None %}
+                    <h6 class="estimation">&nbsp;</h6>
+                        {% else %}
+                    <h6 class="estimation">Estimated Value: {{ estimators.0 }} - {{ estimators.1 }} EUR</h6>
+                    {% endif %}
                     <div class="row text-center">
                         <div class="input-field col s6">
                             <div class="input-field col s12 field-description">
                                 <h6>City:</h6>
                             </div>
-
-                        </div>
-                        <div class="input-field col s6 property_input">
-                            <select name="city" id="City" required="required">
-                                <option value="" disabled selected></option>
-                                <option value="Cork">Cork</option>
-                                <option value="Dublin">Dublin</option>
-                                <option value="Galway">Galway</option>
-                                <option value="Limerick">Limerick</option>
-                            </select>
-                        </div>
-                    </div>
-                    <div class="row text-center">
-                        <div class="input-field col s6">
                             <div class="input-field col s12 field-description">
                                 <h6>City Area:</h6>
                             </div>
@@ -111,39 +100,43 @@
                                 <h6>Bathrooms:</h6>
                             </div>
                         </div>
+                        <div class="input-field col s6 property_input">
+                            <select name="city" id="City" required="required">
+                                <option value="" disabled selected></option>
+                                <option value="Cork">Cork</option>
+                                <option value="Dublin">Dublin</option>
+                                <option value="Galway">Galway</option>
+                                <option value="Limerick">Limerick</option>
+                            </select>
+                        </div>
                         <div class="input-field col s6 property_input" id="areasEmpty">
                             <select name="area">
                                 <option value="">Choose a City</option>
                             </select>
                         </div>
-
                         <div class="input-field col s6 property_input" id="areasCork">
-                            <select name="area" required="required">
-
+                            <select name="cork_area" required="required">
                                 {% for area in cork_areas %}
                                 <option value="{{area}}">{{area}}</option>
                                 {% endfor %}
                             </select>
                         </div>
                         <div class="input-field col s6 property_input" id="areasDublin">
-                            <select name="area" required="required">
-
+                            <select name="dublin_area" required="required">
                                 {% for area in dublin_areas %}
                                 <option value="{{area}}">{{area}}</option>
                                 {% endfor %}
                             </select>
                         </div>
                         <div class="input-field col s6 property_input" id="areasLimerick">
-                            <select name="area" required="required">
-
+                            <select name="limerick_area" required="required">
                                 {% for area in limerick_areas %}
                                 <option value="{{area}}">{{area}}</option>
                                 {% endfor %}
                             </select>
                         </div>
                         <div class="input-field col s6 property_input" id="areasGalway">
-                            <select name="area" required="required">
-
+                            <select name="galway_area" required="required">
                                 {% for area in galway_areas %}
                                 <option value="{{area}}">{{area}}</option>
                                 {% endfor %}
@@ -164,7 +157,7 @@
                             <input name="bathrooms" type="number" class="validate" max="15" value="" required>
                         </div>
                     </div>
-                    <button type="submit" class="btn-login"><span>Continue <i class="far fa-arrow-alt-circle-right"></i></span>
+                    <button type="submit" class="btn-login"><span>Submit <i class="far fa-arrow-alt-circle-right"></i></span>
                     </button>
                 </fieldset>
             </form>

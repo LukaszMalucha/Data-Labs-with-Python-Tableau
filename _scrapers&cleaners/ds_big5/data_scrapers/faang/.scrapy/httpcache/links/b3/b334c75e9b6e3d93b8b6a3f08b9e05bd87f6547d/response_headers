@@ -1,0 +1,23 @@
+Vary: User-Agent,Accept-Encoding
+Server: Play
+Date: Thu, 20 Sep 2018 13:44:20 GMT
+X-Fs-Uuid: 067c0c10981f561560b24c3d7d2b0000
+Content-Type: text/html; charset=utf-8
+Content-Encoding: gzip
+Strict-Transport-Security: max-age=2592000
+X-Content-Type-Options: nosniff
+X-Xss-Protection: 1; mode=block
+X-Frame-Options: sameorigin
+Content-Security-Policy: default-src *; connect-src 'self' static.licdn.com media.licdn.com static-exp1.licdn.com static-exp2.licdn.com media-exp1.licdn.com media-exp2.licdn.com https://media-src.linkedin.com/media/ www.linkedin.com s.c.lnkd.licdn.com m.c.lnkd.licdn.com s.c.exp1.licdn.com s.c.exp2.licdn.com m.c.exp1.licdn.com m.c.exp2.licdn.com wss://*.linkedin.com dms.licdn.com; img-src data: blob: *; font-src data: *; style-src 'unsafe-inline' 'self' static-src.linkedin.com *.licdn.com; script-src 'report-sample' 'unsafe-inline' 'unsafe-eval' 'self' platform.linkedin.com spdy.linkedin.com static-src.linkedin.com *.ads.linkedin.com *.licdn.com static.chartbeat.com www.google-analytics.com ssl.google-analytics.com bcvipva02.rightnowtech.com www.bizographics.com sjs.bizographics.com js.bizographics.com d.la4-c1-was.salesforceliveagent.com slideshare.www.linkedin.com; object-src 'none'; media-src blob: *; child-src blob: lnkd-communities: voyager: *; frame-ancestors 'self'; report-uri https://www.linkedin.com/platform-telemetry/csp?f=l
+X-Li-Fabric: prod-lor1
+Set-Cookie: JSESSIONID=ajax:7466203714933198429; Path=/; Domain=.www.linkedin.com
+Set-Cookie: lang=v=2&lang=en-us; Path=/; Domain=linkedin.com
+Set-Cookie: bcookie="v=2&03477113-0289-49e5-8c26-bfce3eacbb60"; domain=.linkedin.com; Path=/; Expires=Sun, 20-Sep-2020 01:21:52 GMT
+Set-Cookie: bscookie="v=1&20180920134420f7d09489-f94a-478f-8df5-a622c7387bb3AQEZtJv7WUhGt9s9VgwfNqzwr7pgBxZe"; domain=.www.linkedin.com; Path=/; Secure; Expires=Sun, 20-Sep-2020 01:21:52 GMT; HttpOnly
+Set-Cookie: lidc="b=OGST04:g=938:u=1:i=1537451061:t=1537537461:s=AQEETDbio5dY5TUMV1jJ46y1BZnTFyc1"; Expires=Fri, 21 Sep 2018 13:44:21 GMT; domain=.linkedin.com; Path=/
+Pragma: no-cache
+Expires: Thu, 01 Jan 1970 00:00:00 GMT
+Cache-Control: no-cache, no-store
+X-Li-Pop: prod-tln1
+X-Li-Proto: http/1.1
+X-Li-Uuid: BnwMEJgfVhVgskw9fSsAAA==

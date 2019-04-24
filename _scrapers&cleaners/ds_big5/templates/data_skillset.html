@@ -1,0 +1,58 @@
+{% extends 'base.html' %} {% load staticfiles %} {% block content %}
+
+<div id="page-wrapper">
+    <div class="header">
+        <h1 class="page-header">
+            Data Science in Big 5
+        </h1>
+        <ol class="breadcrumb">
+            <li><a href="{% url 'dashboard' %}">Dashboard</a></li>
+            <li class="active">Data Science in Big 5</li>
+            <li class="active">Test My Profile</li>
+        </ol>
+
+    </div>
+    <div id="page-inner">
+        <div class="row"></div>
+        <div class="row"></div>
+        <div class="dashboard-cards">
+            <div class="row">
+                <div class="col-md-6 col-lg-6 text-center">
+                    <div class="card text-center" id="description_card">
+                        <div class="row">
+                            <h3>IS MY SKILLSET DATA SCIENCE READY?</h3>
+                        </div>
+                        <div class="row text-left">
+                            <p>Let's compare skills that you currently list on LinkedIn profile to the skillset that is most commonly found on Data Scientists profiles in 5 biggest IT Companies.
+                               Let's find out what should be kept and what you may consider adding.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-6 col-lg-6 text-center">
+                     <div class="card" id="form-card">
+                        <form method="POST" enctype="multipart/form-data">
+                            <div class=row></div>
+                            <div class=row></div>
+                            {% csrf_token%}
+                             {% for field in form %} 
+                            <textarea placeholder="Add your profile skills separated by comma..." name="{{field.name}}" class="form-control" required/></textarea>
+                            <div class=row></div>
+                            {% endfor %}
+                            <div class=row></div>
+                            <button type="submit" class="btn btn-success" id="btn-form">Submit</button>
+                            
+                        </form>
+                        <div class=row></div>
+                        <div class=row></div>
+                    </div>    
+                </div>
+            </div>
+            <div class="row">
+
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}

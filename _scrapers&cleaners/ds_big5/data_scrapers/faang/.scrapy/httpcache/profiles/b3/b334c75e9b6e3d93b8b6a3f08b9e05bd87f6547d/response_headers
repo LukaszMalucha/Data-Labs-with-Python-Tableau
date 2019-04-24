@@ -1,0 +1,23 @@
+Vary: User-Agent,Accept-Encoding
+Server: Play
+Date: Wed, 19 Sep 2018 18:05:48 GMT
+X-Fs-Uuid: 31696b0148df551580350fb5f82a0000
+Content-Type: text/html; charset=utf-8
+Content-Encoding: gzip
+Strict-Transport-Security: max-age=2592000
+X-Content-Type-Options: nosniff
+X-Xss-Protection: 1; mode=block
+X-Frame-Options: sameorigin
+Content-Security-Policy: default-src *; connect-src 'self' static.licdn.com media.licdn.com static-exp1.licdn.com static-exp2.licdn.com media-exp1.licdn.com media-exp2.licdn.com https://media-src.linkedin.com/media/ www.linkedin.com s.c.lnkd.licdn.com m.c.lnkd.licdn.com s.c.exp1.licdn.com s.c.exp2.licdn.com m.c.exp1.licdn.com m.c.exp2.licdn.com wss://*.linkedin.com dms.licdn.com; img-src data: blob: *; font-src data: *; style-src 'unsafe-inline' 'self' static-src.linkedin.com *.licdn.com; script-src 'report-sample' 'unsafe-inline' 'unsafe-eval' 'self' platform.linkedin.com spdy.linkedin.com static-src.linkedin.com *.ads.linkedin.com *.licdn.com static.chartbeat.com www.google-analytics.com ssl.google-analytics.com bcvipva02.rightnowtech.com www.bizographics.com sjs.bizographics.com js.bizographics.com d.la4-c1-was.salesforceliveagent.com slideshare.www.linkedin.com; object-src 'none'; media-src blob: *; child-src blob: lnkd-communities: voyager: *; frame-ancestors 'self'
+X-Li-Fabric: prod-ltx1
+Set-Cookie: JSESSIONID=ajax:1003221690883073768; Path=/; Domain=.www.linkedin.com
+Set-Cookie: lang=v=2&lang=en-us; Path=/; Domain=linkedin.com
+Set-Cookie: bcookie="v=2&a9cd4989-1b56-4e66-84cd-b5e8e1a7cc1a"; domain=.linkedin.com; Path=/; Expires=Sat, 19-Sep-2020 05:43:20 GMT
+Set-Cookie: bscookie="v=1&20180919180548169e7f04-d63a-4a54-8e21-9a5bc1b217a3AQF2YSiSvpyv7eO4g9mDqVaa2yw0_Y6z"; domain=.www.linkedin.com; Path=/; Secure; Expires=Sat, 19-Sep-2020 05:43:20 GMT; HttpOnly
+Set-Cookie: lidc="b=TGST08:g=868:u=1:i=1537380348:t=1537466748:s=AQHH0OqU5Ay4ttTZ6UPdtYHiGDZ0w2p8"; Expires=Thu, 20 Sep 2018 18:05:48 GMT; domain=.linkedin.com; Path=/
+Pragma: no-cache
+Expires: Thu, 01 Jan 1970 00:00:00 GMT
+Cache-Control: no-cache, no-store
+X-Li-Pop: PROD-IDB2
+X-Li-Proto: http/1.1
+X-Li-Uuid: MWlrAUjfVRWANQ+1+CoAAA==
