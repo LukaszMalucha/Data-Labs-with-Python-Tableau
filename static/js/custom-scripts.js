@@ -15,6 +15,11 @@ $(document).ready(function() {
 
     $('select').formSelect();
     $('#selectArea').formSelect();
+
+    $('.counter').counterUp({
+        delay: 10,
+        time: 400
+    });
 });
 
 

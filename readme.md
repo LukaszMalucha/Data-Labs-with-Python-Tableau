@@ -1,7 +1,7 @@
 # Data Labs with Python & Tableau
 
 
-##### [Visit App on Heroku](https://data-labs-python.herokuapp.com/)
+##### [Visit App on Heroku](https://data-labs-python1.herokuapp.com/)
 
 <br>
 
