@@ -4,7 +4,8 @@
 
 <head>
     <meta charset="utf-8"/>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1.0, maximum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Data Labs</title>
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 
@@ -21,9 +22,7 @@
     <link href="{% static 'css/custom-styles.css' %}" rel="stylesheet"/>
     <link href="{% static 'css/navbar.css' %}" rel="stylesheet"/>
     <!-- Google Fonts-->
-    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+
     <!-- jQuery-->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <!-- Chart Js -->
@@ -31,7 +30,21 @@
     <!-- Material Icons-->
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     {% block extrahead %}{% endblock %} {% block head_js %} {% endblock head_js %}
-
+    <style>
+      @font-face {
+        font-family: 'Source Sans Pro';
+        src: url('{% static 'fonts/TTF/SourceSansPro-Regular.ttf' %}');
+      }
+      @font-face {
+        font-family: 'Source Sans Pro';
+        font-weight: 600;
+        src: url('{% static 'fonts/TTF/SourceSansPro-Semibold.ttf' %}');
+      }
+      @font-face {
+        font-family: 'Raleway';
+        src: url('{% static 'fonts/TTF/Raleway-Regular.ttf' %}');
+      }
+    </style>
 </head>
 
 <body>
