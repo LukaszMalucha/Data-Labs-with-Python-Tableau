@@ -11,7 +11,7 @@ https://docs.djangoproject.com/en/2.1/ref/settings/
 """
 
 import os
-import env
+# import env
 import dj_database_url
 
 # Build paths inside the project like this: os.path.join(BASE_DIR, ...)
@@ -25,7 +25,7 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 # SECRET_KEY = os.environ.get('SECRET_KEY')
 SECRET_KEY = 'test'
 
-DEBUG = True
+DEBUG = False
 
 ALLOWED_HOSTS = [os.environ.get('C9_HOSTNAME'), 'data-labs-python.herokuapp.com', '*', ]
 
@@ -149,8 +149,8 @@ AWS_SECRET_ACCESS_KEY = os.environ.get("AWS_SECRET_ACCESS_KEY")                 
 
 AWS_S3_CUSTOM_DOMAIN = '%s.s3.amazonaws.com' % AWS_STORAGE_BUCKET_NAME
 
-# STATICFILES_LOCATION = 'static'                                                 ## comment out for testing
-# STATICFILES_STORAGE = 'custom_storages.StaticStorage'                           ## comment out for testing
+STATICFILES_LOCATION = 'static'                                                 ## comment out for testing
+STATICFILES_STORAGE = 'custom_storages.StaticStorage'                           ## comment out for testing
 
 STATIC_URL = '/static/'
 STATICFILES_DIRS = (
