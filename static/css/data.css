@@ -136,6 +136,8 @@ table {
     box-shadow: 0 3px 3px 0 #A9A9A9, 0 3px 1px -2px #838383, 0 1px 5px 0 #838383;
     border-radius: 5px;
     margin: 3% 8% 3% 8%;
+    max-height: 230px;
+
 
 }
 
@@ -478,7 +480,9 @@ right: 280px;
 
 
 @media(max-width:1900px) {
-
+    .fixed-action-btn {
+    right: 10px;
+    }
 
 }
 
@@ -492,11 +496,8 @@ right: 280px;
 }
 
 
-@media(min-width:992px) {
 
-}
-
-@media(max-width:992px) {
+@media(max-width:1024px) {
 
     .viz-card {
         width: 90%;
@@ -535,6 +536,9 @@ right: 280px;
 
      .form-signin {
     max-width: 100%;
+    }
+    .tableau {
+        display:none;
     }
 }
 

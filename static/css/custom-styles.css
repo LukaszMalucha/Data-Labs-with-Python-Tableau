@@ -135,10 +135,9 @@ a:hover {
     }
 }
 
-@media(max-width:859px) {
-    .tableau {
-        display:none;
-    }
+@media(max-width:1024px) {
+
+
 
     .summary {
         font-size: 12px;

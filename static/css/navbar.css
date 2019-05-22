@@ -257,7 +257,13 @@ nav ul a {
 }
 
 
-@media(max-width:992px) {
+@media(max-width:1024px) {
+
+    .top-navbar {
+        padding-left: 1%;
+        padding-right: 1%;
+    }
+
     .top-navbar {
         margin: 0px;
         padding:0px;
