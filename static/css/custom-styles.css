@@ -18,7 +18,7 @@ html {
 
 
 .tableau {
-    margin-top: 15%;
+    margin-top: 5%;
 }
 
 #page-index {
@@ -26,7 +26,7 @@ html {
     display: block;
     overflow: auto;
     position: relative;
-    top: 55px;
+    top: 42px;
 
 }
 
@@ -43,7 +43,7 @@ html {
 
 
 .header {
-    max-height: 180px;
+    max-height: 150px;
     margin: 0px;
     background: white;
     padding: 0 16% 0 12%;
@@ -51,7 +51,7 @@ html {
 }
 
 .summary {
-    padding: 2% 0% 3% 0%;
+    padding: 1% 0% 3% 0%;
     color: #333333 !important;
 }
 
@@ -66,6 +66,11 @@ a:hover {
 
 .overflow_hidden {
     overflow: hidden !important;
+}
+
+.plain-element {
+    padding: 0px;
+    margin: 0px;
 }
 
 /*------------------------------------------------------------------------------
@@ -84,7 +89,7 @@ a:hover {
     margin: 0;
     font-size: 12px;
     color: #868e96;
-    padding: 15px 0px;
+    padding: 12px 0px;
     text-align: center;
 }
 
@@ -105,23 +110,23 @@ a:hover {
 ------------------------------------------------*/
 
 
-@media(max-width:1600px) {
+@media(max-width:1700px) {
 
     .header {
-        padding-left: 15%;
+        padding-left: 1%;
     }
 
     .tableau {
 
-        margin-top: 25%;
+        margin-top: 5%;
     }
 
     .summary {
-        padding: 3% 0% 3% 0%;
+        padding: 1% 0% 1% 0%;
     }
 
     .summary p {
-        font-size: 13px;
+        font-size: 12px;
     }
 
     .daft_info {

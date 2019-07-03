@@ -75,89 +75,101 @@
                 {% csrf_token %}
                 <fieldset class="form-box">
                     <div class="row text-center">
-                        <h4>Property Details</h4>
+                        <h5>Property Details</h5>
                     </div>
-                     {% if estimators == None %}
+                    {% if estimators == None %}
                     <h6 class="estimation">&nbsp;</h6>
-                        {% else %}
-                    <h6 class="estimation">Estimated Value: <b class="counter">{{ estimators.0 }}</b> - <b class="counter">{{ estimators.1 }}</b> EUR</h6>
+                    {% else %}
+                    <h6 class="estimation">Estimated Value: <b class="counter">{{ estimators.0 }}</b> - <b
+                            class="counter">{{ estimators.1 }}</b> EUR</h6>
                     {% endif %}
                     <div class="row text-center">
-                        <div class="input-field col s6">
-                            <div class="input-field col s12 field-description">
+                        <div class="row plain-element">
+                            <div class="input-field col s6 field-description">
                                 <h6>City:</h6>
                             </div>
-                            <div class="input-field col s12 field-description">
+                            <div class="input-field col s6 property_input">
+                                <select name="city" id="City" required="required">
+                                    <option value="" disabled selected></option>
+                                    <option value="Cork">Cork</option>
+                                    <option value="Dublin">Dublin</option>
+                                    <option value="Galway">Galway</option>
+                                    <option value="Limerick">Limerick</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="row plain-element">
+                            <div class="input-field col s6 field-description">
                                 <h6>City Area:</h6>
                             </div>
-                            <div class="input-field col s12 field-description">
+                            <div class="input-field col s6 property_input" id="areasEmpty">
+                                <select name="area">
+                                    <option value="">Choose a City</option>
+                                </select>
+                            </div>
+                            <div class="input-field col s6 property_input" id="areasCork">
+                                <select name="cork_area" required="required">
+                                    {% for area in cork_areas %}
+                                    <option value="{{area}}">{{area}}</option>
+                                    {% endfor %}
+                                </select>
+                            </div>
+                            <div class="input-field col s6 property_input" id="areasDublin">
+                                <select name="dublin_area" required="required">
+                                    {% for area in dublin_areas %}
+                                    <option value="{{area}}">{{area}}</option>
+                                    {% endfor %}
+                                </select>
+                            </div>
+                            <div class="input-field col s6 property_input" id="areasLimerick">
+                                <select name="limerick_area" required="required">
+                                    {% for area in limerick_areas %}
+                                    <option value="{{area}}">{{area}}</option>
+                                    {% endfor %}
+                                </select>
+                            </div>
+                            <div class="input-field col s6 property_input" id="areasGalway">
+                                <select name="galway_area" required="required">
+                                    {% for area in galway_areas %}
+                                    <option value="{{area}}">{{area}}</option>
+                                    {% endfor %}
+                                </select>
+                            </div>
+                        </div>
+                        <div class="row plain-element">
+                            <div class="input-field col s6 field-description">
                                 <h6>Property Type:</h6>
                             </div>
-                            <div class="input-field col s12 field-description">
+                            <div class="input-field col s6 property_input">
+                                <select name="property_type" required="required">
+                                    <option value="" disabled selected></option>
+                                    {% for property_type in property_types %}
+                                    <option value="{{area}}">{{property_type}}</option>
+                                    {% endfor %}
+                                </select>
+                            </div>
+                        </div>
+                        <div class="row plain-element">
+                            <div class="input-field col s6 field-description">
                                 <h6>Bedrooms:</h6>
                             </div>
-                            <div class="input-field col s12 field-description">
-                                <h6>Bathrooms:</h6>
+                            <div class="input-field col s6 property_input">
+                                <input name="bedrooms" type="number" class="validate" max="15" value="" required>
                             </div>
                         </div>
-                        <div class="input-field col s6 property_input">
-                            <select name="city" id="City" required="required">
-                                <option value="" disabled selected></option>
-                                <option value="Cork">Cork</option>
-                                <option value="Dublin">Dublin</option>
-                                <option value="Galway">Galway</option>
-                                <option value="Limerick">Limerick</option>
-                            </select>
+                        <div class="row plain-element">
+                            <div class="input-field col s6 field-description">
+                                <h6>Bathrooms:</h6>
+                            </div>
+                            <div class="input-field col s6 property_input">
+                                <input name="bathrooms" type="number" class="validate" max="15" value="" required>
+                            </div>
                         </div>
-                        <div class="input-field col s6 property_input" id="areasEmpty">
-                            <select name="area">
-                                <option value="">Choose a City</option>
-                            </select>
-                        </div>
-                        <div class="input-field col s6 property_input" id="areasCork">
-                            <select name="cork_area" required="required">
-                                {% for area in cork_areas %}
-                                <option value="{{area}}">{{area}}</option>
-                                {% endfor %}
-                            </select>
-                        </div>
-                        <div class="input-field col s6 property_input" id="areasDublin">
-                            <select name="dublin_area" required="required">
-                                {% for area in dublin_areas %}
-                                <option value="{{area}}">{{area}}</option>
-                                {% endfor %}
-                            </select>
-                        </div>
-                        <div class="input-field col s6 property_input" id="areasLimerick">
-                            <select name="limerick_area" required="required">
-                                {% for area in limerick_areas %}
-                                <option value="{{area}}">{{area}}</option>
-                                {% endfor %}
-                            </select>
-                        </div>
-                        <div class="input-field col s6 property_input" id="areasGalway">
-                            <select name="galway_area" required="required">
-                                {% for area in galway_areas %}
-                                <option value="{{area}}">{{area}}</option>
-                                {% endfor %}
-                            </select>
-                        </div>
-                        <div class="input-field col s6 property_input">
-                            <select name="property_type" required="required">
-                                <option value="" disabled selected></option>
-                                {% for property_type in property_types %}
-                                <option value="{{area}}">{{property_type}}</option>
-                                {% endfor %}
-                            </select>
-                        </div>
-                        <div class="input-field col s6 property_input">
-                            <input name="bedrooms" type="number" class="validate" max="15" value="" required>
-                        </div>
-                        <div class="input-field col s6 property_input">
-                            <input name="bathrooms" type="number" class="validate" max="15" value="" required>
+                        <div class="row plain-element">
                         </div>
                     </div>
-                    <button type="submit" class="btn-login"><span>Submit <i class="far fa-arrow-alt-circle-right"></i></span>
+                    <button type="submit" class="btn-login"><span>Submit <i
+                            class="far fa-arrow-alt-circle-right"></i></span>
                     </button>
                 </fieldset>
             </form>

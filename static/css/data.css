@@ -24,9 +24,9 @@ body {
 }
 
 .row-cards {
-    width: 70%;
+    width: 80%;
     text-align: center;
-    padding: 4% 0% 4% 0%;
+
 }
 
 .row-title {
@@ -101,14 +101,14 @@ table {
 }
 
 .card .card-content {
-    min-height: 155px;
+    min-height: 100px;
 
 }
 
 .card .card-content p {
     color: black;
     font-size: 12px;
-    min-height: 50px;
+    min-height: 40px;
 }
 
 .card .card-title {
@@ -132,11 +132,12 @@ table {
 }
 
 .viz-card {
-    width: 70%;
+    width: 50%;
+    margin: auto;
     box-shadow: 0 3px 3px 0 #A9A9A9, 0 3px 1px -2px #838383, 0 1px 5px 0 #838383;
     border-radius: 5px;
-    margin: 3% 8% 3% 8%;
-    max-height: 230px;
+    margin: 1% 35% 3% 15%;
+    max-height: 180px;
 
 
 }
@@ -312,7 +313,7 @@ textarea.materialize-textarea:focus:not([readonly]) {
 
 
 .form-signin {
-    max-width: 60%;
+    max-width: 50%;
     padding: 40px 0px 0px 0px;
 }
 
@@ -326,8 +327,6 @@ textarea.materialize-textarea:focus:not([readonly]) {
 
 
 .property_input {
-    margin-top: 30px;
-    margin-bottom: 0px;
     padding-right: 60px !important;
  }
 
@@ -430,7 +429,7 @@ textarea.materialize-textarea:focus:not([readonly]) {
 }
 
 .fixed-action-btn {
-right: 280px;
+    right: 340px;
 }
 
 
@@ -487,10 +486,15 @@ right: 280px;
 }
 
 
-@media(max-width:1600px) {
+@media(max-width:1700px) {
+
+    .dashboard-cards {
+        width: 98%;
+
+    }
 
     .row-cards {
-    width: 85%;
+    width: 100%;
     }
 
 }

@@ -8,12 +8,11 @@
 
 
 .top-navbar .navbar-brand strong {
-    font-size: 13px;
-    font-weight: normal;
+    font-size: 24px;
+    font-weight: bold;
     display: block;
-    color: #1DA1F2;
+    color: white;
 }
-
 
 .top-navbar {
     position: fixed;
@@ -21,50 +20,40 @@
     width: 100%;
     z-index: 300;
     border: none;
-    height: 42px;
-    padding-left: 15.5%;
-    padding-right: 16.5%;
+    height: 60px;
+    padding-left: 16%;
+    padding-right: 14%;
     padding-top: 0px;
     padding-bottom: 0px;
-    min-height: 42px;
 
 }
 
 .top-navbar .navbar-brand {
     margin: 0px;
     width: 100%;
-    height: 42px;
+    height: 60px;
     text-align: left;
-    padding-top: 8px;
+    padding: 5px;
     font-weight: 700;
     color: #1a2026;
     background: transparent;
-
 }
 .navbar-header {
     width: 30%;
 }
 
 .navbar-brand .company-logo {
-    height: 2.2rem;
+    height: 3.5rem;
 
 }
 
-.navbar-brand .material-icons, .navbar-brand .fab, .navbar-brand .fas {
+.navbar-brand  .material-icons {
     float: left;
-    font-size: 18px;
+    font-size: 28px;
     margin-right: 5px;
-    margin-top: -1px;
+    line-height: inherit;
     height: auto;
-    color: #1DA1F2;
-}
 
-.nav > li {
-    height: 100%;
-}
-
-nav ul a {
-    font-size: 13px;
 }
 
 .nav > li > a {
@@ -75,20 +64,19 @@ nav ul a {
 
 .nav-link {
     height: 100% !important;
-    padding: 14px 10px 20px 10px !important;
+    padding: 20px 15px 20px 15px !important;
 }
 
 
 .nav i, .nav i.material-icons {
     height:20px;
-    font-size: 14px;
+    font-size: 15px;
     margin-right: 5px;
 }
 
-
 .top-navbar .navbar-right {
     width: auto;
-    height: 100%;
+    height: 60px;
     margin: 0px;
     line-height: 1;
     padding: 0px;
@@ -98,8 +86,7 @@ nav ul a {
 
 .top-navbar .navbar-right>a {
     padding: 0px;
-    font-size: 13px;
-    font-weight: 650;
+    font-size: 15px;
 }
 
 .top-navbar .navbar-right>a>i {
@@ -108,17 +95,19 @@ nav ul a {
     height: 60px;
 }
 
-
+nav ul b {
+    font-weight: bold;
+}
 
 .dropdown-content {
-    width: max-content !important;
-    left:  0px !important;
-    top: 42px !important;
+    width: 150px !important;
+    right: -50px !important;
+    top: 60px !important;
 
 }
 
 .dropdown-content li>a {
-    font-size: 13px;
+    font-size: 14px;
     text-decoration: none;
 }
 .dropdown-content li>a>i {
@@ -139,7 +128,7 @@ nav ul a {
 }
 
 .sidenav-trigger i {
-    font-weight: 600;
+    font-weight: bold;
 
 }
 
@@ -251,11 +240,14 @@ nav ul a {
     MEDIA QUERIES
 ------------------------------------------------------------------------------*/
 
+@media(max-width:1810px) {
 
-@media(max-width:1700px) {
+}
+
+@media(max-width:1600px) {
     .top-navbar {
-        padding-left: 3%;
-        padding-right: 2%;
+        padding-left: 16%;
+        padding-right: 16%;
     }
 
     .navbar-header {
@@ -264,19 +256,17 @@ nav ul a {
 
 }
 
-@media(min-width:1025px) {
 
-    .sidenav-trigger {
-        display: none !important;
+@media(max-width:1024px) {
+
+    .top-navbar {
+        padding-left: 1%;
+        padding-right: 1%;
     }
 
-
-}
-@media(max-width:1025px) {
     .top-navbar {
         margin: 0px;
-        padding-left: 0%;
-        padding-right: 0%;
+        padding:0px;
     }
 
     .top-navbar .navbar-brand {
@@ -285,6 +275,9 @@ nav ul a {
         padding: 10px;
     }
 
+    .top-navbar .navbar-brand strong {
+        font-size: 20px;
+    }
 
     .navbar-brand i.large.material-icons {
         font-size: 40px;
@@ -300,36 +293,33 @@ nav ul a {
     }
 
     .navbar-header {
-        width: 70%;
+    width: 50%;
     }
-
     nav a.sidenav-trigger {
         line-height: 1;
-        display: block;
     }
 
     nav a.sidenav-trigger i {
-        height: 60px;
-        line-height: 1;
+    height: 60px;
+    line-height: 1;
     }
 
     #trigger {
-        position: relative;
-        top: -10px;
-        left: 24px;
         margin: 10px 0px 10px 0px;
     }
 
 }
 
+@media(max-width:760px) {
+
+
+
+
+
+}
 
 @media(max-width:415px) {
 
-    .top-navbar {
-        margin: 0px;
-        padding-left: 1%;
-        padding-right: 1%;
-    }
 
     .top-navbar .navbar-brand {
         height: 60px;
@@ -350,7 +340,7 @@ nav ul a {
     }
 
 
-}
 
+}
 
 
