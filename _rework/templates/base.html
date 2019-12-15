@@ -1,5 +1,5 @@
-{% load staticfiles %}
 <!DOCTYPE html>
+{% load staticfiles %}
 <html>
 
 <head>
@@ -212,34 +212,6 @@
             </div>
             <div class="single-project">
               <div class="col-md-3 text-left plain-element">
-                <img src="{% static 'img/projects/presidential.jpg' %}" class="img responsive single-project-img"
-                     alt="project img"/>
-              </div>
-              <div class="col-md-9 text-left plain-element">
-                <div class="row plain-element">
-                  <a href="#" class="single-project-title">Presidential Bid</a>
-                </div>
-                <div class="row plain-element">
-                  <a target="_blank" href="http://www.minerstartup.com" class="btn subscribe-btn"> Visit Project</a>
-                </div>
-              </div>
-            </div>
-            <div class="single-project">
-              <div class="col-md-3 text-left plain-element">
-                <img src="{% static 'img/projects/pathfinder.png' %}" class="img responsive single-project-img"
-                     alt="project img"/>
-              </div>
-              <div class="col-md-9 text-left plain-element">
-                <div class="row plain-element">
-                  <a href="#" class="single-project-title">Pathfinder AI</a>
-                </div>
-                <div class="row plain-element">
-                  <a target="_blank" href="http://www.minerstartup.com" class="btn subscribe-btn"> Visit Project</a>
-                </div>
-              </div>
-            </div>
-            <div class="single-project">
-              <div class="col-md-3 text-left plain-element">
                 <img src="{% static 'img/projects/twitter.jpg' %}" class="img responsive single-project-img"
                      alt="project img"/>
               </div>
@@ -260,33 +232,33 @@
               Most popular
             </div>
             <div class="row plain-element row-medium-projects">
-              <div class="col-md-4 plain-element">
+              <div class="col-md-4 plain-element col-project-left">
                 <div class="single-project-left">
                   <img src="{% static 'img/daft_analytics.png' %}"
                        class="img responsive img-project-medium" alt="Tableau Public"/>
                 </div>
-                <div class="single-project-content text-left">
-                    <a href=""><b>Daft Analytics</b><br>
+                <div class="single-project-content content-side text-left">
+                  <a href=""><b>Daft Analytics</b><br>
                     Daft.ie property market analysis.
                 </div>
               </div>
-              <div class="col-md-4 plain-element">
+              <div class="col-md-4 plain-element col-project-center">
                 <div class="single-project-center">
                   <img src="{% static 'img/git_activity.png' %}"
                        class="img responsive img-project-medium" alt="Tableau Public"/>
                 </div>
-                <div class="single-project-content text-left">
-                    <a href=""><b>Github Activity</b><br>
+                <div class="single-project-content content-center text-left">
+                  <a href=""><b>Github Activity</b><br>
                     My GitHub Activity on Radial Bar Chart.</a>
                 </div>
               </div>
-              <div class="col-md-4 plain-element">
+              <div class="col-md-4 plain-element col-project-right">
                 <div class="single-project-right">
                   <img src="{% static 'img/life_expectancy.png' %}"
                        class="img responsive img-project-medium" alt="Tableau Public"/>
                 </div>
-                <div class="single-project-content text-left">
-                    <a href=""><b>World Life Expectancy</b><br>
+                <div class="single-project-content content-side text-left">
+                  <a href=""><b>World Life Expectancy</b><br>
                     Visualizing increase in world life expectancy.
                 </div>
               </div>
@@ -295,9 +267,9 @@
               Data Scientists in Big 5
             </div>
             <div class="row plain-element">
-              <div class="col-md-4 plain-element">
-                <img src="{% static 'img/projects/data-science.png' %}"
-                     class="img responsive img-section" alt="Tableau Public"/>
+              <div class="col-md-4 plain-element col-img-lg">
+                <img src="{% static 'img/db.png' %}"
+                     class="img responsive img-section img-project-lg" alt="Tableau Public"/>
               </div>
               <div class="col-md-8">
                 <div class="row plain-element text-left">
@@ -313,7 +285,7 @@
                   skillsets of top tier Data Scientists.
                 </div>
                 <div class="row plain-element text-left">
-                  <h6>Visit Dashboard</h6>
+                  <a href="" class="link-visit-lg">Visit Dashboard</a>
                 </div>
               </div>
             </div>
