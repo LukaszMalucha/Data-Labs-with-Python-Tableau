@@ -1,0 +1,233 @@
+<template>
+<div id="page-index">
+  <RowHeaderComponent/>
+  <RowBannerComponent/>
+  <div class="dashboard-cards">
+      <div class="row">
+        <div class="col-md-2 col-left">
+          <div class="section-left">
+            <div class="section-heading text-left">
+              New Projects
+            </div>
+            <div class="single-project">
+              <div class="col-md-3 text-left plain-element">
+                <img src="@/assets/projects/thompson.jpg" class="img responsive single-project-img"
+                     alt="project img"/>
+              </div>
+              <div class="col-md-9 text-left col-project-content">
+                <div class="row plain-element">
+                  <a href="#" class="single-project-title">Thompson Sampling</a>
+                </div>
+                <div class="row plain-element">
+                  <a target="_blank" href="http://www.minerstartup.com" class="btn subscribe-btn"> Visit Project</a>
+                </div>
+              </div>
+            </div>
+            <div class="single-project">
+              <div class="col-md-3 text-left plain-element">
+                <img src="@/assets/projects/blockchain.jpg" class="img responsive single-project-img"
+                     alt="project img"/>
+              </div>
+              <div class="col-md-9 text-left col-project-content">
+                <div class="row plain-element">
+                  <a href="#" class="single-project-title">Blockchain Example</a>
+                </div>
+                <div class="row plain-element">
+                  <a target="_blank" href="http://www.minerstartup.com" class="btn subscribe-btn"> Visit Project</a>
+                </div>
+              </div>
+            </div>
+            <div class="single-project">
+              <div class="col-md-3 text-left plain-element">
+                <img src="@/assets/projects/quant.jpg" class="img responsive single-project-img"
+                     alt="project img"/>
+              </div>
+              <div class="col-md-9 text-left col-project-content">
+                <div class="row plain-element">
+                  <a href="#" class="single-project-title">Quant Properties</a>
+                </div>
+                <div class="row plain-element">
+                  <a target="_blank" href="http://www.minerstartup.com" class="btn subscribe-btn"> Visit Project</a>
+                </div>
+              </div>
+            </div>
+            <div class="single-project">
+              <div class="col-md-3 text-left plain-element">
+                <img src="@/assets/projects/unflasking.jpg" class="img responsive single-project-img"
+                     alt="project img"/>
+              </div>
+              <div class="col-md-9 text-left col-project-content">
+                <div class="row plain-element">
+                  <a href="#" class="single-project-title">Unflasking AI</a>
+                </div>
+                <div class="row plain-element">
+                  <a target="_blank" href="http://www.minerstartup.com" class="btn subscribe-btn"> Visit Project</a>
+                </div>
+              </div>
+            </div>
+            <div class="single-project">
+              <div class="col-md-3 text-left plain-element">
+                <img src="@/assets/projects/cat_dog.jpg" class="img responsive single-project-img"
+                     alt="project img"/>
+              </div>
+              <div class="col-md-9 text-left col-project-content">
+                <div class="row plain-element">
+                  <a href="#" class="single-project-title">Cat Dog Classifier</a>
+                </div>
+                <div class="row plain-element">
+                  <a target="_blank" href="http://www.minerstartup.com" class="btn subscribe-btn"> Visit Project</a>
+                </div>
+              </div>
+            </div>
+            <div class="single-project">
+              <div class="col-md-3 text-left plain-element">
+                <img src="@/assets/projects/twitter.jpg" class="img responsive single-project-img"
+                     alt="project img"/>
+              </div>
+              <div class="col-md-9 text-left col-project-content">
+                <div class="row plain-element">
+                  <a href="#" class="single-project-title">Top 10 US Trends</a>
+                </div>
+                <div class="row plain-element">
+                  <a target="_blank" href="http://www.minerstartup.com" class="btn subscribe-btn"> Visit Project</a>
+                </div>
+              </div>
+            </div>
+            <div class="single-project">
+              <div class="col-md-3 text-left plain-element">
+                <img src="@/assets/projects/yahoo.png" class="img responsive single-project-img"
+                     alt="project img"/>
+              </div>
+              <div class="col-md-9 text-left col-project-content">
+                <div class="row plain-element">
+                  <a href="#" class="single-project-title">Yahoo WOEID Search</a>
+                </div>
+                <div class="row plain-element">
+                  <a target="_blank" href="http://www.minerstartup.com" class="btn subscribe-btn"> Visit Project</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-8 col-center">
+          <div class="section-center">
+            <div class="section-heading text-left">
+              Most popular
+            </div>
+            <div class="row plain-element row-medium-projects">
+              <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4 col-project-left">
+                <div class="single-project-left">
+                  <img src="@/assets/daft_analytics.png"
+                       class="img responsive img-project-medium" alt="Tableau Public"/>
+                </div>
+                <div class="single-project-content content-side text-left">
+                  <a href=""><span>Daft.ie Analytics</span><br>
+                    Daft.ie property market analysis.</a>
+                </div>
+              </div>
+              <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4 plain-element col-project-center">
+                <div class="single-project-center">
+                  <img src="@/assets/git_activity.png"
+                       class="img responsive img-project-medium" alt="Tableau Public"/>
+                </div>
+                <div class="single-project-content content-center text-left">
+                  <a href=""><span>Github Activity</span><br>
+                    My GitHub Activity on Radial Bar Chart.</a>
+                </div>
+              </div>
+              <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4 plain-element col-project-right">
+                <div class="single-project-right">
+                  <img src="@/assets/life_expectancy.png"
+                       class="img responsive img-project-medium" alt="Tableau Public"/>
+                </div>
+                <div class="single-project-content content-side text-left">
+                  <a href=""><span>World Life Expectancy</span><br>
+                    Visualizing increase in world life expectancy.</a>
+                </div>
+              </div>
+            </div>
+            <div class="section-heading text-left">
+              Data Scientists in Big 5
+            </div>
+            <div class="row plain-element">
+              <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4 plain-element col-img-lg">
+                <img src="@/assets/banner.png"
+                     class="img responsive img-section img-project-lg" alt="Tableau Public"/>
+              </div>
+              <div class="col-xs-8 col-sm-8 col-md-8 col-lg-8">
+                <div class="row plain-element text-left">
+                  <a class="link-date" href="#">MAY 21, 2019 / Data Science</a>
+                </div>
+                <div class="row plain-element text-left">
+                  <h5>What is the ultimate toolbox for Data Science?</h5>
+                </div>
+                <div class="section-text text-left">
+                  What is the ultimate toolbox for Data Science? Let's find out by analyzing LinkedIn profiles of Data
+                  Scientists in most prominent IT Companies
+                  - Amazon, Apple, Facebook, Google and Microsoft. Then test your own LinkedIn profile skillset against
+                  skillsets of top tier Data Scientists.
+                </div>
+                <div class="row plain-element text-left">
+                  <a href="" class="link-visit-lg">Visit Dashboard</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-2 col-right">
+          <div class="section-right">
+            <div class="section-heading text-left">
+              Tableau Public
+            </div>
+            <div class="section-text text-center">
+              To get more live interaction with data dashboards please visit my Tableau Public:
+            </div>
+            <div class="section-image">
+              <img src="@/assets/public.png"
+                   class="img responsive img-section" alt="Public"/>
+            </div>
+            <div class="row plain-element">
+              <button type="submit" class="btn btn-visit">Tableau Public</button>
+            </div>
+            <br>
+            <div class="section-heading text-left">
+              Coding Portfolio
+            </div>
+            <div class="section-text text-center">
+              My python portfolio including Django & Flask REST applications,
+              AI and data analysis concepts:
+            </div>
+            <div class="section-image">
+              <img src="@/assets/portfolio.png"
+                   class="img responsive img-section" alt="Public"/>
+            </div>
+            <div class="row plain-element">
+              <button type="submit" class="btn btn-visit">Code Portfolio</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+</div>
+</template>
+
+
+
+
+
+<script>
+import RowHeaderComponent from "@/components/RowHeader.vue";
+import RowBannerComponent from "@/components/RowBanner.vue";
+
+export default {
+  name: 'home',
+  components: {
+    RowHeaderComponent,
+    RowBannerComponent
+  },
+  created() {
+    document.title = "Data Labs";
+  }
+};
+
+</script>
