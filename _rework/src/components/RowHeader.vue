@@ -10,20 +10,20 @@
         <div class="col-sm-12 col-md-11 col-lg-11 plain-element">
           <ul>
             <li>
-              <a>Data Science in Big 5</a>
+              <router-link :to="{name: 'data-science'}">Data Science in Big 5</router-link>
             </li>
             <li>
-              <a>Daft.ie Analytics</a>
+              <router-link :to="{name: 'daft-analytics'}">Daft.ie Analytics</router-link>
             </li>
             <li>
-              <a>GitHub Activity</a>
+              <router-link :to="{name: 'github-activity'}">GitHub Activity</router-link>
             </li>
             <li>
               <router-link :to="{name: 'life-expectancy'}">World Life Expectancy</router-link>
             </li>
-            <li class="link-extras"><a>Seismic Awakening</a></li>
-            <li class="link-extras"><a>World 1960 -2013</a></li>
-            <li class="link-extras"><a>Taxi Rush Hour</a></li>
+            <li class="link-extras"><a target="_blank" href="https://public.tableau.com/profile/lukaszmaluchadataviz#!/vizhome/SeismicAwakening/EarthquakesVulcanoes">Seismic Awakening</a></li>
+            <li class="link-extras"><a target="_blank" href="https://public.tableau.com/profile/lukaszmaluchadataviz#!/vizhome/WorldDemographic1960-2013/WorldDemographics">Demographics 1960 -2013</a></li>
+            <li class="link-extras"><a target="_blank" href="https://public.tableau.com/profile/lukaszmaluchadataviz#!/vizhome/TheRushHour/TheRushHour">Taxi Rush Hour</a></li>
           </ul>
         </div>
       </div>
