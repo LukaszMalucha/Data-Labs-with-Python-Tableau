@@ -1,11 +1,9 @@
 <template>
 <div id="page-index">
   <RowHeaderComponent/>
-  <div class="row row-banner row-banner-small">
-    <div class="col-md-8 text-left col-banner-small no-padding">
-      <h4>{{ message }}</h4>
-    </div>
-    <div class="col-md-4 no-padding">
+  <div class="row row-banner">
+    <div class="col-md-12 text-center col-banner plain-element">
+      <h4>404 - Page Not Found</h4>
     </div>
   </div>
 </div>
@@ -21,10 +19,6 @@ export default {
   components: {
     RowHeaderComponent,
   },
-  data() {
-    return {
-      message: "404 - Page Not Found"
-    }
-  }
+
 }
 </script>

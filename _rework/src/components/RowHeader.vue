@@ -2,10 +2,10 @@
   <div class="row header">
       <div class="row top-menu">
         <div class="col-sm-2 col-md-1  col-lg-1 plain-element col-logo">
-          <a>
+          <router-link :to="{name: 'home'}">
             <img src="@/assets/tableau.png"
                  class="img responsive tableau" alt="Tableau logo"/>
-          </a>
+          </router-link>
         </div>
         <div class="col-sm-12 col-md-11 col-lg-11 plain-element">
           <ul>

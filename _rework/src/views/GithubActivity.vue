@@ -5,7 +5,7 @@
     <div class="dashboard-cards">
       <div class="row">
         <div class="col-md-2 col-left">
-          <div class="section-left text-left">
+          <div class="section-left text-left" id="textGithub">
           <h5>GITHUB ACTIVITY A.D. 2018</h5>
             <p>2018 was very busy year so far. Over 900 contributions and still three months to go... I did some
                 data mining on my own Selenium-scraped repository<br> to find out
@@ -15,7 +15,7 @@
           </div>
         </div>
         <div class="col-md-10 col-center">
-            <div class="section-viz">
+            <div class="section-viz" >
               <div id="divGithubActivityViz">
 
               </div>
@@ -61,6 +61,7 @@ export default {
       this.getViz()
   },
   created() {
+    document.title = "Github Activity";
   }
 }
 

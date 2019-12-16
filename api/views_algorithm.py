@@ -73,10 +73,5 @@ class TestProfileView(APIView):
             return Response({"Found on % of Data Scientists Linkedin Profiles": results_dictionary,
                              "% of Data Scientists also listed": missing_dictionary})
 
-
-
-
-
-
         else:
             return Response(serializer.errors, status=status.HTTP_400_BAD_REQUEST)

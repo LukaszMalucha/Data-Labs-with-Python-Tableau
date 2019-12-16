@@ -16,10 +16,10 @@
               </div>
               <div class="col-md-9 text-left col-project-content">
                 <div class="row plain-element">
-                  <a href="#" class="single-project-title">Thompson Sampling</a>
+                  <a target="_blank" href="http://www.thompsonsampling.com/" class="single-project-title">Thompson Sampling</a>
                 </div>
                 <div class="row plain-element">
-                  <a target="_blank" href="http://www.minerstartup.com" class="btn subscribe-btn"> Visit Project</a>
+                  <a target="_blank" href="http://www.thompsonsampling.com/" class="btn subscribe-btn"> Visit Project</a>
                 </div>
               </div>
             </div>
@@ -30,7 +30,7 @@
               </div>
               <div class="col-md-9 text-left col-project-content">
                 <div class="row plain-element">
-                  <a href="#" class="single-project-title">Blockchain Example</a>
+                  <a target="_blank" href="http://www.minerstartup.com" class="single-project-title">Blockchain Example</a>
                 </div>
                 <div class="row plain-element">
                   <a target="_blank" href="http://www.minerstartup.com" class="btn subscribe-btn"> Visit Project</a>
@@ -44,10 +44,10 @@
               </div>
               <div class="col-md-9 text-left col-project-content">
                 <div class="row plain-element">
-                  <a href="#" class="single-project-title">Quant Properties</a>
+                  <a target="_blank" href="http://www.quantproperties.com/" class="single-project-title">Quant Properties</a>
                 </div>
                 <div class="row plain-element">
-                  <a target="_blank" href="http://www.minerstartup.com" class="btn subscribe-btn"> Visit Project</a>
+                  <a target="_blank" href="http://www.quantproperties.com/" class="btn subscribe-btn"> Visit Project</a>
                 </div>
               </div>
             </div>
@@ -58,10 +58,10 @@
               </div>
               <div class="col-md-9 text-left col-project-content">
                 <div class="row plain-element">
-                  <a href="#" class="single-project-title">Unflasking AI</a>
+                  <a target="_blank" href="http://www.unflasked.com/" class="single-project-title">Unflasking AI</a>
                 </div>
                 <div class="row plain-element">
-                  <a target="_blank" href="http://www.minerstartup.com" class="btn subscribe-btn"> Visit Project</a>
+                  <a target="_blank" href="http://www.unflasked.com/" class="btn subscribe-btn"> Visit Project</a>
                 </div>
               </div>
             </div>
@@ -72,10 +72,10 @@
               </div>
               <div class="col-md-9 text-left col-project-content">
                 <div class="row plain-element">
-                  <a href="#" class="single-project-title">Cat Dog Classifier</a>
+                  <a target="_blank" href="http://www.septellar.com/" class="single-project-title">Cat Dog Classifier</a>
                 </div>
                 <div class="row plain-element">
-                  <a target="_blank" href="http://www.minerstartup.com" class="btn subscribe-btn"> Visit Project</a>
+                  <a target="_blank" href="http://www.septellar.com/" class="btn subscribe-btn"> Visit Project</a>
                 </div>
               </div>
             </div>
@@ -86,10 +86,10 @@
               </div>
               <div class="col-md-9 text-left col-project-content">
                 <div class="row plain-element">
-                  <a href="#" class="single-project-title">Top 10 US Trends</a>
+                  <a target="_blank" href="http://www.tweetever.com/" class="single-project-title">Top 10 US Trends</a>
                 </div>
                 <div class="row plain-element">
-                  <a target="_blank" href="http://www.minerstartup.com" class="btn subscribe-btn"> Visit Project</a>
+                  <a target="_blank" href="http://www.tweetever.com/" class="btn subscribe-btn"> Visit Project</a>
                 </div>
               </div>
             </div>
@@ -100,10 +100,10 @@
               </div>
               <div class="col-md-9 text-left col-project-content">
                 <div class="row plain-element">
-                  <a href="#" class="single-project-title">Yahoo WOEID Search</a>
+                  <a target="_blank" href="http://www.findmecity.com/" class="single-project-title">Yahoo WOEID Search</a>
                 </div>
                 <div class="row plain-element">
-                  <a target="_blank" href="http://www.minerstartup.com" class="btn subscribe-btn"> Visit Project</a>
+                  <a target="_blank" href="http://www.findmecity.com/" class="btn subscribe-btn"> Visit Project</a>
                 </div>
               </div>
             </div>
@@ -121,8 +121,8 @@
                        class="img responsive img-project-medium" alt="Tableau Public"/>
                 </div>
                 <div class="single-project-content content-side text-left">
-                  <a href=""><span>Daft.ie Analytics</span><br>
-                    Daft.ie property market analysis.</a>
+                <router-link :to="{name: 'daft-analytics'}"><span>Daft.ie Analytics</span><br>
+                    Daft.ie property market analysis.</router-link>
                 </div>
               </div>
               <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4 plain-element col-project-center">
@@ -131,8 +131,8 @@
                        class="img responsive img-project-medium" alt="Tableau Public"/>
                 </div>
                 <div class="single-project-content content-center text-left">
-                  <a href=""><span>Github Activity</span><br>
-                    My GitHub Activity on Radial Bar Chart.</a>
+                  <router-link :to="{name: 'github-activity'}"><span>Github Activity</span><br>
+                    My GitHub Activity on Radial Bar Chart.</router-link>
                 </div>
               </div>
               <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4 plain-element col-project-right">
@@ -141,8 +141,8 @@
                        class="img responsive img-project-medium" alt="Tableau Public"/>
                 </div>
                 <div class="single-project-content content-side text-left">
-                  <a href=""><span>World Life Expectancy</span><br>
-                    Visualizing increase in world life expectancy.</a>
+                  <router-link :to="{name: 'life-expectancy'}"><span>World Life Expectancy</span><br>
+                    Visualizing increase in world life expectancy.</router-link>
                 </div>
               </div>
             </div>
@@ -156,7 +156,7 @@
               </div>
               <div class="col-xs-8 col-sm-8 col-md-8 col-lg-8">
                 <div class="row plain-element text-left">
-                  <a class="link-date" href="#">MAY 21, 2019 / Data Science</a>
+                  <router-link :to="{name: 'data-science'}" class="link-date">MAY 21, 2019 / Data Science</router-link>
                 </div>
                 <div class="row plain-element text-left">
                   <h5>What is the ultimate toolbox for Data Science?</h5>
@@ -168,7 +168,7 @@
                   skillsets of top tier Data Scientists.
                 </div>
                 <div class="row plain-element text-left">
-                  <a href="" class="link-visit-lg">Visit Dashboard</a>
+                <router-link :to="{name: 'data-science'}" class="link-visit-lg">Visit Dashboard</router-link>
                 </div>
               </div>
             </div>
@@ -187,7 +187,8 @@
                    class="img responsive img-section" alt="Public"/>
             </div>
             <div class="row plain-element">
-              <button type="submit" class="btn btn-visit">Tableau Public</button>
+              <button type="submit" class="btn btn-visit"
+                onclick="window.open('https://public.tableau.com/profile/lukaszmaluchadataviz#!/')">Tableau Public</button>
             </div>
             <br>
             <div class="section-heading text-left">
@@ -202,7 +203,8 @@
                    class="img responsive img-section" alt="Public"/>
             </div>
             <div class="row plain-element">
-              <button type="submit" class="btn btn-visit">Code Portfolio</button>
+            <button type="submit" class="btn btn-visit"
+                onclick="window.open('https://www.lukaszmalucha.com/')">Code Portfolio</button>
             </div>
           </div>
         </div>

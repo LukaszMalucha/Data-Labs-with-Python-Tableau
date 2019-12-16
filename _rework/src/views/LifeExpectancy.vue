@@ -5,7 +5,7 @@
     <div class="dashboard-cards">
       <div class="row">
         <div class="col-md-2 col-left">
-          <div class="section-left text-left">
+          <div class="section-left text-left" id="textLife">
           <h5>LIFE EXPECTANCY AT BIRTH, 1960-2015</h5>
             <p>In the early years of previous century, life expectancy started to grow as an effect of ongoing industrialization. But the growth wasn't equal worldwide. Dramatic improvement of living standard in
                     developed countries stood in stark contrast to the poor regions. Over the last decades this tendencies decreased, what is shown in the Tableau Visualization below.</p>
@@ -59,6 +59,7 @@ export default {
       this.getViz()
   },
   created() {
+    document.title = "Life Expectancy";
   }
 }
 
