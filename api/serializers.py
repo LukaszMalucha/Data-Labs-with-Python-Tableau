@@ -1,73 +1,16 @@
-from django.contrib.auth import get_user_model, authenticate
 from rest_framework import serializers
-from daft_analytics.utils import areas
 
+from core.models import User
 
-CITY_CHOICES = ('Cork', 'Dublin', 'Galway', 'Limerick')
-PROPERTY_TYPE_CHOICES = ('House', 'Apartment')
-AREA_CHOICES = areas
 
 class UserSerializer(serializers.ModelSerializer):
-    """Serializer for the users object"""
+    """For request.user logic in Vue.js frontend"""
 
     class Meta:
-        model = get_user_model()
-        fields = ('email', 'password', 'name')
-        extra_kwargs = {'password': {'write_only': True, 'min_length': 8}}
+        model = User
+        fields = ["email"]
 
-    def create(self, validated_data):
-        """Create a new user with encrypted password and return it"""
-        return get_user_model().objects.create_user(**validated_data)
-
-    # making sure that the password is set with "set_password" function
-    def update(self, instance, validated_data):
-        """Update a user, setting the password correctly and return it"""
-        # remove password
-        password = validated_data.pop('password', None)
-        user = super().update(instance, validated_data)  ## Call ModelSerializer default update function
-
-        if password:
-            user.set_password(password)
-            user.save()
-
-        return user
-
-
-class AuthTokenSerializer(serializers.Serializer):
-    """Serializer for the user authentication object"""
-    email = serializers.CharField()
-    password = serializers.CharField(
-        style={'input_type': 'password'},
-        trim_whitespace=False  ## include whitespace in password if any
-    )
-
-    # overwrite django validate function
-    def validate(self, attrs):
-        """Validate and  authenticate the  user"""
-        email = attrs.get('email')
-        password = attrs.get('password')
-
-        # django-provided auth function
-        user = authenticate(
-            request=self.context.get('request'),
-            username=email,
-            password=password
-        )
-        if not user:
-            message = ('Unable to authenticate with provided credentials')
-            raise serializers.ValidationError(message, code='authentication')
-
-        attrs['user'] = user
-        return attrs  ## overwritten validate function must return attrs
-
-
-
-class PropertySerializer(serializers.Serializer):
-    city = serializers.ChoiceField(choices=CITY_CHOICES, default='Cork')
-    area = serializers.ChoiceField(choices=AREA_CHOICES, default='Bishopstown')
-    property_type = serializers.ChoiceField(choices=PROPERTY_TYPE_CHOICES, default='Cork')
-    bedrooms = serializers.IntegerField(max_value=15, min_value=1)
-    bathrooms = serializers.IntegerField(max_value=15, min_value=1)
 
 class SkillsSerializer(serializers.Serializer):
+    """For evaluate skillset view"""
     skills = serializers.CharField(max_length=1000)

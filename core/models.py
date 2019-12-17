@@ -1,14 +1,15 @@
-from django.db import models
 from django.contrib.auth.models import AbstractBaseUser, BaseUserManager, PermissionsMixin
+from django.db import models
 
 
+# Manager Class
 class UserManager(BaseUserManager):
 
     def create_user(self, email, password=None, **extra_fields):
         """Create and save new user"""
         if not email:
-            raise ValueError('User must have a valid email address')
-        user = self.model(email= self.normalize_email(email), **extra_fields)
+            raise ValueError(_('User must have a valid email address'))
+        user = self.model(email=self.normalize_email(email), **extra_fields)
         user.set_password(password)
         user.save(using=self._db)
         return user
@@ -22,12 +23,13 @@ class UserManager(BaseUserManager):
         return user
 
 
+# Model Class
 class User(AbstractBaseUser, PermissionsMixin):
     """Customized user model that allows using email instead of username"""
     email = models.EmailField(max_length=255, unique=True)
     name = models.CharField(max_length=255)
     is_active = models.BooleanField(default=True)
-    is_staff  = models.BooleanField(default=False)
+    is_staff = models.BooleanField(default=False)
 
     objects = UserManager()
 
@@ -40,18 +42,4 @@ class DataSkill(models.Model):
 
     def __str__(self):
         return self.dataskill
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 

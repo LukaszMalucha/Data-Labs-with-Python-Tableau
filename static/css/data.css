@@ -12,16 +12,7 @@ body {
     padding-top: 0px;
 }
 
-.dashboard-cards {
-    border: none;
-    text-align: center;
-    box-shadow: none;
-    min-height: 600px;
-    display: block;
-    overflow: auto;
-    width: 90%;
-    margin: auto;
-}
+
 
 .row-cards {
     width: 80%;
@@ -79,265 +70,99 @@ table {
     margin-right: 20px;
 }
 
-
-
 /*------------------------------------------------------------------------------
-    CARDS
+    SECTIONS
 ------------------------------------------------------------------------------*/
 
-
-.card .card-image .card-title {
-    color: black;
+.section-viz {
+  background-color: #ffffff;
+  padding: 0px;
+  box-shadow: 0 0 8px 1px rgba(0, 0, 0, 0.15) !important;
 }
 
-.card .card-image img {
-    border-bottom: 1px solid #DCDCDC;
+.section-left h5 {
+  font-size: 18px;
+  font-weight: 600;
+}
+
+#divLifeExpectancyViz {
+  height: 740px;
+}
+
+#divGithubActivityViz {
+  height: 740px;
+}
+
+#divDataAnalyticsViz {
+  height: 740px;
+}
+
+.col-data-left {
+  position: relative;
+  width: 19%;
+  margin-right: 1%;
+  float: left;
+
+}
+
+.col-data-center {
+  position: relative;
+  width: 60%;
+  padding: 0px 5px;
+  float: left;
+}
+
+.col-data-right {
+  position: relative;
+  width: 19%;
+  margin-left: 1%;
+  float: left;
 }
 
 
-.card .card-content .card-title {
-    color: #2d4b65;
-    font-weight: bold;
+
+#dataScienceRight,
+#dataScienceLeft,
+#divDataScienceViz {
+  height: 1127px !important;
 }
 
-.card .card-content {
-    min-height: 100px;
-
-}
-
-.card .card-content p {
-    color: black;
-    font-size: 12px;
-    min-height: 40px;
-}
-
-.card .card-title {
-    font-size: 1.4rem;
-}
-
-
-
-
-.card.horizontal .card-image {
-    max-width: 35%;
-}
-
-.card .card-action:last-child {
-    border: none;
-}
-
-
-.row-cards {
-    padding: 0%;
-}
-
-.viz-card {
-    width: 50%;
+.summary {
+    width: 98%;
     margin: auto;
-    box-shadow: 0 3px 3px 0 #A9A9A9, 0 3px 1px -2px #838383, 0 1px 5px 0 #838383;
-    border-radius: 5px;
-    margin: 1% 35% 3% 15%;
-    max-height: 180px;
-
-
+    color: #333333 !important;
 }
 
 
-
-.card .card-content {
-    padding: 16px;
-    text-align: left;
-    font-family: 'Raleway';
-    font-size: 12px;
-
-}
-
-.card .card-content h5 {
-    margin-top: 5px;
-    font-family: 'Raleway';
-    font-weight: 700;
-    font-size: 1.4rem;
-
-}
-
-.card .skillset-content p{
-    min-height: 0px;
+#divGithubActivityViz {
+  background: black;
 }
 
 
-.card .card-action a:not(.btn):not(.btn-large):not(.btn-small):not(.btn-large):not(.btn-floating) {
-    color: #83ab41;
-    margin: auto;
-    padding: auto;
-    -webkit-transition: color .3s ease;
-    transition: color .3s ease;
-    text-transform: uppercase;
-    font-weight: bold;
-    font-size: 12px;
+#foundChart {
+  height: 300px;
+  display: none;
 }
 
-
-.card .card-action a:not(.btn):not(.btn-large):not(.btn-small):not(.btn-large):not(.btn-floating):hover {
-    color: #6d8f36;
+#foundChart h5 {
+  font-size: 18px;
+  font-weight: 600;
 }
 
+#missingChart {
 
-.card .card-image img {
-    border: none;
-    height: 100%;
+  height: 700px;
+  display: none;
 }
 
-
-
-.tableau_card {
-    border-style: solid;
-    border-color: #800000;
-    border-radius: 5px;
-    border-width: 0px;
-    padding: 0px;
-    margin: 0px;
+#missingChart h5 {
+    font-size: 18px;
+  font-weight: 600;
 }
 
-.ds_card {
-    width: 850px !important;
-    margin: auto;
+.row-error {
+  color: red;
 }
-
-
-
-.description_card_mlb {
-    background-color: white;
-    border-style: solid;
-    border-color: #800000;
-    border-radius: 5px;
-    vertical-align: middle;
-    border-width: 0px;
-    padding: 20px;
-    margin-top: 10px;
-    margin-bottom: 0px;
-    margin-right: 10px;
-    overflow: auto;
-}
-
-
-.description_card_mlb th,
-td {
-    font-size: 12px;
-    min-width: 25px;
-}
-
-.description_card_mlb h3 {
-    color: #8B0000;
-    font-size: 20px;
-    margin: 10px;
-}
-
-
-
-.description_card {
-    background-color: white;
-    border-style: solid;
-    border-radius: 5px;
-    vertical-align: middle;
-    border-width: 0px;
-    padding: 20px;
-    margin-top: 10px;
-    margin-bottom: 0px;
-    margin-right: 10px;
-    overflow:auto;
-}
-
-.description_card p {
-    color: #81892d;
-    font-size: 14px;
-    font-weight: bold;
-    margin-left: 0px;
-    padding: 0px;
-}
-
-.card-rule {
-    box-shadow: 0 3px 3px 0 #A9A9A9, 0 3px 1px -2px #6d6d6d, 0 1px 5px 0 #6d6d6d;
-    border-radius: 5px;
-    width: 90%;
-}
-
-
-.course_title {
-
-    font-size: 0.8rem !important;
-    height: 26px;
-}
-
-
-.course_span {
-    display: ruby;
-}
-
-.course_info {
-
-    font-size: 14px !important;
-    font-weight: bold;
-}
-
-.chart {
-    border-radius: 5px;
-    padding: 10px;
-    min-height: 300px;
-
-}
-
-.dataskills_chart {
-    height: 600px;
-}
-
-.estimation {
-    color: green;
-    font-size: 1.2rem !important;
-}
-
-
-/*------------------------------------------------------------------------------
-    FORMS
-------------------------------------------------------------------------------*/
-
-textarea.materialize-textarea:focus:not([readonly])  + label {
-    color: #165d81;
-}
-
-textarea.materialize-textarea:focus:not([readonly]) {
-    border-bottom: 1px solid #165d81;
-    -webkit-box-shadow: 0 1px 0 0 #165d81;
-    box-shadow: 0 1px 0 0 #165d81;
-
-}
-
-
-.form-signin {
-    max-width: 50%;
-    padding: 40px 0px 0px 0px;
-}
-
-.form-signin h6 {
-    font-size: 1rem;
-}
-
-.form-signin p {
-    display: none;
-}
-
-
-.property_input {
-    padding-right: 60px !important;
- }
-
-.property_input input {
-     text-align: center;
-}
-
-#areasCork, #areasDublin, #areasGalway, #areasLimerick {
-    display: none;
-}
-
 
 /*------------------------------------------------------------------------------
     BUTTONS
@@ -393,10 +218,6 @@ textarea.materialize-textarea:focus:not([readonly]) {
     border: none;
  }
 
- .phase-negative {
-    color: red !important;
-
- }
 
  .link {
     color: #4267b2 !important;
@@ -428,50 +249,6 @@ textarea.materialize-textarea:focus:not([readonly]) {
     background: #F19030;
 }
 
-.fixed-action-btn {
-    right: 340px;
-}
-
-
-.btn-floating.btn-large {
-    background: #273b4c;
-}
-
-.btn-floating.btn-large:hover,
-.btn-floating.btn-large:focus,
-.btn-floating.btn-large:active {
-    background: #2c4256;
-}
-
-
-
-
-
-/*------------------------------------------------------------------------------
-    STATISTICS
-------------------------------------------------------------------------------*/
-
- .pyplot {
-    background-color: white;
-    border-style: solid;
-    border-color: transparent;
-    border-radius: 5px;
-    box-shadow: 0 3px 3px 0 #A9A9A9, 0 3px 1px -2px #6d6d6d, 0 1px 5px 0 #6d6d6d;
-    vertical-align: middle;
-    padding: 20px;
-    margin-top: 10px;
-    margin-bottom: 0px;
-    margin-right: 10px;
-    height: 400px;
-    padding: 0px;
-}
-
-.pyplot h2 {
-    color: #8B0000;
-    font-size: 20px;
-    margin: 10px;
-}
-
 
 /*------------------------------------------------------------------------------
     MEDIA QUERIES
@@ -479,9 +256,7 @@ textarea.materialize-textarea:focus:not([readonly]) {
 
 
 @media(max-width:1900px) {
-    .fixed-action-btn {
-    right: 10px;
-    }
+
 
 }
 
@@ -497,11 +272,55 @@ textarea.materialize-textarea:focus:not([readonly]) {
     width: 100%;
     }
 
+    #textLife,
+    #textGithub {
+      height: 740px !important;
+    }
+
+    #divGithubActivityViz {
+    }
+
 }
 
+@media(max-width:1300px) {
+    .col-data-left {
+      position: relative;
+      width: 15%;
+      margin-right: 1%;
+      float: left;
 
+    }
+
+    .col-data-center {
+      position: relative;
+      width: 68%;
+      padding: 0px 5px;
+      float: left;
+    }
+
+    .col-data-right {
+      position: relative;
+      width: 15%;
+      margin-left: 1%;
+      float: left;
+    }
+
+    #VizDA {
+      overflow: auto;
+    }
+
+}
 
 @media(max-width:1024px) {
+
+    .col-data-left,
+    .col-data-right {
+      display: none;
+    }
+
+    .col-data-center {
+      padding: 0 5%;
+    }
 
     .viz-card {
         width: 90%;
@@ -511,9 +330,6 @@ textarea.materialize-textarea:focus:not([readonly]) {
         height: 100% !important;
     }
 
-    .col-lg-4 {
-        width: 100% ;
-    }
 
     .header {
         padding-left: 1%;
@@ -541,9 +357,6 @@ textarea.materialize-textarea:focus:not([readonly]) {
      .form-signin {
     max-width: 100%;
     }
-    .tableau {
-        display:none;
-    }
 }
 
 
@@ -552,10 +365,6 @@ textarea.materialize-textarea:focus:not([readonly]) {
     .row-title,
     .row-cards {
         width: 100%;
-    }
-
-    .property_input {
-    padding-right: 10px !important;
     }
 
     .container {
@@ -570,8 +379,6 @@ textarea.materialize-textarea:focus:not([readonly]) {
     .card-image {
         display:none;
     }
-
-
 }
 
 @media(max-width:375px) {

@@ -13,6 +13,12 @@ body {
 
 }
 
+.form-container {
+    padding-top: 148px;
+    width: 70%;
+    margin: auto;
+}
+
 .form-signin {
     text-align: center;
     max-width: 40%;
@@ -34,7 +40,7 @@ body {
     border-color: transparent;
     text-align: right;
     color: white;
-    background-color: #165d81;
+    background-color: #5770af;
     font-size: 18px;
 }
 
@@ -52,7 +58,7 @@ body {
     border-radius: 50px;
     background-color: white;
     padding: 3%;
-    color: #165d81;
+    color: #5770af;
 }
 
 .form-box {
@@ -82,7 +88,7 @@ h6 {
 input[type="email"]:not(.browser-default):focus:not([readonly]),
 input[type="password"]:not(.browser-default):focus:not([readonly]),
 input[type="text"]:not(.browser-default):focus:not([readonly]) {
-    border-bottom: 1px solid #165d81;
+    border-bottom: 1px solid #5770af;
     box-shadow: 0 1px 0 0 #26a69a;
 
 }

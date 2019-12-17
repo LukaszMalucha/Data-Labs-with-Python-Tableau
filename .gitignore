@@ -6,3 +6,4 @@ env.py
 _data/
 venv/*
 .idea/*
+_scrapers&cleaners/*

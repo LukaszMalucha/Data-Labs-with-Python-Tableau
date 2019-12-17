@@ -2,9 +2,12 @@
 {% block extrahead %}
 <link href="{% static 'css/forms.css' %}" rel="stylesheet"/>
 {% endblock %}
-{% load bootstrap_tags %} {% block content %}
+{% load bootstrap_tags %}
+
+{% block content %}
+
 {% block row_header %}
-<div class="row" style="min-height: 72px">
+<div class="row row-message">
     {% if messages %} {% for message in messages %}
     {% if message.tags == "success" %}
     <div class="alert alert-success">
@@ -26,7 +29,7 @@
 </div>
 {% endblock %}
 
-<div class="container">
+<div class="form-container">
 
     <form class="form-signin" method="post" action="{% url 'user:register' %}" class="accountform">
         <i class="material-icons" id="icon-login">assignment_turned_in</i>
@@ -62,5 +65,9 @@
         </fieldset>
     </form>
 </div> <!-- /container -->
-
+</div>
+<div class="footer">
+    <p><a target="_blank" href="https://www.freeprivacypolicy.com/privacy/view/4a6458c34e915bb7bdfa2d3bcc0bc53e/">Privacy
+        Policy</a> • © 2019 - 2020 www.septellar.com - All Rights Reserved • Powered by Septellar &trade;</p>
+</div>
 {% endblock %}

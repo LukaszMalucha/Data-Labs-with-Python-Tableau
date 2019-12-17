@@ -21,7 +21,6 @@ class UserAdmin(BaseUserAdmin):
         (None, {'classes': ('wide',), 'fields': ('email', 'password1', 'password2')}),)
 
 
-
 class DataSkillModelAdmin(admin.ModelAdmin):
     list_display = ["dataskill", "percentage"]
 
@@ -29,5 +28,7 @@ class DataSkillModelAdmin(admin.ModelAdmin):
         model = models.DataSkill
 
 
+
 admin.site.register(models.User, UserAdmin)
 admin.site.register(models.DataSkill, DataSkillModelAdmin)
+
