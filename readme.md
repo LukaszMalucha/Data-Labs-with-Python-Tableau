@@ -5,12 +5,11 @@
 
 <br>
 
-![1](https://user-images.githubusercontent.com/26208598/54075691-1f5b8880-429a-11e9-8919-baf9744a40b4.JPG)
-
+![1](https://user-images.githubusercontent.com/26208598/70999599-a06d6900-20d1-11ea-967a-a639f11aa64d.PNG)
 ## App Views
 
 ### DATA SCIENCE IN BIG 5
-##### `/data_science/`
+##### `/data_science
 What is the ultimate toolbox for Data Science? Let's find out by analyzing LinkedIn profiles of Data Scientists in most prominent IT Companies - Amazon, Apple, Facebook, Google and Microsoft.
 Then test your own LinkedIn profile skillset against skillsets of top tier Data Scientists.
 
@@ -23,23 +22,12 @@ Dataset was preprocessed with pandas.
 
 
 #### Tableau Vizualization:
-##### `/data_science/ds_dashboard`
 Tableau Viz embedded in Django application
 <br>
 <br>
 
-![2](https://user-images.githubusercontent.com/26208598/54075693-21bde280-429a-11e9-802b-590b0895ca4b.JPG)
+![2](https://user-images.githubusercontent.com/26208598/70999600-a105ff80-20d1-11ea-9282-5717e048f63c.PNG)
 
-#### Test My Profile:
-##### `/data_science/test_profile`
-Datasets comparison with pandas and chartJs
-<br>
-<br>
-
-![3](https://user-images.githubusercontent.com/26208598/54075695-22ef0f80-429a-11e9-8e6b-3b205574024e.JPG)
-
-<br>
-<br>
 
 
 
@@ -47,7 +35,7 @@ Datasets comparison with pandas and chartJs
 
 ### DAFT ANALYTICS
 
-##### `/daft_analytics/`
+##### `/daft-analytics`
 What is a current value of you property? While web is full of various calculators, yet we will try to build another one, with use of Machine Learning algorithms. 
 We'll also create Tableau Vizualization that will allow to determine most attractive investments in the area.
 
@@ -61,33 +49,19 @@ Dataset was preprocessed with pandas.
 
 
 #### Tableau Vizualization:
-##### `/daft_analytics`
 Tableau Viz embedded in Django application
 <br>
 <br>
 
-![4](https://user-images.githubusercontent.com/26208598/54075696-24203c80-429a-11e9-9b73-ab89dcfb5f4d.JPG)
-
-#### Property Price Estimator:
-##### `/daft_analytics/price_estimator`
-Machine Learning regressors built with RandomForest & XGBoost
-<br>
-<br>
-
-![5](https://user-images.githubusercontent.com/26208598/54075697-271b2d00-429a-11e9-8a6b-6486ea48ecc1.JPG)
-
-<br>
-<br>
-
------------------
+![3](https://user-images.githubusercontent.com/26208598/70999601-a105ff80-20d1-11ea-928d-50520d36069e.PNG)-----------------
 
 ## LIFE EXPECTANCY AT BIRTH, 1960-2015
-##### `/life_expectancy/`
+##### `/life-expectancy`
 Tableau Dashboard deployment in Django + Heroku environment.
 <br>
 <br>
 
-![6](https://user-images.githubusercontent.com/26208598/54075698-27b3c380-429a-11e9-9f31-7e3a073a1ba9.JPG)
+![5](https://user-images.githubusercontent.com/26208598/70999603-a105ff80-20d1-11ea-859b-38dedda05044.PNG)
 
 <br>
 <br>
@@ -96,7 +70,7 @@ Tableau Dashboard deployment in Django + Heroku environment.
 
 
 ## GITHUB ACTIVITY 2018
-##### `/github_activity/`
+##### `/github-activity`
 My GitHub Activity meets Radial Bar Chart.
 <br>
 <br>
@@ -111,30 +85,22 @@ My GitHub Activity meets Radial Bar Chart.
 ## Django REST Endpoints
 
 #### User
-##### `/rest`
+##### `/api/user/create`
 
  User handling via RESTFUL Api with Token Authorization.
 
 <br>
 
-![11](https://user-images.githubusercontent.com/26208598/54075702-284c5a00-429a-11e9-9b7f-e007995feacc.JPG)
-#### Estimate Property 
-##### `/api/estimate_property/`
-
- Apply Property Value Estimator algorithm via RESTFul Api.
-
-<br>
-
-![9](https://user-images.githubusercontent.com/26208598/54075700-27b3c380-429a-11e9-9383-adc15bfaea81.JPG)
+![55](https://user-images.githubusercontent.com/26208598/70999607-a19e9600-20d1-11ea-85f2-be494492f250.PNG)
 
 #### Test Profile
-##### `/api/test_profile/`
+##### `/api/test-profile/`
 
  Let's compare skills that you currently list on LinkedIn profile to the skillset that is most commonly found on Data Scientists profiles via RESTFul Api.
 
 <br>
 
-![10](https://user-images.githubusercontent.com/26208598/54075701-284c5a00-429a-11e9-8a3a-3b6d5d5d1228.JPG)
+![6](https://user-images.githubusercontent.com/26208598/70999606-a19e9600-20d1-11ea-9130-bbb25686da04.PNG)
 
 
 
@@ -144,21 +110,14 @@ My GitHub Activity meets Radial Bar Chart.
 
 ## TOOLS, MODULES & TECHNIQUES
 
-### Travis CI:
-
-[![Build Status](https://travis-ci.com/LukaszMalucha/Springboard-Insights.svg?branch=master)](https://travis-ci.com/LukaszMalucha/Springboard-Insights)
-
-### Test Files:
-#### `/core/tests/`
-
 ##### Web Development:
-Django RESTful | Docker | Heroku | Bootstrap | Materialize | AWS S3
+Django RESTful | Vue.js |  Heroku | Bootstrap | Materialize | AWS S3
 
 ##### Database Development:
 Postgres | SQLite
 
 ##### Python & JS – data analysis & visualisation:
-pandas | numpy | chart.js
+pandas | numpy | vue chart.js
 
 ##### Python – machine learning:
 sklearn | xgboost | pandas | 
