@@ -1,4 +1,4 @@
-# Data Labs with Python & Tableau
+# Data Labs with Python, Vue.js & Tableau
 
 
 ##### [Visit App on Heroku](https://data-labs-python.herokuapp.com/)
@@ -9,19 +9,19 @@
 ## App Views
 
 ### DATA SCIENCE IN BIG 5
-##### `/data_science
+##### `/data_science`
 What is the ultimate toolbox for Data Science? Let's find out by analyzing LinkedIn profiles of Data Scientists in most prominent IT Companies - Amazon, Apple, Facebook, Google and Microsoft.
 Then test your own LinkedIn profile skillset against skillsets of top tier Data Scientists.
 
-###### Scrapers:
+##### Scrapers:
 
 Data was scraped with Scrapy + Selenium combo.
 
-###### Data Preprocessing:
+##### Data Preprocessing:
 Dataset was preprocessed with pandas. 
 
 
-#### Tableau Vizualization:
+##### Tableau Vizualization:
 Tableau Viz embedded in Django application
 <br>
 <br>
@@ -57,7 +57,7 @@ Tableau Viz embedded in Django application
 
 ## LIFE EXPECTANCY AT BIRTH, 1960-2015
 ##### `/life-expectancy`
-Tableau Dashboard deployment in Django + Heroku environment.
+Visualizing increase in world life expectancy.
 <br>
 <br>
 
