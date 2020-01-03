@@ -39,7 +39,7 @@ export default {
           enabled: true,
           callbacks: {
             label: function(tooltipItem,data) {
-              return data['datasets'][0]['data'][tooltipItem['index']] + " companies";
+              return data['datasets'][0]['data'][tooltipItem['index']] + "% profiles";
             },
           }
         }

@@ -1,8 +1,9 @@
 from django import forms
-from django.contrib.auth.models import User
 from django.contrib.auth.forms import UserCreationForm
+from django.contrib.auth.models import User
 from django.core.exceptions import ValidationError
-from core.models import User
+
+from core.models import User, MyProfile
 
 
 class UserLoginForm(forms.Form):
@@ -29,10 +30,14 @@ class UserRegistrationForm(UserCreationForm):
         password1 = self.cleaned_data.get('password1')
         password2 = self.cleaned_data.get('password2')
 
-        if not password1 or not password2:
-            raise ValidationError("Password must not be empty")
-
         if password1 != password2:
             raise ValidationError("Passwords do not match")
 
         return password2
+
+
+class MyProfileForm(forms.ModelForm):
+    """User Details"""
+    class Meta:
+        model = MyProfile
+        fields = ['position', 'image']

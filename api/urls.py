@@ -5,10 +5,9 @@ from api import views
 
 router = DefaultRouter()
 
-app_name = 'api'
+app_name = "api"
 
 urlpatterns = [
-    path('', include(router.urls)),
-    path("user/", views.CurrentUserApiView.as_view(), name="current-user"),
-    path('test-profile/', views.TestProfileView.as_view(), name='test-profile'),
+    path("", include(router.urls)),
+    path("test-profile/", views.TestProfileView.as_view(), name="test-profile"),
 ]

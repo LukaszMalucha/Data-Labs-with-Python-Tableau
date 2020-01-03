@@ -97,7 +97,7 @@ export default {
         if (this.vizElementDS) {
           this.DataScienceVizDS = this.vizElementDS.cloneNode(true);
           this.DataScienceVizDS.id = "VizDS";
-          this.DataScienceVizDS.style.height = '740px';
+          this.DataScienceVizDS.style.height = '1127px';
           document.getElementById('divDataScienceViz').appendChild(
             this.DataScienceVizDS
           );

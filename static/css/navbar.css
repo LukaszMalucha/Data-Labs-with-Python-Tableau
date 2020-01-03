@@ -108,13 +108,9 @@ nav ul a {
     height: 60px;
 }
 
-
-
 .dropdown-content {
-    width: max-content !important;
     left:  0px !important;
     top: 42px !important;
-
 }
 
 .dropdown-content li>a {
@@ -188,16 +184,16 @@ nav a.sidenav-trigger i {
 
 
 nav ul a:hover {
-    background-color: #102332;
+    background-color: #393939;
 
 }
 
 nav ul li:hover, nav ul li:active {
-    background: #102332;
+    background: #393939;
 }
 
 .sidenav li:hover {
-     background: #102332;
+     background: #393939;
 }
 /*------------------------------------------------------------------------------
     Colors

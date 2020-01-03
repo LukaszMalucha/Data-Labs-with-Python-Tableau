@@ -17,16 +17,15 @@ from django.contrib import admin
 from django.urls import path, include, re_path
 from django.conf import settings
 from django.conf.urls.static import static
-from core.views import IndexTemplateView, error_404, error_500
+from core.views import IndexTemplateView
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('api/', include('api.urls')),
-    path('api/user/', include('user.api.urls')),
-    path('db/', include('db_manager.urls')),
     path('user/', include('user.urls')),
+    path("user/", include("django.contrib.auth.urls")),
+    path("user/", include('allauth.urls')),
+    path('api/user/', include('user.api.urls')),
+    path('api/', include('api.urls')),
+    path('db/', include('db_manager.urls')),
     re_path(r"^.*$", IndexTemplateView.as_view(), name="entry-point")
-]
-
-handler404 = error_404
-handler500 = error_500
+] + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)

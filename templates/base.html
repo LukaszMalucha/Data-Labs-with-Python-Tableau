@@ -44,55 +44,56 @@
                                                          alt="Logo"/></a>
     </div>
     <ul class="nav navbar-top-links navbar-right">
-      <li><a class="nav-link" href="/api/"><i class="fas fa-terminal"></i>REST Api</a>
-      </li>
-      <li><a class="nav-link" target="_blank"
-             href="https://github.com/LukaszMalucha/Data-Labs-with-Python-Tableau"><i class="fab fa-github"></i>
-        GitHub</a></li>
-      <li><a class='dropdown-trigger nav-link' href='#' data-target='dropdown-user' id="user_dropdown"><i
-              class="fas fa-caret-down"></i>
-        {% if user.is_authenticated %}
-        {{ user }}
-        {% else %}
-        Login/Register
-        {% endif %}
-      </a></li>
-      <li><a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons" id="trigger">menu</i></a>
-      </li>
-    </ul>
+            <li><a class="nav-link" href="/api/"><i class="fas fa-terminal"></i>REST Api</a>
+            </li>
+            <li><a class="nav-link" target="_blank"
+                   href="https://www.lukaszmalucha.com"><i class="fab fa-github"></i>
+                GitHub</a></li>
+            <li><a class='dropdown-trigger nav-link' href='#' data-target='dropdown-user' id="user_dropdown"><i
+                    class="fas fa-caret-down"></i>
+                {% if user.is_authenticated %}
+                {{ user }}
+                {% else %}
+                Login/Register
+                {% endif %}
+            </a></li>
+            <li><a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons" id="trigger">menu</i></a>
+            </li>
+        </ul>
   </nav>
 
   <!-- DROPDOWN -->
   <ul id="dropdown-user" class="dropdown-content">
-    {% if user.is_authenticated %}
-    <li><a href="{% url 'user:logout' %}"><i class="fas fa-sign-out-alt"></i> Log Out</a></li>
-    {% else %}
-    <li><a href="{% url 'user:login' %}"><i class="fa fa-user fa-fw"></i> Log In</a></li>
-    <li><a href="{% url 'user:register' %}"><i class="fas fa-tasks"></i> Register</a></li>
-    {% endif %}
+      {% if user.is_authenticated %}
+      <li><a href="{% url 'user:profile' %}"><i class="fas fa-sign-out-alt"></i> My Profile</a></li>
+      <li><a href="{% url 'user:logout' %}"><i class="fas fa-sign-out-alt"></i> Log Out</a></li>
+      {% else %}
+      <li><a href="{% url 'user:login' %}"><i class="fa fa-user fa-fw"></i> Log In</a></li>
+      <li><a href="{% url 'user:register' %}"><i class="fas fa-tasks"></i> Register</a></li>
+      {% endif %}
   </ul>
 
 
   <!-- MOBILE -->
-  <ul class="sidenav" id="mobile-demo">
-    <li><a class="dropdown-button waves-effect waves-dark" href="/api/"><i
-            class="fas fa-terminal"></i>REST Api</a></li>
-    <li><a class="dropdown-button waves-effect waves-dark" target="_blank"
-           href="https://github.com/LukaszMalucha/Data-Labs-with-Python-Tableau"><i class="fab fa-github"></i>
-      GitHub</a>
-    </li>
-    {% if user.is_authenticated %}
-    <li><a class="dropdown-button waves-effect waves-dark" href="{% url 'user:logout' %}"><i
-            class="fas fa-sign-out-alt"></i> Log Out {{ user.name }}</a></li>
-    {% else %}
-    <li><a class="dropdown-button waves-effect waves-dark" href="{% url 'user:login' %}"><i
-            class="fa fa-user"></i> Log In</a></li>
-    <li><a class="dropdown-button waves-effect waves-dark" href="{% url 'user:register' %}"><i
-            class="fas fa-tasks"></i> Register</a></li>
-    {% endif %}
+    <ul class="sidenav" id="mobile-demo">
 
-  </ul>
-  {% endblock %}
+        <li><a class="dropdown-button waves-effect waves-dark" href="/api/"><i
+                class="fas fa-terminal"></i>REST Api</a></li>
+        <li><a class="dropdown-button waves-effect waves-dark" target="_blank"
+               href="https://www.lukaszmalucha.com"><i class="fab fa-github"></i> GitHub</a>
+        </li>
+        {% if user.is_authenticated %}
+        <li><a href="{% url 'user:profile' %}"><i class="fas fa-sign-out-alt"></i> My Profile</a></li>
+        <li><a class="dropdown-button waves-effect waves-dark" href="{% url 'user:logout' %}"><i
+                class="fas fa-sign-out-alt"></i>Log Out {{ user.name }}</a></li>
+        {% else %}
+        <li><a class="dropdown-button waves-effect waves-dark" href="{% url 'user:login' %}"><i
+                class="fa fa-user"></i> Log In</a></li>
+        <li><a class="dropdown-button waves-effect waves-dark" href="{% url 'user:register' %}"><i
+                class="fas fa-tasks"></i> Register</a></li>
+        {% endif %}
+    </ul>
+    {% endblock %}
   <!-- PAGE-WRAPPER -->
   {% block content %}
 
