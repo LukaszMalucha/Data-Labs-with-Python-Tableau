@@ -3,13 +3,11 @@
 ------------------------------------------------*/
 
 body {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Source Sans Pro', sans-serif;
     position: relative;
     margin: 0;
     padding-bottom: 0;
-    background-color: #e6ecf0;
-    background-image: url('../../static/img/background_img.png');
-    background-size: cover;
+    background-color: #d6d6d6;
 }
 
 
@@ -259,6 +257,32 @@ nav ul b {
 .navbar-text {
     margin: 0px;
     margin-left: -15px;
+}
+
+.nav .open > a, .nav .open > a:focus, .nav .open > a:hover {
+    background-color: #393939 !important;
+    border-color: #393939 !important;
+}
+
+.dropdown-menu {
+  min-width: 100%;
+  width: 100%;
+  background-color: #393939;
+  padding-top: 10px;
+  margin-top: -2px;
+  height: 42px;
+
+}
+
+.dropdown-menu a {
+  height: 10px !important;
+}
+
+
+.dropdown-menu a:hover {
+    background-color: transparent !important;
+    border-color: transparent !important;
+    text-decoration: none;
 }
 
 
