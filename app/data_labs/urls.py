@@ -1,7 +1,7 @@
 """data_labs URL Configuration
 
 The `urlpatterns` list routes URLs to views. For more information please see:
-    https://docs.djangoproject.com/en/2.1/topics/http/urls/
+    https://docs.djangoproject.com/en/3.2/topics/http/urls/
 Examples:
 Function views
     1. Add an import:  from my_app import views
@@ -14,18 +14,8 @@ Including another URLconf
     2. Add a URL to urlpatterns:  path('blog/', include('blog.urls'))
 """
 from django.contrib import admin
-from django.urls import path, include, re_path
-from django.conf import settings
-from django.conf.urls.static import static
-from core.views import IndexTemplateView
+from django.urls import path
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('user/', include('user.urls')),
-    path("user/", include("django.contrib.auth.urls")),
-    path("user/", include('allauth.urls')),
-    path('api/user/', include('user.api.urls')),
-    path('api/', include('api.urls')),
-    path('db/', include('db_manager.urls')),
-    re_path(r"^.*$", IndexTemplateView.as_view(), name="entry-point")
-] + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
+]
