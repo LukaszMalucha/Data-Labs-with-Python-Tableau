@@ -3,7 +3,7 @@ apyori==1.1.2
 beautifulsoup4==4.7.1
 boto3==1.20.31
 dj-database-url==0.5.0
-Django==3.2.10
+Django==3.2.12
 django-allauth==0.47.0
 django-cors-headers==3.3.0
 django-environ==0.4.5
