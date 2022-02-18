@@ -2,4 +2,4 @@ build:
   docker:
     web: Dockerfile
 run:
-  web: gunicorn data_labs.wsgi:application
+  web: gunicorn springboard_analytics.asgi:application --workers 4 -k uvicorn.workers.UvicornWorker

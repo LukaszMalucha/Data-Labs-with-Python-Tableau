@@ -1,0 +1,52 @@
+{% extends "base.html" %}
+{% block extrahead %}
+<link href="https://login-forms.s3-eu-west-1.amazonaws.com/forms.css" rel="stylesheet"/>
+{% endblock %}
+{% load i18n %}
+
+{% block head_title %}{% trans "Signup" %}{% endblock %}
+
+{% block content %}
+<div class="row plain-element">
+  <div id="page-index">
+    <div class="form-container">
+      <form class="form-user" id="signup_form" method="post" action="{% url 'socialaccount_signup' %}">
+        {% csrf_token %}
+
+        <fieldset class="form-box">
+          <div class="row plain-element center-align">
+            <h5>{% blocktrans with provider_name=account.get_provider.name site_name=site.name %}{{provider_name}}
+              Login{% endblocktrans %}</h5>
+            <p></p>
+          </div>
+          <div class="row plain-element">
+            <div class="col s12 m1"></div>
+            <div class="col s12 m10">
+            <div class="row row-links">
+              <p>
+                {% blocktrans with provider_name=account.get_provider.name site_name=site.name %}You are about to use
+                your {{provider_name}} account to log in. <br> As a final step, please complete the following form:{% endblocktrans %}
+              </p>
+            </div>
+          </div>
+            <div class="col s12 m1"></div>
+          </div>
+          <div class="row text-center row-form">
+            <p>
+              <input class="center-align" type="email" name="email" value="lucasmalucha@gmail.com" placeholder="E-mail address" required id="id_email">
+            </p>
+            {% if redirect_field_value %}
+            <input type="hidden" name="{{ redirect_field_name }}" value="{{ redirect_field_value }}"/>
+            {% endif %}
+          </div>
+          <br>
+          <button type="submit" class="btn-login"><span>Continue <i class="far fa-arrow-alt-circle-right"></i></span>
+          </button>
+        </fieldset>
+      </form>
+    </div>
+  </div>
+</div>
+
+
+{% endblock %}

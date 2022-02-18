@@ -1,8 +1,7 @@
 *.pyc
 .~c9
-env.py
 __pycache__?
-_data/
-venv/*
+env.py
 .idea/*
-_scrapers&cleaners/*
+venv/*
+*.env
