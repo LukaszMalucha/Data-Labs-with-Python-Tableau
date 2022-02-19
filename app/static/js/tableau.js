@@ -10,12 +10,6 @@ else if (document.title == "Github Activity") {
       divElementGA
   );
 }
-else if (document.title == "Data Science in Big 5") {
-  var divElementDS = document.getElementById('viz1538649519596');
-  document.getElementById('divDataScienceViz').appendChild(
-      divElementDS
-  );
-}
 else if (document.title == "Daft Analytics") {
   var divElementDA = document.getElementById('viz1536090823856');
   document.getElementById('divDaftAnalyticsViz').appendChild(
